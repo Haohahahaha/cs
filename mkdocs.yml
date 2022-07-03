@@ -1,2 +1,34 @@
-site_name: My Docs
-theme: material
+site_name: CS笔记
+theme: 
+  name: material
+  palette:
+    - scheme: default # 日间模式
+      primary: indigo # 上方的
+      accent: orange # 链接等可交互元件的高亮色
+      toggle:
+        icon: material/weather-night # 图标
+        name: 切换至夜间模式 # 鼠标悬浮提示
+    - scheme: slate # 夜间模式
+      primary: indigo
+      accent: orange
+      toggle:
+        icon: material/weather-sunny
+        name: 切换至日间模式
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.indexes
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+  language: zh
+
+nav:
+  - 算法打卡: http://alg.haohaha.cn
+  - 数学笔记: http://math.haohaha.cn
+  - 英语笔记: http://eng.haohaha.cn \
+  - CS笔记: 
+    - Home: index.md
+  - 我爱OS: http://os.haohaha.cn
+  - 闲聊波尔卡: http://chat.haohaha.cn 
+
