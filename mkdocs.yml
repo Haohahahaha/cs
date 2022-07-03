@@ -1,6 +1,8 @@
 site_name: CS笔记
 theme: 
   name: material
+  icon:
+    logo: material/library
   palette:
     - scheme: default # 日间模式
       primary: indigo # 上方的
@@ -33,3 +35,5 @@ nav:
   - 闲聊波尔卡: http://chat.haohaha.cn 
 extra_css:
   - mkdocs/css/no-footer.css # 不使用底部的翻页
+extra:
+  homepage: http://haohaha.cn
