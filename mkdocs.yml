@@ -31,4 +31,5 @@ nav:
     - Home: index.md
   - 我爱OS: http://os.haohaha.cn
   - 闲聊波尔卡: http://chat.haohaha.cn 
-
+extra_css:
+  - mkdocs/css/no-footer.css # 不使用底部的翻页
