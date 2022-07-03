@@ -37,3 +37,12 @@ extra_css:
   - mkdocs/css/no-footer.css # 不使用底部的翻页
 extra:
   homepage: http://haohaha.cn
+  social: # icons
+    - icon: fontawesome/brands/bilibili
+      link: https://space.bilibili.com/1436476753
+      name: Bilibili | 浩哈哈哈哈 # 鼠标悬浮提示
+    - icon: fontawesome/brands/github
+      link: https://github.com/Haohahahaha
+      name: GitHub | Haohahahaha
+## [bottom-left corner]
+copyright: Copyright &copy; 2022 浩哈哈哈哈_ # 左下角的版权声明
