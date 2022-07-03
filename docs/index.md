@@ -1,17 +1,3 @@
-# Welcome to MkDocs
+这里将记录我学的一些CS知识（OS相关除外）。我主要会将我学到的知识写成CookBook的形式，以便自己和大家查询使用。
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+敬请期待哦～
