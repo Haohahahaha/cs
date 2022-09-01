@@ -31,6 +31,17 @@ nav:
   - 英语笔记: http://eng.haohaha.cn \
   - CS笔记: 
     - Home: index.md
+    - HJ-CPP: hjcpp/index.md
+      - 01.OOP-1: hjcpp/01.md
+    - MicroFrank: frank/index.md
+      - MySQL: frank/mysql/index.md
+        - 01.MySQL安装与初始化: frank/mysql/01.md
+        - 02.数据库的基本操作: frank/mysql/02.md
+    - Linux高性能服务器编程: hpsc/index.md
+      - 第一篇 TCP/IP详解:
+        - 第1章 TCP/IP协议族: hpsc/01/01.md
+    - 计算机网络: nwk/index.md
+      - 0x00-应用层: nwk/0x00.md 
   - 我爱OS: http://os.haohaha.cn
   - 闲聊波尔卡: http://chat.haohaha.cn 
 extra_css:
