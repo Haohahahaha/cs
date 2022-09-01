@@ -37,9 +37,9 @@ nav:
       - MySQL:  
         - 01.MySQL安装与初始化: frank/mysql/01.md 
         - 02.数据库的基本操作: frank/mysql/02.md 
-    - Linux高性能服务器编程:  
+    - Linux高性能服务器编程: 
       - 第一篇 TCP/IP详解: 
-       - 第1章 TCP/IP协议族: hpsc/01/01.md 
+        - 第1章 TCP/IP协议族: hpsc/01/01.md 
     - 计算机网络: 
       - 0x00_应用层: nwk/0x00.md  
   - 我爱OS: http://os.haohaha.cn 
