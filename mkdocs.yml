@@ -28,7 +28,7 @@ theme:
 nav:
   - 算法打卡: http://alg.haohaha.cn
   - 数学笔记: http://math.haohaha.cn
-  - 英语笔记: http://eng.haohaha.cn \
+  - 英语笔记: http://eng.haohaha.cn
   - CS笔记: 
     - Home: index.md
     - HJ-CPP: hjcpp/index.md
