@@ -30,7 +30,6 @@ nav:
   - 数学笔记: http://math.haohaha.cn
   - 英语笔记: http://eng.haohaha.cn
   - CS笔记: 
-    - Home: index.md 
     - HJCPP: hjcpp/index.md 
       - 01.OOP1: hjcpp/01.md 
     - MicroFrank: frank/index.md 
