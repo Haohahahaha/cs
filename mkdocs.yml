@@ -39,6 +39,7 @@ nav:
         - 02.数据库的基本操作: frank/mysql/02.md 
         - 03.表的基本操作: frank/mysql/03.md
         - 04.数据操作: frank/mysql/04.md
+        - 05.数据类型: frank/mysql/05.md
     - Linux高性能服务器编程: 
       - 第一篇 TCP/IP详解: 
         - 第1章 TCP/IP协议族: hpsc/01/01.md 
