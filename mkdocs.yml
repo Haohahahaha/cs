@@ -35,9 +35,9 @@ nav:
       - arch:
         - 2.数据的表示与运算:
           - 2.1_数制与编码: 408/arch/2-1.md
-      - os:
-      - nwk:
-      - dsa:
+#     - os:
+#     - nwk:
+#     - dsa:
     - HJCPP: 
       - 01.OOP1: hjcpp/01.md
     - MicroFrank:  
