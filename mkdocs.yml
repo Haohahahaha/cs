@@ -45,10 +45,19 @@ nav:
           - 3.5_高速缓冲存储器: 408/arch/3-5.md
           - 3.6_虚拟存储器: 408/arch/3-6.md
 #     - os:
+#       - 3.内存管理: 
+#         - 3.1_内存管理概念: 408/os/3-1.md
+#         - 3.2_虚拟内存管理: 408/os/3-2.md
+#       - 4.文件管理: 
+#         - 4.1_文件系统基础: 408/os/4-1.md
+#         - 4.2_目录: 408/os/4-2.md
+#         - 4.3_文件系统: 408/os/4-3.md
+#       - 5.输入/输出（I/O）管理: 
+#         - 5.3_磁盘和固态硬盘: 408/os/5-3.md
 #     - nwk:
 #     - dsa:
-    - HJCPP: 
-      - 01.OOP1: hjcpp/01.md
+#   - HJCPP: 
+#     - 01.OOP1: hjcpp/01.md
     - MicroFrank:  
       - MySQL:  
         - 01.MySQL安装与初始化: frank/mysql/01.md 
@@ -56,11 +65,9 @@ nav:
         - 03.表的基本操作: frank/mysql/03.md
         - 04.数据操作: frank/mysql/04.md
         - 05.数据类型: frank/mysql/05.md
-    - Linux高性能服务器编程: 
-      - 第一篇 TCP/IP详解: 
-        - 第1章 TCP/IP协议族: hpsc/01/01.md 
-    - 计算机网络: 
-      - 0x00_应用层: nwk/0x00.md  
+#   - Linux高性能服务器编程: 
+#     - 第一篇 TCP/IP详解: 
+#       - 第1章 TCP/IP协议族: hpsc/01/01.md 
   - 我爱OS: http://os.haohaha.cn 
   - 闲聊波尔卡: http://chat.haohaha.cn 
 extra_css:
