@@ -30,7 +30,7 @@ nav:
   - 数学笔记: http://math.haohaha.cn
   - 英语笔记: http://eng.haohaha.cn
   - CS笔记: 
-    - 日志: index.md
+    - 简介与日志: index.md
     - 408:
       - arch:
         - 1.计算机系统概述:
