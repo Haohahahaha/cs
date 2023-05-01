@@ -23,7 +23,11 @@ theme:
     - navigation.expand
     - search.suggest
     - search.highlight
+    - content.code.copy
+    - content.action.edit
   language: zh
+
+edit_uri: edit/main/docs
 
 nav:
   - 算法打卡: http://alg.haohaha.cn
