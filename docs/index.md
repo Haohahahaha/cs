@@ -1,6 +1,6 @@
 # 简介
 
-> ### **下方有<a id="update">更新记录</a>**
+> ### **下方有<a href="#update">更新记录 </a>**
 
 主站：[浩哈哈哈哈--网管儿，来碗泡面！](https://haohaha.cn)
 
@@ -52,7 +52,7 @@
 
 ---
 
-<a href="#update"> </a>
+<a id="update"></a>
 
 ## 更新记录
 
