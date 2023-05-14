@@ -676,7 +676,7 @@ cd Clash\ for\ Windows-*-x64-linux		# 进入解压好的文件夹
   >
   > 实际上，直接复制粘贴进去之后，即可获得与我一样的配置效果，无须配置上面的环境。
   
-  ```config
+```txt
   [global_config]
     borderless = True
     title_inactive_bg_color = "#ffffff"
