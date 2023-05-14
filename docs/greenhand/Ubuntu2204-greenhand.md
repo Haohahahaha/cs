@@ -14,27 +14,27 @@
 
 1. 打开 `VMware Workstation`， 点击 `文件选项` ，点击 `新建虚拟机` （快捷键：`Ctrl + N` ）
 
-<img src="./新建虚拟机/01.png" style="zoom:75%;" />
+![](./新建虚拟机/01.png)
 
 2. 点击 `自定义（高级）`
 
 > 其实 `典型` 选项也可以，不过不够炫酷&#x1F60B;，也不够细致。 
 
-<img src="./新建虚拟机/02.png" style="zoom:75%;" />
+![](./新建虚拟机/02.png)
 
 3. 默认选择 `Workstation 16.x` ，下一步即可
 
-<img src="./新建虚拟机/03.png" style="zoom:75%;" />
+![](./新建虚拟机/03.png)
 
 4. 选择 `稍后安装操作系统` ，下一步
 
-<img src="./新建虚拟机/04.png" style="zoom:75%;" />
+![](./新建虚拟机/04.png)
 
 5. 
    - `客户机操作系统` 选项，选择 `Linux`
    - `版本` 选项，选择 `Ubuntu 64位`
 
-<img src="./新建虚拟机/05.png" style="zoom:75%;" />
+![](./新建虚拟机/05.png)
 
 6. 
 
@@ -44,7 +44,7 @@
 
      > &#x1F31E;推荐：虚拟机保存在更快的存储设备上，速度由快到慢，大致分为：`固态硬盘(M.2)` > `固态硬盘(SATA)` > `机械硬盘(HDD)` 。各硬盘的具体读写速度以实际情况为准，需读者自行调查。
 
-<img src="./新建虚拟机/06.png" style="zoom:75%;" />
+![](./新建虚拟机/06.png)
 
 7. 设置处理器内核数量
 
@@ -68,13 +68,13 @@
    
    > &#x2B50; 注意：windows 非 server 版的系统是不支持超过两个处理器的，win10的版本限制为 **家庭版、专业版** 和 **教育版** 最大支持 双路CPU，**工作站版**和**企业版** 是 四路CPU。
 
-<img src="./新建虚拟机/07.png" style="zoom:75%;" />
+![](./新建虚拟机/07.png)
 
 8. 设置内存量
 
 > &#x1F31E;推荐：一般来说，`Ubuntu22.04` 的内存量在 `4~8GB` 即可很流畅地使用了；内存大小不建议超过 `宿主机内存容量` 大小的一半。
 
-<img src="./新建虚拟机/08.png" style="zoom:75%;" />
+![](./新建虚拟机/08.png)
 
 9. 设置网络类型
 
@@ -82,25 +82,25 @@
 
 > 关于 `Ubuntu` 内使用 `科学上网`，建议使用 `Clash`，细节另表；付费的科学上网，提供一个[链接](https://ssready.io)。
 
-<img src="./新建虚拟机/09.png" style="zoom:75%;" />
+![](./新建虚拟机/09.png)
 
 10. 设置 `I/O` 控制器类型
 
 > &#x1F31E;推荐：使用默认配置即可
 
-<img src="./新建虚拟机/10.png" style="zoom:75%;" />
+![](./新建虚拟机/10.png)
 
 11. 设置磁盘类型
 
 > &#x1F31E;推荐：使用默认配置即可。
 
-<img src="./新建虚拟机/11.png" style="zoom:75%;" />
+![](./新建虚拟机/11.png)
 
 12. 选择磁盘
 
 > &#x1F31E;推荐：使用默认配置即可。
 
-<img src="./新建虚拟机/12.png" style="zoom:75%;" />
+![](./新建虚拟机/12.png)
 
 13. 指定磁盘容量
 
@@ -109,23 +109,23 @@
 > - `最大磁盘大小` 使用默认配置即可；
 > - 选择 `将虚拟磁盘存储为单个文件`。
 
-<img src="./新建虚拟机/13.png" style="zoom:75%;" />
+![](./新建虚拟机/13.png)
 
 14. 指定磁盘文件
 
 > &#x1F31E;推荐：使用默认配置即可。
 
-<img src="./新建虚拟机/14.png" style="zoom:75%;" />
+![](./新建虚拟机/14.png)
 
 15. 完成虚拟机设置
 
     点击 `完成` 即可。
 
-<img src="./新建虚拟机/15.png" style="zoom:75%;" />
+![](./新建虚拟机/15.png)
 
 - 完成效果：
 
-<img src="./新建虚拟机/16.png" style="zoom:75%;" />
+![](./新建虚拟机/16.png)
 
 
 
@@ -135,13 +135,13 @@
 
 > 镜像链接：https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/22.04/ubuntu-22.04.2-desktop-amd64.iso
 
-<img src="./安装系统/01.png" style="zoom:75%;" />
+![](./安装系统/01.png)
 
-<img src="./安装系统/01-1.png" style="zoom:75%;" />
+![](./安装系统/01-1.png)
 
 2. 点击设置 虚拟机的 `CD/DVD` 
 
-<img src="./安装系统/02.png" style="zoom:75%;" />
+![](./安装系统/02.png)
 
 3. 选择ISO映像文件
 
@@ -153,13 +153,13 @@
 
    - 最后，点击 `打开` ，然后点击`虚拟机设置`窗口的 `确定` 按钮。
 
-<img src="./安装系统/03.png" style="zoom:75%;" />
+![](./安装系统/03.png)
 
 4. 开启虚拟机，读盘，准备安装
 
 > &#x1F31E;推荐：等待几秒钟就进入安装界面了。
 
-<img src="./安装系统/04.png" style="zoom:75%;" />
+![](./安装系统/04.png)
 
 5. 进入安装界面
 
@@ -171,13 +171,13 @@
 
    - 点击 `Install Ubuntu` 进入安装流程
 
-<img src="./安装系统/05.png" style="zoom:75%;" />
+![](./安装系统/05.png)
 
 6. 键盘设置
 
 > &#x1F31E;推荐：使用默认配置即可。
 
-<img src="./安装系统/06.png" style="zoom:75%;" />
+![](./安装系统/06.png)
 
 7. 配置安装选项
 
@@ -187,19 +187,19 @@
      >
      > 否则安装时间会很长，甚至无法安装（因为会连接国外网络，我们假定此时还不能连接外网）
 
-<img src="./安装系统/07.png" style="zoom:75%;" />
+![](./安装系统/07.png)
 
 8. 默认选择擦除磁盘即可
    - 点击 `Install Now`
    - 点击 `Continue`
 
-<img src="./安装系统/08.png" style="zoom:75%;" />
+![](./安装系统/08.png)
 
 9. 选择时区/地点
 
    > &#x1F31E;推荐：选择中国区域内，默认即可。
 
-<img src="./安装系统/09.png" style="zoom:75%;" />
+![](./安装系统/09.png)
 
 10. 设置用户名、密码和主机名称
 
@@ -213,55 +213,55 @@
 
       > &#x1F31E;推荐：省点儿事，还是自动登录好。
 
-<img src="./安装系统/10.png" style="zoom:75%;" />
+![](./安装系统/10.png)
 
 11. 点击安装后，开始安装系统。
     - 左侧小箭头点开可以看到安装细节；
     - 右侧 `Skip` 按钮只要能点击了，就立即点击，节省时间。
 
-<img src="./安装系统/11.png" style="zoom:75%;" />
+![](./安装系统/11.png)
 
 12. 安装完成，点击重启即可。
 
 > &#x1F31E;推荐：直接关机，以便下一步我们退出 `CD/DVD`，以及后续安装 `VMware Tools`
 
-<img src="./安装系统/12.png" style="zoom:75%;" />
+![](./安装系统/12.png)
 
 13. 退出 `CD/DVD`
 
     - 点击设置`CD/DVD`
 
-      <img src="./安装系统/13.png" style="zoom:75%;" />
+      ![](./安装系统/13.png)
 
     - 点击 `使用物理驱动器` 即可。
 
-      <img src="./安装系统/14.png" style="zoom:75%;" />
+      ![](./安装系统/14.png)
 
 15. 再次启动，即可进入系统，进行初始化设置
 
     - 点击 `Skip` 以跳过
 
-      <img src="./安装系统/15.png" style="zoom:75%;" />
+      ![](./安装系统/15.png)
 
     - 点击 `Next` ，下一步
 
-      <img src="./安装系统/16.png" style="zoom:75%;" />
+      ![](./安装系统/16.png)
 
     - 点击 `No, ...` ，就没必要向官方发送错误信息了；下一步。
 
-      <img src="./安装系统/17.png" style="zoom:75%;" />
+      ![](./安装系统/17.png)
 
     - 点击 `Next` ，下一步
 
-      <img src="./安装系统/18.png" style="zoom:75%;" />
+      ![](./安装系统/18.png)
 
     - 点击 `Done` ，完成初始化
 
-      <img src="./安装系统/19.png" style="zoom:75%;" />
+      ![](./安装系统/19.png)
 
     - 我们的系统就安装好了，如下：
 
-      <img src="./安装系统/20.png" style="zoom:75%;" />
+      ![](./安装系统/20.png)
 
 ## 3. 安装相关软件
 
@@ -269,22 +269,22 @@
 
 1. 点击左下角应用菜单，然后选中红色框内的应用，点击打开
 
-<img src="./安装相关软件/09.png" style="zoom:75%;" />
+![](./安装相关软件/09.png)
 
 2. 打开后选择下载服务器，点击红框处，选择`Other`
 
-<img src="./安装相关软件/10.png" style="zoom:75%;" />
+![](./安装相关软件/10.png)
 
 3. 向上找到 `China` 后，展开列表，选择一个你喜欢的源。
    - 然后点击 `Choose Server` ，输入用户密码即可
 
 > &#x1F31E;推荐：选择 `mirrors.ustc.edu.cn` ，中科大的下载服务器（清华、阿里源都不错）
 
-<img src="./安装相关软件/11.png" style="zoom:75%;" />
+![](./安装相关软件/11.png)
 
 4. 拖动窗口，点击 `Close` 即可
 
-<img src="./安装相关软件/12.png" style="zoom:75%;" />
+![](./安装相关软件/12.png)
 
 ### 2. 更新软件源和软件
 
@@ -295,7 +295,7 @@ sudo apt update # 更新软件源，后面默认回车即可
 sudo apt upgrade # 更新软件，后面默认回车即可
 ```
 
-<img src="./安装相关软件/13.png" style="zoom:75%;" />
+![](./安装相关软件/13png)
 
 ### 3. 安装 `VMware Tools`
 
@@ -303,15 +303,15 @@ sudo apt upgrade # 更新软件，后面默认回车即可
 
 1. 点击 `虚拟机` 菜单，选择 `(重新)安装 VMware Tools`
 
-<img src="./安装相关软件/01.png" style="zoom:75%;" />
+![](./安装相关软件/01.png)
 
 2. 点击后，虚拟机会载入一张光碟，如下图，我们点击打开它。
 
-<img src="./安装相关软件/02.png" style="zoom:75%;" />
+![](./安装相关软件/02.png)
 
 3. 右键压缩包，复制到桌面上。
 
-<img src="./安装相关软件/03.png" style="zoom:75%;" />
+![](./安装相关软件/03.png)
 
 4. 在桌面右键空白处，点击 `Open in  Terminal` 打开终端
 
@@ -319,11 +319,11 @@ sudo apt upgrade # 更新软件，后面默认回车即可
 
      > &#x1F31E;推荐：输入时，输入 `tar zxvf VM` ，然后按下键盘左侧的 `Tab` 键，终端会自动补全文件名，回车即可
 
-<img src="./安装相关软件/04.png" style="zoom:75%;" />
+![](./安装相关软件/04.png)
 
 5. 输入 `cd vmware-tools-distrib`，进入解压好的文件夹。
 
-<img src="./安装相关软件/05.png" style="zoom:75%;" />
+![](./安装相关软件/05.png)
 
 6. 此时会打开终端（命令行）
    - 输入 `sudo ./vmware-install.pl` ，回车
@@ -331,15 +331,15 @@ sudo apt upgrade # 更新软件，后面默认回车即可
    - 输入刚才设置好的密码，回车
    - 会弹出一些信息，大意是“是否要进行安装”，直接输入 `yes` ，然后一路回，默认安装（注意期间如果遇到询问的且后面跟 `[no]` 的先不要回车，先输入y然后在回车）
 
-<img src="./安装相关软件/06.png" style="zoom:75%;" />
+![](./安装相关软件/06.png)
 
 7. 重启系统后，输入命令 `sudo apt install open-vm-tools-desktop -y`
 
-<img src="./安装相关软件/07.png" style="zoom:75%;" />
+![](./安装相关软件/07.png)
 
 8. 再次重启，即可安装成功。删除桌面的两个文件即可。
 
-<img src="./安装相关软件/08.png" style="zoom:75%;" />
+![](./安装相关软件/08.png)
 
 ### 4. 安装&配置一些用来开发的软件
 
@@ -371,7 +371,7 @@ sudo apt install terminator -y
 
 点击红色框，下载deb安装包
 
-<img src="./安装相关软件/14.png" style="zoom:75%;" />
+![](./安装相关软件/14.png)
 
 打开下载文件夹，右键进入终端，输入后回车：
 
@@ -379,11 +379,11 @@ sudo apt install terminator -y
 sudo dpkg -i code_*.deb #(*为省略)
 ```
 
-<img src="./安装相关软件/15.png" style="zoom:75%;" />
+![](./安装相关软件/15.png)
 
 打开应用列表发现图标已经出现，安装完成。
 
-<img src="./安装相关软件/16.png" style="zoom:75%;" />
+![](./安装相关软件/16.png)
 
 ##### <a id="vsc-markdown">VSCode Markdown 插件安装</a>
 
@@ -400,7 +400,7 @@ sudo dpkg -i code_*.deb #(*为省略)
 
 打开VSCode，点击左侧边栏的 `扩展` 按钮，输入 `markdown` 进行搜索，这两个插件经常会出现在搜索结果的上面，点击 `Install` 即安装完毕。之后创建新md文件即可运用。
 
-<img src="./美化与配置/10.png" style="zoom:75%;" />
+![](./安装相关软件/17.png)
 
 #### 4. Typora
 
@@ -414,7 +414,7 @@ sudo dpkg -i code_*.deb #(*为省略)
 
 点击红框，下载文件
 
-<img src="./安装相关软件/17.png" style="zoom:75%;" />
+![](./安装相关软件/17.png)
 
 然后在下载文件夹，右键空白处，打开终端执行命令：
 
@@ -422,11 +422,11 @@ sudo dpkg -i code_*.deb #(*为省略)
 sudo dpkg -i typora_*_*.deb # *为省略号
 ```
 
-<img src="./安装相关软件/18.png" style="zoom:75%;" />
+![](./安装相关软件/18.png)
 
 打开应用列表发现图标已经出现，安装完成。
 
-<img src="./安装相关软件/19.png" style="zoom:75%;" />
+![](./安装相关软件/19.png)
 
 #### 5. Firefox
 
@@ -438,7 +438,7 @@ sudo dpkg -i typora_*_*.deb # *为省略号
 
 浏览器打开链接后，选择 `Linux x86_64` 版本的 `deb` 安装包，下载。
 
-<img src="./安装相关软件/20.png" style="zoom:75%;" />
+![](./安装相关软件/20.png)
 
 然后从下载文件夹打开终端，输入以下命令：
 
@@ -457,37 +457,37 @@ sudo dpkg -i sougoupinyin_*.deb # *为省略
 
 - 打开系统设置
 
-<img src="./安装相关软件/21.png" style="zoom:75%;" />
+![](./安装相关软件/21.png)
 
 点击 `Region & Language (区域与语言)` ，然后点击 `Manage Installed Languages (管理已安装语言)`
 
-<img src="./安装相关软件/22.png" style="zoom:75%;" />
+![](./安装相关软件/22.png)
 
 - 第一次点开的时候 系统会弹窗，点击 `Install` 稍微等待一下即可。
 
-<img src="./安装相关软件/23.png" style="zoom:75%;" />
+![](./安装相关软件/23.png)
 
 - 安装完成后，点击 `IBus` ，切换为 `Fcitx 4` ，然后点击 `Apply Sytem-Wide (应用到整个系统)`，操作完成后重启。
 
-<img src="./安装相关软件/24.png" style="zoom:75%;" />
+![](./安装相关软件/24.png)
 
 - 重启完成后，添加搜狗输入法
 
 点击右上角的小键盘图标，选择“配置当前输入法”
 
-<img src="./安装相关软件/25.png" style="zoom:75%;" />
+![](./安装相关软件/25.png)
 
 - 取消勾选左侧框，拉到最下面，即看到 `sogoupinyin` ，选中，点击 `OK` 即可。
 
-<img src="./安装相关软件/26.png" style="zoom:75%;" />
+![](./安装相关软件/26.png)
 
 - 将搜狗拼音置顶，点击下方 向上的箭头 即完成安装，关闭重启即可。
 
-<img src="./安装相关软件/27.png" style="zoom:75%;" />
+![](./安装相关软件/27.png)
 
 - 安装完毕，效果如图
 
-<img src="./安装相关软件/28.png" style="zoom:75%;" />
+![](./安装相关软件/28.png)
 
 ### 4. 科学上网
 
@@ -501,17 +501,17 @@ sudo dpkg -i sougoupinyin_*.deb # *为省略
 
 点击 `您订购的服务` 栏内的已购服务
 
-<img src="./安装相关软件/29.png" style="zoom:75%;" />
+![](./安装相关软件/29.png)
 
 - 找到全部节点，点击 `订阅` ，然后选择`Clash`，点击 `确定` ，然后点击 `复制链接` 。（后面有用，如果剪贴板还有其他用处，请把这个链接暂存到一个位置）
 
-<img src="./安装相关软件/30.png" style="zoom:75%;" />
+![](./安装相关软件/30.png)
 
 #### 2. 安装Clash
 
 > 下载地址：https://github.com/Fndroid/clash_for_windows_pkg/releases
 
-x86处理器下载 `Clash.for.Windows-*-x64-linux.tar.gz`<img src="./安装相关软件/31.png" style="zoom:75%;" />
+x86处理器下载 `Clash.for.Windows-*-x64-linux.tar.gz`![](./安装相关软件/31.png)
 
 打开下载文件夹，进入终端，执行命令：
 
@@ -523,7 +523,7 @@ cd Clash\ for\ Windows-*-x64-linux		# 进入解压好的文件夹
 
 打开后的界面如下：
 
-<img src="./安装相关软件/32.png" style="zoom:75%;" />
+![](./安装相关软件/32.png)
 
 然后我们设置：
 
@@ -531,21 +531,21 @@ cd Clash\ for\ Windows-*-x64-linux		# 进入解压好的文件夹
 - `Allow LAN` ：允许局域网（本机）连接
 - 配置机场：这里选择订阅Url的形式（输入url,点击Download），直接配置文件也可以(Import)
 
-<img src="./安装相关软件/33.png" style="zoom:75%;" />
+![](./安装相关软件/33.png)
 
 打开 `Proxies` 一栏，点击 `节点选择` 即可选择连接哪个节点了。
 
 > `Check` 为检测网速，在直连情况下检测到各个节点的网速最准确。
 
-<img src="./安装相关软件/34.png" style="zoom:75%;" />
+![](./安装相关软件/34.png)
 
 我们从 `General` 中得知端口号，进入系统设置-网络，配置代理。
 
-<img src="./安装相关软件/35.png" style="zoom:75%;" />
+![](./安装相关软件/35.png)
 
 重启一下，即可正常连接。
 
-<img src="./安装相关软件/36.png" style="zoom:75%;" />
+![](./安装相关软件/36.png)
 
 
 
@@ -599,7 +599,7 @@ cd Clash\ for\ Windows-*-x64-linux		# 进入解压好的文件夹
 
   `Screen Blank` : `Never`
 
-  <img src="./美化与配置/01.png" style="zoom:75%;" />
+  ![](./美化与配置/01.png)
 
 - 设置切换桌面的快捷键
 
@@ -609,7 +609,7 @@ cd Clash\ for\ Windows-*-x64-linux		# 进入解压好的文件夹
     - `Move to workspace on the left` : `Ctrl + Super + k` （点击选项后，直接敲击键盘组合键即可）
     - `Move to workspace on the right` : `Ctrl + Super + j`（方法同上）
 
-  <img src="./美化与配置/02.png" style="zoom:75%;" />
+  ![](./美化与配置/02.png)
 
 ### 3. 终端美化
 
@@ -619,7 +619,7 @@ cd Clash\ for\ Windows-*-x64-linux		# 进入解压好的文件夹
 
 打开 `Terminator` ，右键，选择 `Preferences (个性化/设置/优先的意思)` ，进入，开始配置
 
-<img src="./美化与配置/03.png" style="zoom:75%;" />
+![](./美化与配置/03.png)
 
 - `Global` :
 
@@ -628,7 +628,7 @@ cd Clash\ for\ Windows-*-x64-linux		# 进入解压好的文件夹
   - `Use System font` : `off`
     - `Font` : `Ubuntu Mono Regular` `18`
 
-  <img src="./美化与配置/04.png" style="zoom:75%;" />
+  ![](./美化与配置/04.png)
 
 - `Profiles`
 
@@ -637,7 +637,7 @@ cd Clash\ for\ Windows-*-x64-linux		# 进入解压好的文件夹
     - `Use the system fixed width font` : `off`
     - `Font` : `Ubuntu Mono Regular` `18`
 
-    <img src="./美化与配置/05.png" style="zoom:75%;" />
+    ![](./美化与配置/05.png)
 
   - `Colors`
 
@@ -645,7 +645,7 @@ cd Clash\ for\ Windows-*-x64-linux		# 进入解压好的文件夹
       - `Text Color` : `White`
       - `Backgound Color` : `Black (Default)`
 
-    <img src="./美化与配置/06.png" style="zoom:75%;" />
+    ![](./美化与配置/06.png)
 
   - `BackGround`
 
@@ -657,7 +657,7 @@ cd Clash\ for\ Windows-*-x64-linux		# 进入解压好的文件夹
 
     另，`Background Image File` 也可以单独设置此应用的背景。
 
-    <img src="./美化与配置/07.png" style="zoom:75%;" />
+    ![](./美化与配置/07.png)
 
   - `Scrolling`
 
@@ -665,7 +665,7 @@ cd Clash\ for\ Windows-*-x64-linux		# 进入解压好的文件夹
 
     > 这样看起来更简洁，没有侧边滑动栏。
 
-    <img src="./美化与配置/08.png" style="zoom:75%;" />
+    ![](./美化与配置/08.png)
 
 - <a id="config-terminator">默认布局</a>
 
@@ -747,7 +747,7 @@ cd Clash\ for\ Windows-*-x64-linux		# 进入解压好的文件夹
 
 效果如图：
 
-<img src="./美化与配置/09.png" style="zoom:75%;" />
+![](./美化与配置/09.png)
 
 #### 2. 终端美化
 
@@ -757,7 +757,7 @@ cd Clash\ for\ Windows-*-x64-linux		# 进入解压好的文件夹
 
   - `Custom font` : `Ubuntu Mono` `18`
 
-  <img src="./美化与配置/11.png" style="zoom:75%;" />
+  ![](./美化与配置/11.png)
 
 - `Colors`
 
@@ -769,13 +769,13 @@ cd Clash\ for\ Windows-*-x64-linux		# 进入解压好的文件夹
   - `Palette`
     -  `Color palette` : `Custom` （颜色读者自行配置）
 
-  <img src="./美化与配置/12.png" style="zoom:75%;" />
+  ![](./美化与配置/12.png)
 
 - `Scrolling`
 
   - `Show Scrollbar` : `off`
 
-  <img src="./美化与配置/13.png" style="zoom:75%;" />
+  ![](./美化与配置/13.png)
 
 ### 4. Vim配置               
 
@@ -792,7 +792,7 @@ filetype on # 基于不同文件后缀定义高亮
 
 大概效果如下：
 
-<img src="./美化与配置/14.png" style="zoom:75%;" />
+![](./美化与配置/14.png)
 
 ### 5. Typora美化配置
 
@@ -802,27 +802,27 @@ filetype on # 基于不同文件后缀定义高亮
 
 打开Typora，点击 `File - Preferences` ，进入设置
 
-<img src="./美化与配置/15.png" style="zoom:75%;" />
+![](./美化与配置/15.png)
 
 点击 `Appearance` ，可以看到 `Themes` 一栏，可选择不同主题。
 
 还有`Get Themes` 按钮，可以联网下载，安装更多读者喜欢的主题。
 
-<img src="./美化与配置/16.png" style="zoom:75%;" />
+![](./美化与配置/16.png)
 
 本文以 `GitHub Dark` 主题为例：
 
 - 点击 `Get Themes` ，进入网站，点击 `GitHub Dark Themes`
 
-  <img src="./美化与配置/17.png" style="zoom:75%;" />
+  ![](./美化与配置/17.png)
 
 - 点击 `Download` 即可下载
 
-  <img src="./美化与配置/18.png" style="zoom:75%;" />
+  ![](./美化与配置/18.png)
 
 - 下载完成后，进入下载文件夹，右键文件，点击 `Extract Here` 直接解压
 
-  <img src="./美化与配置/19.png" style="zoom:75%;" />
+  ![](./美化与配置/19.png)
 
 - 进入解压好的文件夹，复制如下文件：
 
@@ -836,7 +836,7 @@ filetype on # 基于不同文件后缀定义高亮
 
 安装好效果如图：
 
-<img src="./美化与配置/20.png" style="zoom:75%;" />
+![](./美化与配置/20.png)
 
 ### 6. VSCode美化配置
 
@@ -854,7 +854,7 @@ filetype on # 基于不同文件后缀定义高亮
 
 上下选择即可。 
 
-<img src="./美化与配置/21.png" style="zoom:75%;" />
+![](./美化与配置/21.png)
 
 ---
 
