@@ -56,7 +56,20 @@
 
 ## 更新记录
 
+20230514更新：
+
+- [Ubuntu2204 虚拟机搭建全流程](http://cs.haohaha.cn/greenhand/Ubuntu2204-greenhand/)
+
+---
+20230513更新：
+
+- [rCore Chap.2 实验进度60%](https://github.com/Haohahahaha/Hz-oslab-rCore/commits/ch2)
+
+---
+
 20230512更新：
+
+- [rCore Chap.2 实验进度40%](https://github.com/Haohahahaha/Hz-oslab-rCore/commits/ch2)
 
 ---
 
