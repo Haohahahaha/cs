@@ -184,6 +184,8 @@ nav:
         - 05.数据类型: frank/mysql/05.md
     - Git:
       - 多分支仓库的创建与上传: git/2023-05-12_git_branch.md
+    - GreenHand菜鸟:
+      - Ubuntu2204 虚拟机搭建全流程: greenhand/Ubuntu2204-greenhand.md
 #   - Linux高性能服务器编程: 
 #     - 第一篇 TCP/IP详解: 
 #       - 第1章 TCP/IP协议族: hpsc/01/01.md 
