@@ -741,8 +741,8 @@ cd Clash\ for\ Windows-*-x64-linux		# 进入解压好的文件夹
         profile = default
         uuid = 08898081-f620-4f26-96e0-7bd421832e65
   [plugins]
-  ```
-  
+```
+
 
 效果如图：
 
@@ -782,7 +782,7 @@ cd Clash\ for\ Windows-*-x64-linux		# 进入解压好的文件夹
 >
 > 配置文件在：`~/.vimrc`           
 
-```config
+```txt
 set nu		# 设置行号
 set ts=4	# 设置Tab键为4个空格
 syntax on	# 高亮打开
