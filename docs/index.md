@@ -56,11 +56,53 @@
 
 ## 更新记录
 
+20230518更新：
+
+- [博客维护教程-文案工作部分](http://cs.haohaha.cn/greenhand/Blog_Maintainance_CW/Blog_Maintenance-Content_Workers/)
+
+- 墨墨200词
+
+回家之后吃完饭洗完澡，躺在床上睡着了，十点才醒。阿啦啦啦。赶紧更博客来啦。
+
+晚安！
+
+---
+
+20230517更新：
+
+- 弄学校实验室博客，学会了git团队协作的入门，分支合并与管理等。
+
+- 墨墨300词
+
+
+---
+
+20230516更新：
+
+- 墨墨300词
+
+- 一直在搞学校大作业，忙不过来。
+
+下午休息了一会儿，晚上和朋友们聚餐呀！
+
+---
+
+20230515更新：
+
+- 墨墨500词
+
+- 数学三大计算：求导数2-2，复合函数求导
+
+- 学校博客
+
+---
+
 20230514更新：
 
 - [Ubuntu2204 虚拟机搭建全流程](http://cs.haohaha.cn/greenhand/Ubuntu2204-greenhand/)
 
 ---
+
 20230513更新：
 
 - [rCore Chap.2 实验进度60%](https://github.com/Haohahahaha/Hz-oslab-rCore/commits/ch2)

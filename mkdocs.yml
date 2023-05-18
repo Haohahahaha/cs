@@ -24,7 +24,6 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
-    - content.action.edit
   language: zh
 
 edit_uri: edit/main/docs
