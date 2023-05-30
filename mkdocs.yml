@@ -184,7 +184,7 @@ nav:
     - Git:
       - 多分支仓库的创建与上传: git/2023-05-12_git_branch.md
     - GreenHand菜鸟:
-      - Ubuntu2204 虚拟机搭建全流程: greenhand/Ubuntu2204-greenhand.md
+      - Ubuntu2204 虚拟机搭建全流程: greenhand/Ubuntu2204-greenhand/Ubuntu2204-greenhand.md
       - 博客维护教程-文案工作部分: greenhand/Blog_Maintainance_CW/Blog_Maintenance-Content_Workers.md
 #   - Linux高性能服务器编程: 
 #     - 第一篇 TCP/IP详解: 
