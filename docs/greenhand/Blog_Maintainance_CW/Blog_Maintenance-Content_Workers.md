@@ -29,7 +29,9 @@
 - 此时我们回到我们自己搭建好的虚拟机平台上，打开终端，输入：
 
   ```bash 
+
   ssh-keygen -t rsa -C "你注册的GitHub邮箱"
+
   ```
 
   之后所需选项全部默认回车或 `yes` 。
@@ -39,7 +41,9 @@
   命令如下：
 
   ```bash 
+
   gedit ~/.ssh/id_rsa.pub
+
   ```
 
   回车后就会打开一个文本编辑器，复制其全部内容。
@@ -85,7 +89,9 @@
 - 我们打开虚拟机，用命令行打开 `~/Documents` 文件夹，输入以下命令来获取远程仓库，如下图：
 
   ```bash 
+
   git clone <YOUR_URL>
+
   ```
 
   ![](./Blog_Maintenance-Content_Workers/05.png)
@@ -99,23 +105,29 @@
   > - 新建一个与远程仓库同名的文件夹，并进入
   >
   >   ```bash
+  > 
   >   mkdir smartcarlabtest.github.io
   >   cd smartcarlabtest.github.io
+  >
   >   ```
   >
   > - 进行仓库的初始化工作
   >
   >   ```bash
+  >
   >   git init
   >   git config user.name "你的GitHub用户名"
   >   git config user.email "你的GitHub的注册邮箱"
   >   git remote add blog <刚才复制的你的仓库地址>	# 注意，这里粘贴的时候可以用鼠标右键 `Paste` 来粘贴，如果已安装好搜狗输入法，也可以用 Ctrl + ; 组合键来选择粘贴。
+  >
   >   ```
   >
   > - 之后我们就可以从远程仓库拉取内容了，执行以下语句：
   >
   >   ```bash
+  >
   >   git pull blog HEAD
+  >
   >   ```
   >
   >   即可拉取完毕，且自动生成 `master` 分支。
@@ -155,9 +167,11 @@
 - 保存好文件后，通过终端执行以下命令：
 
   ```bash
+
   git add .
   git commit -m "本次提交的内容，著作人等信息"
   git push blog master
+
   ```
 
   效果如下图：
