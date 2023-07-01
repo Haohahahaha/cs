@@ -162,11 +162,11 @@
 
 ## 可选竞赛
 
-1. [全国大学生计算机系统能力大赛——操作系统设计赛-内核实现赛](https://os.educg.net/#/index?TYPE=OS_N)
+- [全国大学生计算机系统能力大赛——操作系统设计赛-内核实现赛](https://os.educg.net/#/index?TYPE=OS_N)
 
-   [全国大学生计算机系统能力大赛——操作系统设计赛-功能挑战赛](https://os.educg.net/#/index?TYPE=OS_G)
+- [全国大学生计算机系统能力大赛——操作系统设计赛-功能挑战赛](https://os.educg.net/#/index?TYPE=OS_G)
 
-2. [”龙芯杯“全国大学生计算机系统能力培养大赛——CPU设计赛](http://www.nscscc.com/)
+- [”龙芯杯“全国大学生计算机系统能力培养大赛——CPU设计赛](http://www.nscscc.com/)
 
 ## 预期成果
 
