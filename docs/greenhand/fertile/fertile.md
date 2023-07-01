@@ -8,6 +8,10 @@
 
 #### 入门（考核阶段）
 
+- 1
+    - 2
+        - 3
+
 - [Windows基础](https://www.bilibili.com/video/BV1vR4y1Q7iF) + [计算机硬件基础](https://www.bilibili.com/video/BV1TL4y1N7ZM)
 - [VS2022](https://www.bilibili.com/video/BV1Xt411g7jT)
 - [C语言](https://www.bilibili.com/video/BV1qE411d7Zx) + [变量名命名的艺术](https://www.bilibili.com/video/BV1X64y1o7EZ)
