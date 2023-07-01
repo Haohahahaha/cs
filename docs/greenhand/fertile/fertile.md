@@ -11,41 +11,41 @@
 - [Windows基础](https://www.bilibili.com/video/BV1vR4y1Q7iF) + [计算机硬件基础](https://www.bilibili.com/video/BV1TL4y1N7ZM)
 - [VS2022](https://www.bilibili.com/video/BV1Xt411g7jT)
 - [C语言](https://www.bilibili.com/video/BV1qE411d7Zx) + [变量名命名的艺术](https://www.bilibili.com/video/BV1X64y1o7EZ)
-   - 基础方向：
-      - [B/S体系入门*](https://www.bilibili.com/video/BV1d7411p7RF)
-      - [Linux操作基础*](https://www.bilibili.com/video/BV18U4y1W7av)
-   - Java开发方向
-      - [Java基础*](https://www.bilibili.com/video/BV1QE411g7gi) + [JDK+IDEA安装*](https://www.bilibili.com/video/BV1U7411z7ut)
-      - [Java进阶*](https://www.yuque.com/frank-93a7b/fuck/lbz01b)
-      - [MySQL*](https://www.bilibili.com/video/BV18i4y187i3)
+    - 基础方向：
+        - [B/S体系入门*](https://www.bilibili.com/video/BV1d7411p7RF)
+        - [Linux操作基础*](https://www.bilibili.com/video/BV18U4y1W7av)
+    - Java开发方向
+        - [Java基础*](https://www.bilibili.com/video/BV1QE411g7gi) + [JDK+IDEA安装*](https://www.bilibili.com/video/BV1U7411z7ut)
+        - [Java进阶*](https://www.yuque.com/frank-93a7b/fuck/lbz01b)
+        - [MySQL*](https://www.bilibili.com/video/BV18i4y187i3)
 - （从3.1.2继续）
-   - [数据结构*](https://www.bilibili.com/video/BV1t14y1G7wn)
-   - 科学上网（此内容出现在这里纯属二进制 bit 的随意组合，与本人毫无关系。）
-   - [Vim](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Vim/)
-   - g++基础使用 —— `man g++`
-   - [GNU Make](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/GNU_Make/) + [CMake](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/CMake/)
-   - [虚拟机基础](https://www.bilibili.com/video/BV1t741167UB)
-   - [Missing Semester by MIT —— 必学工具打包课程](https://missing-semester-cn.github.io/) [这是CSDiy讨论区](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/MIT-Missing-Semester/)
-   - 计算机是如何跑起来的+ CSAPP第一章讲解（arch入门）
-   - Linux是怎样运行的（OS入门）
-   - 网络是怎样连接的（计网）
+    - [数据结构*](https://www.bilibili.com/video/BV1t14y1G7wn)
+    - 科学上网（此内容出现在这里纯属二进制 bit 的随意组合，与本人毫无关系。）
+    - [Vim](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Vim/)
+    - g++基础使用 —— `man g++`
+    - [GNU Make](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/GNU_Make/) + [CMake](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/CMake/)
+    - [虚拟机基础](https://www.bilibili.com/video/BV1t741167UB)
+    - [Missing Semester by MIT —— 必学工具打包课程](https://missing-semester-cn.github.io/) [这是CSDiy讨论区](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/MIT-Missing-Semester/)
+    - 计算机是如何跑起来的+ CSAPP第一章讲解（arch入门）
+    - Linux是怎样运行的（OS入门）
+    - 网络是怎样连接的（计网）
 
 #### 基础
 
 - [日常学习工作流](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/workflow/)
 - [个人Blog搭建——以 GitHub Pages + Mkdocs 为例](https://www.bilibili.com/video/BV1hL4y1w72r)
-   - [Git 基础 by 杨希杰](https://www.bilibili.com/video/BV1eh411v7gt) 或 [Git by CSDiy](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Git/)
-   - [GitHub](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/GitHub/)
+    - [Git 基础 by 杨希杰](https://www.bilibili.com/video/BV1eh411v7gt) 或 [Git by CSDiy](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Git/)
+    - [GitHub](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/GitHub/)
 - 数据结构-王道 + 零壹课程
 - 计算机组成原理-王道 + 绪论
 - 操作系统-王道 + 绪论
 - 计算机网络-王道 + 零壹绪论
 - [PA-NEMU](https://nju-projectn.github.io/ics-pa-gitbook/ics2022/)
 - 中科院计算所-“一生一芯”[概述](https://ysyx.oscc.cc/docs/about/intro/overview.html)和[官网](https://ysyx.oscc.cc/)，其包含以下内容：
-   - 南京大学[PA-NEMU](https://nju-projectn.github.io/ics-pa-gitbook/ics2022/)
-   - [南京大学计算机科学与技术系 数字逻辑与计算机组成 课程实验](https://nju-projectn.github.io/dlco-lecture-note/index.html)
-   - [xv6 —— 6.S081 by MIT](https://pdos.csail.mit.edu/6.828/2021/schedule.html)
-   - 香山处理器
+    - 南京大学[PA-NEMU](https://nju-projectn.github.io/ics-pa-gitbook/ics2022/)
+    - [南京大学计算机科学与技术系 数字逻辑与计算机组成 课程实验](https://nju-projectn.github.io/dlco-lecture-note/index.html)
+    - [xv6 —— 6.S081 by MIT](https://pdos.csail.mit.edu/6.828/2021/schedule.html)
+    - 香山处理器
 
 - [rCore-Tutorial-v3](http://rcore-os.cn/rCore-Tutorial-Book-v3/)
 - [LaTeX —— 论文必备](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/LaTeX/)
@@ -59,16 +59,16 @@
 - [数据库系统 —— 15-445 by CMU](https://15445.courses.cs.cmu.edu/spring2023/)
 - [商用数据库——SQLite源码学习](https://github.com/sqlite/sqlite)
 - 操作系统方向：
-   - [xv6 —— 6.S081 by MIT](https://pdos.csail.mit.edu/6.828/2021/schedule.html)
-   - [Pintos —— CS162 by UC Berkeley](https://cs162.org/)
-   - [NJU OS —— by jyy（蒋岩岩）of NJU](http://jyywiki.cn/OS/2023/)
-   - [Linux 0.11 —— by 李治军 of HIT](https://www.bilibili.com/video/BV19r4y1b7Aw)
+    - [xv6 —— 6.S081 by MIT](https://pdos.csail.mit.edu/6.828/2021/schedule.html)
+    - [Pintos —— CS162 by UC Berkeley](https://cs162.org/)
+    - [NJU OS —— by jyy（蒋岩岩）of NJU](http://jyywiki.cn/OS/2023/)
+    - [Linux 0.11 —— by 李治军 of HIT](https://www.bilibili.com/video/BV19r4y1b7Aw)
 
 - 体系结构方向：
-   - [Coursera: Nand2Teris](https://csdiy.wiki/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/N2T/)
-   - [Digital Design and Computer Architecture —— by ETH Zurich](https://csdiy.wiki/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/DDCA/)
-   - [CS61C: Great Ideas in Computer Architecture —— by UC Berkeley](https://csdiy.wiki/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/CS61C/)
-   - [CS15-213 CSAPP —— by CMU](https://csdiy.wiki/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/CSAPP/)
+    - [Coursera: Nand2Teris](https://csdiy.wiki/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/N2T/)
+    - [Digital Design and Computer Architecture —— by ETH Zurich](https://csdiy.wiki/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/DDCA/)
+    - [CS61C: Great Ideas in Computer Architecture —— by UC Berkeley](https://csdiy.wiki/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/CS61C/)
+    - [CS15-213 CSAPP —— by CMU](https://csdiy.wiki/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/CSAPP/)
 
 
 #### 专业
