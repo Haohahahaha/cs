@@ -1,5 +1,7 @@
 # 个人成长路线-beta
 
+> 20230701更新：将数学和英语糅进总体的学习规划中，并加入“一生一芯”计划的学习（同时整合原有计划内路线）。
+
 ## 培养方案
 
 ### 计算机知识
@@ -38,11 +40,17 @@
 4. 计算机组成原理-王道 + 绪论
 5. 操作系统-王道 + 绪论
 6. 计算机网络-王道 + 零壹绪论
-7. [rCore-Tutorial-v3](http://rcore-os.cn/rCore-Tutorial-Book-v3/)
-8. [NEMU](https://nju-projectn.github.io/ics-pa-gitbook/ics2022/)
-9. [LaTeX —— 论文必备](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/LaTeX/)
-10. [Docker —— 配环境利器](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Docker/)
-11. [人生大事 —— 毕业论文写作](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/thesis/)
+7. [PA-NEMU](https://nju-projectn.github.io/ics-pa-gitbook/ics2022/)（可跳到8）
+8. 中科院计算所-“一生一芯”[概述](https://ysyx.oscc.cc/docs/about/intro/overview.html)和[官网](https://ysyx.oscc.cc/)，其包含以下内容：
+   1. 南京大学[PA-NEMU](https://nju-projectn.github.io/ics-pa-gitbook/ics2022/)（基础7）
+   2. [南京大学计算机科学与技术系 数字逻辑与计算机组成 课程实验](https://nju-projectn.github.io/dlco-lecture-note/index.html)
+   3. [xv6 —— 6.S081 by MIT](https://pdos.csail.mit.edu/6.828/2021/schedule.html)（进阶5.i）
+   4. 香山处理器
+
+9. [rCore-Tutorial-v3](http://rcore-os.cn/rCore-Tutorial-Book-v3/)
+10. [LaTeX —— 论文必备](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/LaTeX/)
+11. [Docker —— 配环境利器](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Docker/)
+12. [人生大事 —— 毕业论文写作](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/thesis/)
 
 #### 进阶
 
@@ -54,7 +62,7 @@
    1. [xv6 —— 6.S081 by MIT](https://pdos.csail.mit.edu/6.828/2021/schedule.html)
    2. [Pintos —— CS162 by UC Berkeley](https://cs162.org/)
    3. [NJU OS —— by jyy（蒋岩岩）of NJU](http://jyywiki.cn/OS/2023/)
-   4. [Linux 0,11 —— by 李治军 of HIT](https://www.bilibili.com/video/BV19r4y1b7Aw)
+   4. [Linux 0.11 —— by 李治军 of HIT](https://www.bilibili.com/video/BV19r4y1b7Aw)
 
 6. 体系结构方向：
    1. [Coursera: Nand2Teris](https://csdiy.wiki/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/N2T/)
