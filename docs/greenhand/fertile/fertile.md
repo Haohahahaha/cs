@@ -68,15 +68,27 @@
 
 #### 基础
 
-- 数据结构-王道 + 零壹课程
+- 基础理论知识框架（考研也用得到哈）
 
-- 计算机组成原理-王道 + 绪论
+    - 数据结构-王道 + 零壹课程
 
-- 操作系统-王道 + 绪论
+    - 计算机组成原理-王道 + 绪论
 
-- 计算机网络-王道 + 零壹绪论
+    - 操作系统-王道 + 绪论
 
-- [PA-NEMU](https://nju-projectn.github.io/ics-pa-gitbook/ics2022/)
+    - 计算机网络-王道 + 零壹绪论
+
+- 建议先完成[rCore-Tutorial-v3](http://rcore-os.cn/rCore-Tutorial-Book-v3/)
+
+- 工具类学习：
+
+    - [LaTeX —— 论文必备](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/LaTeX/)
+
+    - [Docker —— 配环境利器](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Docker/)
+
+    - [人生大事 —— 毕业论文写作](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/thesis/)
+
+
 
 - 中科院计算所-“一生一芯”[概述](https://ysyx.oscc.cc/docs/about/intro/overview.html)和[官网](https://ysyx.oscc.cc/)，其包含以下内容：
 
@@ -86,13 +98,7 @@
 	
     - [xv6 —— 6.S081 by MIT](https://pdos.csail.mit.edu/6.828/2021/schedule.html)
 
-- [rCore-Tutorial-v3](http://rcore-os.cn/rCore-Tutorial-Book-v3/)
-
-- [LaTeX —— 论文必备](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/LaTeX/)
-
-- [Docker —— 配环境利器](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Docker/)
-
-- [人生大事 —— 毕业论文写作](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/thesis/)
+    > "一生一芯"能够完成"自制CPU"与"自制OS"的培养训练，以及很多的技能（EE&&CS全栈人才培养）。所以后续阶段可以自行定制和选择学习了。
 
 #### 进阶
 
