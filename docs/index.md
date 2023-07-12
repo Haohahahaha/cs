@@ -56,6 +56,8 @@
 
 - 一生一芯： 通过查询man，了解并写出一个关于文件系统的测试文件。我通过写出此程序，理解了操作系统中文件系统的各个知识点，如：索引。我同时还查看了一些相关的网页，如[rCore-Tutorial-v3](http://rcore-os.cn/rCore-Tutorial-Book-v3/chapter6/3using-easy-fs-in-kernel.html)，略读了一篇[关于持久化内存的论文](http://storage.cs.tsinghua.edu.cn/papers/iccd14-loc.pdf/)和OS内核赛优秀作品的文档。
 
+  ![2023-07-12_ysyx](./pic/2023-07-12.png)
+
 运动效果显著：肩颈疼痛情况有所缓解。
 
 睡眠效果显著提升。
