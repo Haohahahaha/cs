@@ -188,7 +188,8 @@ nav:
       - 个人成长路线-beta: greenhand/fertile/fertile.md
       - Ubuntu2204 虚拟机搭建全流程: greenhand/Ubuntu2204-greenhand/Ubuntu2204-greenhand.md
       - 博客维护教程-文案工作部分: greenhand/Blog_Maintainance_CW/Blog_Maintenance-Content_Workers.md
-    - 学术会议记录: conferenceNotes/index.md
+    - 学术会议记录: 
+      - 简介: conferenceNotes/index.md
       - 大力开展基于国产AI芯片的大模型系统的研究: conferenceNotes/大力开展基于国产AI芯片的大模型系统的研究.md
 #   - Linux高性能服务器编程: 
 #     - 第一篇 TCP/IP详解: 
