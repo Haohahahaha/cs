@@ -22,6 +22,8 @@
 
 - [C语言](https://www.bilibili.com/video/BV1qE411d7Zx) + [变量名命名的艺术](https://www.bilibili.com/video/BV1X64y1o7EZ)
 
+  > 关于C语言的学习，[Learn C the hard way](https://www.cntofu.com/book/25/index.html) + *C Primer Plus* + *Poniters On C* + *Expert C Programming* + *C Triggers Pitfalls* 是更不错的选择。
+
     - 基础方向：
 
         - [B/S体系入门*](https://www.bilibili.com/video/BV1d7411p7RF)
@@ -38,7 +40,7 @@
 
 - （从"基础方向"继续）
 
-    - [数据结构*](https://www.bilibili.com/video/BV1t14y1G7wn)
+    - [数据结构](https://www.bilibili.com/video/BV1t14y1G7wn)
 	
     - 科学上网（此内容出现在这里纯属二进制 bit 的随意组合，与本人毫无关系。）
 
