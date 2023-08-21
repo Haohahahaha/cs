@@ -74,19 +74,7 @@ Memory: 2368MiB / 31925MiB
 
 - vim
 
-- ysyx-“SDK”
-
-    ```bash
-    apt-get install build-essential    # build-essential packages, include binary utilities, gcc, make, and so on
-    apt-get install man                # on-line reference manual
-    apt-get install gcc-doc            # on-line reference manual for gcc
-    apt-get install gdb                # GNU debugger
-    apt-get install git                # revision control system
-    apt-get install libreadline-dev    # a library used later
-    apt-get install libsdl2-dev        # a library used later
-    apt-get install llvm llvm-dev      # llvm project, which contains libraries used later
-    apt-get install llvm-11 llvm-11-dev # only for ubuntu20.04
-    ```
+- [ysyx-“SDK”](https://ysyx.oscc.cc/docs/ics-pa/0.3.html#installing-tools-for-pas)
 
 - Chinese Input Method （我觉得用系统自带的也够了，因为搜狗要碰运气，百度还行）
 
@@ -94,12 +82,7 @@ Memory: 2368MiB / 31925MiB
 >
 > Terminal 美化，详见[Ubuntu 22.04 工作台搭建全流程 - 终端美化](http://cs.haohaha.cn/greenhand/Ubuntu2204-greenhand/Ubuntu2204-greenhand/#2_2)这一节。
 >
-> 哦对了，记得 `.vimrc` 里需要注意的配置：
->
->   ```bash
->   set ts=4
->   colorscheme elflord
->   ```
+> 哦对了，记得 `.vimrc` 里需要注意的配置： `set ts=4` `colorscheme elflord`
 
 ---
 
