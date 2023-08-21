@@ -42,6 +42,7 @@ Memory: 2368MiB / 31925MiB
 > 这里列出了我所安装的一些软件，请读者自行搜索下载页面，部分不易找到准确信息的软件已附带链接。
 
 - Linux QQ
+- [Wechat (Kylin Wine ver.)](https://zhuanlan.zhihu.com/p/626044476)
 - Baidu Netdisk
 - [YesPlayMusic](https://github.com/qier222/YesPlayMusic)
 - [Xmind2020](http://www.hushowly.com/articles/1943) （百度网盘已存档补丁）
