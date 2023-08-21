@@ -76,17 +76,17 @@ Memory: 2368MiB / 31925MiB
 
 - ysyx-“SDK”
 
-  ```bash
-  apt-get install build-essential    # build-essential packages, include binary utilities, gcc, make, and so on
-  apt-get install man                # on-line reference manual
-  apt-get install gcc-doc            # on-line reference manual for gcc
-  apt-get install gdb                # GNU debugger
-  apt-get install git                # revision control system
-  apt-get install libreadline-dev    # a library used later
-  apt-get install libsdl2-dev        # a library used later
-  apt-get install llvm llvm-dev      # llvm project, which contains libraries used later
-  apt-get install llvm-11 llvm-11-dev # only for ubuntu20.04
-  ```
+    ```bash
+    apt-get install build-essential    # build-essential packages, include binary utilities, gcc, make, and so on
+    apt-get install man                # on-line reference manual
+    apt-get install gcc-doc            # on-line reference manual for gcc
+    apt-get install gdb                # GNU debugger
+    apt-get install git                # revision control system
+    apt-get install libreadline-dev    # a library used later
+    apt-get install libsdl2-dev        # a library used later
+    apt-get install llvm llvm-dev      # llvm project, which contains libraries used later
+    apt-get install llvm-11 llvm-11-dev # only for ubuntu20.04
+    ```
 
 - Chinese Input Method （我觉得用系统自带的也够了，因为搜狗要碰运气，百度还行）
 
@@ -96,10 +96,10 @@ Memory: 2368MiB / 31925MiB
 >
 > 哦对了，记得 `.vimrc` 里需要注意的配置：
 >
-> ```bash
-> set ts=4
-> colorscheme elflord
-> ```
+>   ```bash
+>   set ts=4
+>   colorscheme elflord
+>   ```
 
 ---
 
