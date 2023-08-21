@@ -11,28 +11,22 @@
 这台机器的信息如下：
 
 ```zsh
-# zhr @ labpc in ~/Documents
-$ neofetch
-            .-/+oossssoo+/-.               zhr@labpc 
-        `:+ssssssssssssssssss+:`           --------- 
-      -+ssssssssssssssssssyyssss+-         OS: Ubuntu 22.04.3 LTS x86_64 
-    .ossssssssssssssssssdMMMNysssso.       Host: X99 
-   /ssssssssssshdmmNNmmyNMMMMhssssss/      Kernel: 6.2.0-26-generic 
-  +ssssssssshmydMMMMMMMNddddyssssssss+     Uptime: 59 mins 
- /sssssssshNMMMyhhyyyyhmNMMMNhssssssss/    Packages: 2229 (dpkg), 11 (snap) 
-.ssssssssdMMMNhsssssssssshNMMMdssssssss.   Shell: zsh 5.8.1 
-+sssshhhyNMMNyssssssssssssyNMMMysssssss+   Resolution: 1440x900 
-ossyNMMMNyMMhsssssssssssssshmmmhssssssso   DE: GNOME 42.9 
-ossyNMMMNyMMhsssssssssssssshmmmhssssssso   WM: Mutter 
-+sssshhhyNMMNyssssssssssssyNMMMysssssss+   WM Theme: Adwaita 
-.ssssssssdMMMNhsssssssssshNMMMdssssssss.   Theme: Yaru-olive-dark [GTK2/3] 
- /sssssssshNMMMyhhyyyyhdNMMMNhssssssss/    Icons: Yaru-olive [GTK2/3] 
-  +sssssssssdmydMMMMMMMMddddyssssssss+     Terminal: tmux 
-   /ssssssssssshdmNNNNmyNMMMMhssssss/      CPU: Intel Xeon E5-2666 v3 (20) @ 3.500GHz 
-    .ossssssssssssssssssdMMMNysssso.       GPU: NVIDIA GeForce GT 620 
-      -+sssssssssssssssssyyyssss+-         Memory: 2368MiB / 31925MiB 
-        `:+ssssssssssssssssss+:`
-            .-/+oossssoo+/-.               
+OS: Ubuntu 22.04.3 LTS x86_64 
+Host: X99 
+Kernel: 6.2.0-26-generic 
+Uptime: 59 mins 
+Packages: 2229 (dpkg), 11 (snap) 
+Shell: zsh 5.8.1 
+Resolution: 1440x900 
+DE: GNOME 42.9 
+WM: Mutter 
+WM Theme: Adwaita 
+Theme: Yaru-olive-dark [GTK2/3] 
+Icons: Yaru-olive [GTK2/3] 
+Terminal: tmux 
+CPU: Intel Xeon E5-2666 v3 (20) @ 3-.500GHz 
+GPU: NVIDIA GeForce GT 620 
+Memory: 2368MiB / 31925MiB 
 ```
 
 是的，我这个“垃圾佬”的知识终于有了用武之地，这配置就算够用了，存储不够的话，翻翻我的百宝箱，我想我能找到一堆硬盘～
@@ -82,7 +76,7 @@ ossyNMMMNyMMhsssssssssssssshmmmhssssssso   WM: Mutter
 
 - ysyx-“SDK”
 
-  ```
+  ```bash
   apt-get install build-essential    # build-essential packages, include binary utilities, gcc, make, and so on
   apt-get install man                # on-line reference manual
   apt-get install gcc-doc            # on-line reference manual for gcc
@@ -102,7 +96,7 @@ ossyNMMMNyMMhsssssssssssssshmmmhssssssso   WM: Mutter
 >
 > 哦对了，记得 `.vimrc` 里需要注意的配置：
 >
-> ```vimrc
+> ```bash
 > set ts=4
 > colorscheme elflord
 > ```
@@ -111,4 +105,4 @@ ossyNMMMNyMMhsssssssssssssshmmmhssssssso   WM: Mutter
 
 （搓搓手）嗯～这次配置得非常不错，所有 windows 平台上的功能均能在 Linux 上原生解决了。
 
-开心！:happy:
+开心！:happy:-
