@@ -22,7 +22,7 @@
 
 - [C语言](https://www.bilibili.com/video/BV1qE411d7Zx) + [变量名命名的艺术](https://www.bilibili.com/video/BV1X64y1o7EZ)
 
-  > 关于C语言的学习，[Learn C the hard way](https://www.cntofu.com/book/25/index.html) + *C Primer Plus* + *Poniters On C* + *Expert C Programming* + *C Triggers Pitfalls* 是更不错的选择。
+> 关于C语言的学习，[Learn C the hard way](https://www.cntofu.com/book/25/index.html) + *C Primer Plus* + *Poniters On C* + *Expert C Programming* + *C Triggers Pitfalls* 是更不错的选择。
 
     - 基础方向：
 
