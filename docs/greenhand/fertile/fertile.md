@@ -46,7 +46,7 @@
 
 > 负基础是什么呢？我认为，比如，上大学是你第一次有机会认真使用电脑。
 
-1. (没有认真研读的一律判定为负基础)[提问的智慧](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md) 和 [别像弱智一样提问](https://github.com/tangx/Stop-Ask-Questions-The-Stupid-Ways/blob/master/README.md)
+1. (没有认真研读的一律判定为负基础) [提问的智慧](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md) 和 [别像弱智一样提问](https://github.com/tangx/Stop-Ask-Questions-The-Stupid-Ways/blob/master/README.md)
 
 2. for 负基础的同学：[Windows基础](https://www.bilibili.com/video/BV1vR4y1Q7iF) + [计算机硬件基础](https://www.bilibili.com/video/BV1TL4y1N7ZM)
 
@@ -60,17 +60,17 @@
 
 1. 推荐：[Linux系统安装和基本使用 - ysyx](https://ysyx.oscc.cc/docs/2306/prestudy/0.2.html) 
 
-    - (低坡度付费版)[Linux操作基础 - Frank](https://www.bilibili.com/video/BV18U4y1W7av)
+    - (低坡度付费版) [Linux操作基础 - Frank](https://www.bilibili.com/video/BV18U4y1W7av)
 
     - ysyx 已引用：[Missing Semester by MIT —— 必学工具打包课程](https://missing-semester-cn.github.io/) [这是CSDiy讨论区](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/MIT-Missing-Semester/)
 	
-        - (MS已包含)科学上网（此内容出现在这里纯属二进制 bit 的随意组合，与本人毫无关系。）
+        - (MS已包含) 科学上网（此内容出现在这里纯属二进制 bit 的随意组合，与本人毫无关系。）
 
-        - (MS已包含)[Vim](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Vim/)
+        - (MS已包含) [Vim](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Vim/)
 
-        - (MS已包含)g++基础使用 —— `man g++`
+        - (MS已包含) g++基础使用 —— `man g++`
 
-        - (MS已包含)[GNU Make](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/GNU_Make/) + [CMake](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/CMake/)
+        - (MS已包含) [GNU Make](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/GNU_Make/) + [CMake](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/CMake/)
 
 > 关于Linux日常办公化，即抛弃Windows，主机直接采用Linux的方案，我提供一套 beta 版本的解决方案。
 >
@@ -78,28 +78,33 @@
 
 2. 规范化：[变量名命名的艺术](https://www.bilibili.com/video/BV1X64y1o7EZ) 
 
-3. 推荐：Python语言学习：[Harvard CS50x](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/CS50/)可能是不错的选择。学习Python有利于入门编程，以及编写自动化构建脚本。有进阶想法的可以学习[Harvard CS50P](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/CS50P/)
+3. 推荐：Python语言学习：[Harvard CS50x](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/CS50/) 可能是不错的选择。学习Python有利于入门编程，以及编写自动化构建脚本。有进阶想法的可以学习 [Harvard CS50P](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/CS50P/)
 
-4. 推荐：关于C语言的学习，（有Linux命令行基础）([Learn C the hard way](https://www.cntofu.com/book/25/index.html) + (选修，进阶)*C Primer Plus* + *Poniters On C* + *Expert C Programming* + *C Triggers Pitfalls* 是更不错的选择。
+4. 推荐：关于C语言的学习，（有Linux命令行基础）[Learn C the hard way](https://www.cntofu.com/book/25/index.html) + (选修，进阶)*C Primer Plus* + *Poniters On C* + *Expert C Programming* + *C Triggers Pitfalls* 是更不错的选择。
 
 5. 互联网“管中窥豹”：[B/S体系入门](https://www.bilibili.com/video/BV1d7411p7RF)
 
-6. C++开发方向:侯捷视频教程
+6. C++开发方向：侯捷视频教程
 
 > 关于文档版教程，我鼓励多给自己“找题做”，实际上看文档可能只占到学习时间的一小部分，更多的时间要用来思考、练习和探索更多可能性。当然，快速上手的教程仍然非常有意义，它可以帮助你打破对工具和新环境的陌生——但缺点就是使你放弃了思考、忽略了思考和自己动手去探索的时间比重与其不言而喻的重要性。
+>
 > 我们都需要深刻地意识到文档的递归嵌套性——即“并不是一套教程就能解决你的所有问题，有时候你需要查阅多方信息，通过大脑把它们综合起来并自己合成你想要的答案”。
+>
 > 此部分提供咨询服务。
+>
 > 前期会每周考察执行力，以此作为根据，来决定是否需要来实验室攒够所需的学习时间。
+
+
 
 > 从下面开始，英语就变得异常重要了，毕竟当你有了一定英文水平之后，“睁眼看世界”，你会发现太多太多的精品课程等待你去学习和探索。所以我建议在这之前，把考研单词用墨墨至少全部过完一遍。
 
-7. (提供成熟的解决方案)[个人Blog搭建——以 GitHub Pages + Mkdocs 为例](https://www.bilibili.com/video/BV1hL4y1w72r)
+7. (提供成熟的解决方案) [个人Blog搭建——以 GitHub Pages + Mkdocs 为例](https://www.bilibili.com/video/BV1hL4y1w72r)
 
-    - (MS已包含)[Git 基础 by 杨希杰](https://www.bilibili.com/video/BV1eh411v7gt) 或 [Git by CSDiy](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Git/)
+    - (MS已包含) [Git 基础 by 杨希杰](https://www.bilibili.com/video/BV1eh411v7gt) 或 [Git by CSDiy](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Git/)
 
-    - (MS已包含)[GitHub](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/GitHub/)
+    - (MS已包含) [GitHub](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/GitHub/)
 
-    - (**探索版**)[日常学习工作流](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/workflow/)
+    - (**探索版**) [日常学习工作流](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/workflow/)
 
 8. [虚拟机基础](https://www.bilibili.com/video/BV1t741167UB)
 
@@ -124,13 +129,13 @@
 
 #### 基础 I：基础理论知识框架（考研复用）
 
-    - 数据结构-王道 + 零壹课程
+- 数据结构-王道 + 零壹课程
 
-    - 计算机组成原理-王道 + 绪论
+- 计算机组成原理-王道 + 绪论
 
-    - 操作系统-王道 + 绪论
+- 操作系统-王道 + 绪论
 
-    - 计算机网络-王道 + 零壹绪论
+- 计算机网络-王道 + 零壹绪论
 
 - 更推荐的数据结构课程：[MIT 6.006](https://csdiy.wiki/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/6.006/)
 
@@ -140,7 +145,7 @@
 
 #### 基础 II：一生一芯
 
-- 中科院计算所-“一生一芯”[概述](https://ysyx.oscc.cc/docs/about/intro/overview.html)和[官网](https://ysyx.oscc.cc/)，其包含以下内容：
+- 中科院计算所-“一生一芯” [概述](https://ysyx.oscc.cc/docs/about/intro/overview.html) 和 [官网](https://ysyx.oscc.cc/) ，其包含以下内容：
 
     - 南京大学[PA-NEMU](https://nju-projectn.github.io/ics-pa-gitbook/ics2022/)
 
@@ -154,7 +159,7 @@
 
 #### 基础 III：实践需求
 
-- 建议完成[rCore-Tutorial-v3](http://rcore-os.cn/rCore-Tutorial-Book-v3/)
+- 建议完成 [rCore-Tutorial-v3](http://rcore-os.cn/rCore-Tutorial-Book-v3/)
 
 ---
 
