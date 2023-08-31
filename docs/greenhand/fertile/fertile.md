@@ -1,74 +1,119 @@
 # 个人成长路线-beta
 
+> 20230831更新：替换付费课的必修属性，将其替换为开放的课程。
+>
 > 20230701更新：将数学和英语糅进总体的学习规划中，并加入“一生一芯”计划的学习（同时整合原有计划内路线）。
 
 ## 培养方案
 
 > What I can help：
+>
+> 1. 通过了解个人的情况，帮助你分析得出 `更为低坡度的学习方案` + `更科学和合理得到预期管理`
 > 
 > 1. 根据问题/想法，给出未知的核心搜索关键词（但chatGPT会做的比我更好）；
 >
 > 2. 帮助更容易地、更高效地学习，而非解答实际问题。
 
+> 通过下面的阅读，你会发现，我们定制个人方案主要的方法是OKR。
+> 
+> 我们团队管理也采用了OKR。
+
 ### 计算机知识
 
-#### 入门（考核阶段）
+#### 入门
 
-- [提问的智慧](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md) 和 [别像弱智一样提问](https://github.com/tangx/Stop-Ask-Questions-The-Stupid-Ways/blob/master/README.md)
+##### 入门 I.a：英语
 
-- [Windows基础](https://www.bilibili.com/video/BV1vR4y1Q7iF) + [计算机硬件基础](https://www.bilibili.com/video/BV1TL4y1N7ZM)
+- 在遇到大量英文资料之前，至少过完一遍考研大纲5600（时长根据具体情况因人而异，要尽快），之后每日坚持打卡
 
-- [VS2022](https://www.bilibili.com/video/BV1Xt411g7jT)
+- Better：精读文章(入门期间没精力也正常，但是后面有精力了就要做了)
 
-- [C语言](https://www.bilibili.com/video/BV1qE411d7Zx) + [变量名命名的艺术](https://www.bilibili.com/video/BV1X64y1o7EZ)。关于C语言的学习，[Learn C the hard way](https://www.cntofu.com/book/25/index.html) + *C Primer Plus* + *Poniters On C* + *Expert C Programming* + *C Triggers Pitfalls* 是更不错的选择。
+> P.S.：一键解决校内+四级+考研英语+外网资料阅读，一举多得。
 
-    - 基础方向：
+##### 入门 I.b：数学（考研复用）
 
-        - [B/S体系入门*](https://www.bilibili.com/video/BV1d7411p7RF)
+- 杨超高数
 
-        - [Linux操作基础*](https://www.bilibili.com/video/BV18U4y1W7av)
+- 杨威线代
 
-    - Java开发方向
+- 余炳森概率论
 
-        - [Java基础*](https://www.bilibili.com/video/BV1QE411g7gi) + [JDK+IDEA安装*](https://www.bilibili.com/video/BV1U7411z7ut)
+> 一键解决校内+考研数学
 
-        - [Java进阶*](https://www.yuque.com/frank-93a7b/fuck/lbz01b)
+##### 入门 II：负基础——培育计算机人必备素养（考核阶段）
 
-        - [MySQL*](https://www.bilibili.com/video/BV18i4y187i3)
+> 负基础是什么呢？我认为，比如，上大学是你第一次有机会认真使用电脑。
 
-- （从"基础方向"继续）
+1. (没有认真研读的一律判定为负基础)[提问的智慧](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md) 和 [别像弱智一样提问](https://github.com/tangx/Stop-Ask-Questions-The-Stupid-Ways/blob/master/README.md)
 
-    - [数据结构](https://www.bilibili.com/video/BV1t14y1G7wn)
+2. for 负基础的同学：[Windows基础](https://www.bilibili.com/video/BV1vR4y1Q7iF) + [计算机硬件基础](https://www.bilibili.com/video/BV1TL4y1N7ZM)
+
+3. still for 负基础 && 为我院C++课做个衔接适配：[VS2022](https://www.bilibili.com/video/BV1Xt411g7jT) + [C语言](https://www.bilibili.com/video/BV1qE411d7Zx)
+
+##### 入门 IV：工具学习过程
+
+> 工欲善其事必先利其器——漫长又飞速、不可缺少且不可马虎
+
+1. 推荐：[Linux系统安装和基本使用 - ysyx](https://ysyx.oscc.cc/docs/2306/prestudy/0.2.html) 
+
+    - (低坡度付费版)[Linux操作基础 - Frank](https://www.bilibili.com/video/BV18U4y1W7av)
+
+    - ysyx 已引用：[Missing Semester by MIT —— 必学工具打包课程](https://missing-semester-cn.github.io/) [这是CSDiy讨论区](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/MIT-Missing-Semester/)
 	
-    - 科学上网（此内容出现在这里纯属二进制 bit 的随意组合，与本人毫无关系。）
+        - (MS已包含)科学上网（此内容出现在这里纯属二进制 bit 的随意组合，与本人毫无关系。）
 
-    - [Vim](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Vim/)
+        - (MS已包含)[Vim](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Vim/)
 
-    - g++基础使用 —— `man g++`
+        - (MS已包含)g++基础使用 —— `man g++`
 
-    - [日常学习工作流](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/workflow/)
+        - (MS已包含)[GNU Make](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/GNU_Make/) + [CMake](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/CMake/)
 
-    - [个人Blog搭建——以 GitHub Pages + Mkdocs 为例](https://www.bilibili.com/video/BV1hL4y1w72r)
+> 关于Linux日常办公化，即抛弃Windows，主机直接采用Linux的方案，我提供一套 beta 版本的解决方案。
+>
+> 但实际上你自己根据自己的需求搜搜其实也能解决……（就是很可能耗时，容易把热情消耗没）
 
-        - [Git 基础 by 杨希杰](https://www.bilibili.com/video/BV1eh411v7gt) 或 [Git by CSDiy](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Git/)
+2. 规范化：[变量名命名的艺术](https://www.bilibili.com/video/BV1X64y1o7EZ) 
 
-        - [GitHub](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/GitHub/)
+3. 推荐：Python语言学习：[Harvard CS50x](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/CS50/)可能是不错的选择。学习Python有利于入门编程，以及编写自动化构建脚本。有进阶想法的可以学习[Harvard CS50P](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/CS50P/)
 
-    - [GNU Make](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/GNU_Make/) + [CMake](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/CMake/)
+4. 推荐：关于C语言的学习，（有Linux命令行基础）([Learn C the hard way](https://www.cntofu.com/book/25/index.html) + (选修，进阶)*C Primer Plus* + *Poniters On C* + *Expert C Programming* + *C Triggers Pitfalls* 是更不错的选择。
 
-    - [虚拟机基础](https://www.bilibili.com/video/BV1t741167UB)
+5. 互联网“管中窥豹”：[B/S体系入门](https://www.bilibili.com/video/BV1d7411p7RF)
 
-    - [Missing Semester by MIT —— 必学工具打包课程](https://missing-semester-cn.github.io/) [这是CSDiy讨论区](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/MIT-Missing-Semester/)
+6. C++开发方向:侯捷视频教程
 
-    - 计算机是如何跑起来的+ CSAPP第一章讲解（arch入门）
+> 关于文档版教程，我鼓励多给自己“找题做”，实际上看文档可能只占到学习时间的一小部分，更多的时间要用来思考、练习和探索更多可能性。当然，快速上手的教程仍然非常有意义，它可以帮助你打破对工具和新环境的陌生——但缺点就是使你放弃了思考、忽略了思考和自己动手去探索的时间比重与其不言而喻的重要性。
+> 我们都需要深刻地意识到文档的递归嵌套性——即“并不是一套教程就能解决你的所有问题，有时候你需要查阅多方信息，通过大脑把它们综合起来并自己合成你想要的答案”。
+> 此部分提供咨询服务。
+> 前期会每周考察执行力，以此作为根据，来决定是否需要来实验室攒够所需的学习时间。
 
-    - Linux是怎样运行的（OS入门）
+> 从下面开始，英语就变得异常重要了，毕竟当你有了一定英文水平之后，“睁眼看世界”，你会发现太多太多的精品课程等待你去学习和探索。所以我建议在这之前，把考研单词用墨墨至少全部过完一遍。
 
-    - 网络是怎样连接的（计网）
+7. (提供成熟的解决方案)[个人Blog搭建——以 GitHub Pages + Mkdocs 为例](https://www.bilibili.com/video/BV1hL4y1w72r)
+
+    - (MS已包含)[Git 基础 by 杨希杰](https://www.bilibili.com/video/BV1eh411v7gt) 或 [Git by CSDiy](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Git/)
+
+    - (MS已包含)[GitHub](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/GitHub/)
+
+    - (**探索版**)[日常学习工作流](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/workflow/)
+
+8. [虚拟机基础](https://www.bilibili.com/video/BV1t741167UB)
+
+##### 入门V：入门书籍
+
+- 编码——隐匿在计算机软硬件背后的语言（计组初探）
+
+- 计算机是如何跑起来的
+
+- Linux是怎样运行的（OS入门）
+
+- 网络是怎样连接的（计网）
+
+> 这些书籍资源，如果你喜欢纸质版，自己去买；如果你喜欢电子资源（比如用iPad看），自己去找；找不到再来找我（别忘了《提问的智慧》）。
 
 #### 基础
 
-- 基础理论知识框架（考研也用得到哈）
+##### 基础 I：基础理论知识框架（考研复用）
 
     - 数据结构-王道 + 零壹课程
 
@@ -78,17 +123,11 @@
 
     - 计算机网络-王道 + 零壹绪论
 
-- 建议先完成[rCore-Tutorial-v3](http://rcore-os.cn/rCore-Tutorial-Book-v3/)
+- 更推荐的数据结构课程：[MIT 6.006](https://csdiy.wiki/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/6.006/)
 
-- 工具类学习：
+	- 数据结构进阶 [MIT 6.046](https://csdiy.wiki/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/6.046/)
 
-    - [LaTeX —— 论文必备](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/LaTeX/)
-
-    - [Docker —— 配环境利器](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Docker/)
-
-    - [人生大事 —— 毕业论文写作](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/thesis/)
-
-
+##### 基础 II：一生一芯
 
 - 中科院计算所-“一生一芯”[概述](https://ysyx.oscc.cc/docs/about/intro/overview.html)和[官网](https://ysyx.oscc.cc/)，其包含以下内容：
 
@@ -100,7 +139,21 @@
 
     > "一生一芯"能够完成"自制CPU"与"自制OS"的培养训练，以及很多的技能（EE&&CS全栈人才培养）。所以后续阶段可以自行定制和选择学习了。
 
+##### 基础 III：实践需求
+
+- 建议完成[rCore-Tutorial-v3](http://rcore-os.cn/rCore-Tutorial-Book-v3/)
+
+##### 基础 IIII：必备工具类学习
+
+- [LaTeX —— 论文必备](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/LaTeX/)
+
+- （可忽略，前面在学习Linux系统的时候已经接触过了）[Docker —— 配环境利器](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Docker/)
+
+- [人生大事 —— 毕业论文写作](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/thesis/)
+
 #### 进阶
+
+> 这里就几乎都是英文了。
 
 - [计算机网络 —— CS144 by StandFord](https://cs144.github.io/)
 
@@ -132,7 +185,11 @@
 
 #### 专业
 
-此阶段着重进行专业书籍的阅读学习，但鉴于以上课程的教科书已包含很大一部分，故不列确定书单，下面书单仅供参考，包含上面课程的部分教科书：
+此阶段着重进行专业书籍和专业课程的学习，但鉴于以上课程的教科书已包含很大一部分，故不列确定书单，下面书单仅供参考。
+
+此处专业课程我没有提供，需要以后讨论和自行寻找。
+
+包含上面课程的部分教科书：
 
 - 深入理解操作系统（CSAPP）
 
@@ -172,10 +229,6 @@
 
 未来根据需要增减挑选。
 
-#### 精通
-
-更多的专业书籍，各细分方向各有不同，故省略不列举。
-
 #### 研究/工作
 
 - 论文复现
@@ -187,57 +240,37 @@
     - [Google Summer of Code](https://summerofcode.withgoogle.com/)
 
 
-### 英语
-
-- 一个月内过完一遍考研大纲5600（时长根据具体情况因人而异，要尽快），之后每日坚持打卡
-
-- 精读文章
-
-> 一键解决校内+四级+考研英语+外网资料阅读，一举多得。
-
-### 数学
-
-- 杨超高数
-
-- 杨威线代
-
-- 余炳森概率论
-
-> 一键解决校内+考研数学
-
 ## 培养目标
 
-### 入门为考核期，为期3个月，掌握的重点如下：
+### 入门：掌握的重点如下：
 
+> 入门 II 为考核，转正考核期为每学年上学期（适用人群：大一新生）。
+>
 > 如果通过，则继续学习；若不通过，可根据学生意愿选择是否完成入门学习。
 
-1. 计算机思维；
+1. 通识入门素养；
 
-2. 计算机编程与文档的工具使用。
+2. 计算机素养；
+
+3. 编程、查阅文档、工具使用，完善个人工作流；
+
+4. 理论知识入门；
 
 > 过了入门阶段之后，个人可根据自身情况和意愿，选择是否利用寒暑假来进行学习。
+>
+> 其实学上头了，不用说也就学下去了；不过我也蛮同意“假期就是要休息”这样的观点的(因为我也懒，我也想休息，哈哈)。
 
 ### 基础阶段为期3 + `12~18` 个月，重点掌握：
 
-1. 正式完善个人工作流；
+1. 计算机基础理论知识；
 
-2. 操作系统的实现；
+2. **坚持**完成"一生一芯"培养方案；
 
-3. **坚持**完成"一生一芯"培养方案。
+3. 操作系统的实现。
 
-### 进阶阶段为期3-9个月不等，重点掌握：
+4. 必备工具学习
 
-1. 计算机基础知识的基本完善；
-
-2. 操作系统/体系结构知识的持续深入学习。
-
-### 专业阶段为期6-12个月不等，重点掌握：
-
-1. 补全前几个阶段的经典教科书的学习；
-
-2. 选择一个方向进行深造。
-
-### 专业阶段后的培养目标暂不确定，因人而异，根据个人意愿进行个性化定制。
+### 进阶阶段后根据个人自行定制，欢迎交流。
 
 ## 可选竞赛
 
@@ -249,15 +282,11 @@
 
 ## 预期成果
 
-个人可实现成果（难度由低到高）：
+有望实现的成果：
 
-- 深入理解计算机系统知识（产出高质量个人笔记博客）；
+- 一生一芯相关成果
 
-- 复现rCore；
-
-- 复现NEMU；
-
-- 自己动手完成一个OS/CPU/DB（含升级和个性化定制）；
+- 基于rCore自制OS 
 
 - 考研取得理想的成绩，继续深造；
 
