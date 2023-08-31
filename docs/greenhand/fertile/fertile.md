@@ -28,6 +28,8 @@
 
 > P.S.：一键解决校内+四级+考研英语+外网资料阅读，一举多得。
 
+---
+
 #### 入门 I.b：数学（考研复用）
 
 - 杨超高数
@@ -38,6 +40,8 @@
 
 > 一键解决校内+考研数学
 
+---
+
 #### 入门 II：负基础——培育计算机人必备素养（考核阶段）
 
 > 负基础是什么呢？我认为，比如，上大学是你第一次有机会认真使用电脑。
@@ -47,6 +51,8 @@
 2. for 负基础的同学：[Windows基础](https://www.bilibili.com/video/BV1vR4y1Q7iF) + [计算机硬件基础](https://www.bilibili.com/video/BV1TL4y1N7ZM)
 
 3. still for 负基础 && 为我院C++课做个衔接适配：[VS2022](https://www.bilibili.com/video/BV1Xt411g7jT) + [C语言](https://www.bilibili.com/video/BV1qE411d7Zx)
+
+---
 
 #### 入门 IV：工具学习过程
 
@@ -97,7 +103,9 @@
 
 8. [虚拟机基础](https://www.bilibili.com/video/BV1t741167UB)
 
-#### 入门V：入门书籍
+---
+
+#### 入门 V：入门书籍
 
 - 编码——隐匿在计算机软硬件背后的语言（计组初探）
 
@@ -108,6 +116,9 @@
 - 网络是怎样连接的（计网）
 
 > 这些书籍资源，如果你喜欢纸质版，自己去买；如果你喜欢电子资源（比如用iPad看），自己去找；找不到再来找我（别忘了《提问的智慧》）。
+
+---
+---
 
 ### 基础
 
@@ -125,6 +136,8 @@
 
 	- 数据结构进阶 [MIT 6.046](https://csdiy.wiki/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/6.046/)
 
+---
+
 #### 基础 II：一生一芯
 
 - 中科院计算所-“一生一芯”[概述](https://ysyx.oscc.cc/docs/about/intro/overview.html)和[官网](https://ysyx.oscc.cc/)，其包含以下内容：
@@ -137,17 +150,24 @@
 
     > "一生一芯"能够完成"自制CPU"与"自制OS"的培养训练，以及很多的技能（EE&&CS全栈人才培养）。所以后续阶段可以自行定制和选择学习了。
 
+---
+
 #### 基础 III：实践需求
 
 - 建议完成[rCore-Tutorial-v3](http://rcore-os.cn/rCore-Tutorial-Book-v3/)
 
-#### 基础 IIII：必备工具类学习
+---
+
+#### 基础 IV：必备工具类学习
 
 - [LaTeX —— 论文必备](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/LaTeX/)
 
 - （可忽略，前面在学习Linux系统的时候已经接触过了）[Docker —— 配环境利器](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Docker/)
 
 - [人生大事 —— 毕业论文写作](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/thesis/)
+
+---
+---
 
 ### 进阶
 
@@ -180,6 +200,9 @@
     - [CS61C: Great Ideas in Computer Architecture —— by UC Berkeley](https://csdiy.wiki/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/CS61C/)
 
     - [CS15-213 CSAPP —— by CMU](https://csdiy.wiki/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/CSAPP/)
+
+---
+---
 
 ### 专业
 
@@ -227,6 +250,9 @@
 
 未来根据需要增减挑选。
 
+---
+---
+
 ### 研究/工作
 
 - 论文复现
@@ -236,6 +262,12 @@
     - [中科院开源之夏](https://summer-ospp.ac.cn/)
 
     - [Google Summer of Code](https://summerofcode.withgoogle.com/)
+
+- 开源芯片研究院实习/工作
+
+---
+---
+---
 
 
 ## 培养目标
@@ -270,6 +302,10 @@
 
 ### 进阶阶段后根据个人自行定制，欢迎交流。
 
+---
+---
+---
+
 ## 可选竞赛
 
 - [全国大学生计算机系统能力大赛——操作系统设计赛-内核实现赛](https://os.educg.net/#/index?TYPE=OS_N)
@@ -277,6 +313,10 @@
 - [全国大学生计算机系统能力大赛——操作系统设计赛-功能挑战赛](https://os.educg.net/#/index?TYPE=OS_G)
 
 - [”龙芯杯“全国大学生计算机系统能力培养大赛——CPU设计赛](http://www.nscscc.com/)
+
+---
+---
+---
 
 ## 预期成果
 
