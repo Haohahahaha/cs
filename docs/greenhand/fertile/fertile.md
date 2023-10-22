@@ -80,13 +80,23 @@
 
 1. 推荐：[Linux系统安装和基本使用 - ysyx](https://ysyx.oscc.cc/docs/2306/prestudy/0.2.html) 
 
-    - (低坡度付费版) [Linux操作基础 - Frank](https://www.bilibili.com/video/BV18U4y1W7av)
+    - (低坡度付费版，如果喜欢Frank风格，相信你还是可以支持一下的) [Linux操作基础 - Frank](https://www.bilibili.com/video/BV18U4y1W7av)
 
-    - ysyx 已引用：[Missing Semester by MIT —— 必学工具打包课程](https://missing-semester-cn.github.io/) [这是CSDiy讨论区](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/MIT-Missing-Semester/)
+	- ysyx引用NJU-PA(NEMU)的几个附录需要先看一看，这样能解答你很多问题：
+
+	    - [为什么要学习计算机系统基础](https://ysyx.oscc.cc/docs/ics-pa/why.html)
+
+		- [Linux入门教程](https://ysyx.oscc.cc/docs/ics-pa/linux.html)
+
+		- [man快速入门](https://ysyx.oscc.cc/docs/ics-pa/man.html)
+
+		- [git快速入门](https://ysyx.oscc.cc/docs/ics-pa/git.html)
+
+    - ysyx `预学习-Linux系统安和基本使用` 已引用：[Missing Semester by MIT —— 必学工具打包课程](https://missing-semester-cn.github.io/) [这是CSDiy讨论区](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/MIT-Missing-Semester/)
 	
-        - (MS已包含) 科学上网（此内容出现在这里纯属二进制 bit 的随意组合，与本人毫无关系。）
+        - (MS已包含) 科学上网 (此内容出现在这里纯属二进制 bit 的随意组合，与本人毫无关系。)
 
-        - (MS已包含) [Vim](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Vim/)
+        - (MS已包含) [Vim](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Vim/) (`ysyx 预学习-Linux系统安装和基本使用` 已引用)
 
         - (MS已包含) g++基础使用 —— `man g++`
 
