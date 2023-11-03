@@ -132,6 +132,10 @@
 
 7. (提供成熟的解决方案) [个人Blog搭建——以 GitHub Pages + Mkdocs 为例](https://www.bilibili.com/video/BV1hL4y1w72r)
 
+    - [Mkdocs-material Docs](https://squidfunk.github.io/mkdocs-material/)
+
+	- [Markdown的示例Doc](https://markdown-it.github.io/)
+
     - (MS已包含) [Git 基础 by 杨希杰](https://www.bilibili.com/video/BV1eh411v7gt) 或 [Git by CSDiy](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Git/)
 
     - (MS已包含) [GitHub](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/GitHub/)
