@@ -134,6 +134,8 @@
 
     - [Mkdocs-material Docs](https://squidfunk.github.io/mkdocs-material/)
 
+	- 这里有写博客的一些规范化的内容，以及写博客的方方面面，很有用！[如何坚持写技术博客？ - Raven的文章 - 知乎](https://zhuanlan.zhihu.com/p/497150220)
+
 	- [Markdown的示例Doc](https://markdown-it.github.io/)
 
     - (MS已包含) [Git 基础 by 杨希杰](https://www.bilibili.com/video/BV1eh411v7gt) 或 [Git by CSDiy](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Git/)
