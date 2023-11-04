@@ -82,9 +82,11 @@
 
 > 根据[Linux系统安装和基本使用 - ysyx](https://ysyx.oscc.cc/docs/2306/prestudy/0.2.html) 进行拆解，并加入了一些（有一定重复的）内容。
 
-  - (低坡度付费版，如果喜欢Frank风格，相信你还是可以支持一下的) [Linux操作基础 - Frank](https://www.bilibili.com/video/BV18U4y1W7av)
+> 写学习记录时的简称放在了下面，位置为`[简称]`。
 
-  - ysyx引用NJU-PA(NEMU)的几个附录需要先看一看，这样能解答你很多问题：
+- [Frank Linux]-[Linux操作基础 - Frank](https://www.bilibili.com/video/BV18U4y1W7av)(低坡度付费版，如果喜欢Frank风格，相信你还是可以支持一下的)
+
+- [附录]-ysyx引用NJU-PA(NEMU)的几个附录需要先看一看，这样能解答你很多问题：
 	
 	- [为什么要学习计算机系统基础](https://ysyx.oscc.cc/docs/ics-pa/why.html)
 
@@ -94,17 +96,17 @@
 
 	- [git快速入门](https://ysyx.oscc.cc/docs/ics-pa/git.html)
 	
-- [Linux零基础用户入门: Linux 101](https://101.ustclug.org/)
+- [101]-[Linux零基础用户入门: Linux 101](https://101.ustclug.org/)
 
-- [tmux 使用教程](https://www.ruanyifeng.com/blog/2019/10/tmux.html)
+- [tmux]-[tmux 使用教程](https://www.ruanyifeng.com/blog/2019/10/tmux.html)
 
-- [Missing Semester(计算机教育中缺失的一课) - MIT](https://missing-semester-cn.github.io/)
+- [Missing]-[Missing Semester(计算机教育中缺失的一课) - MIT](https://missing-semester-cn.github.io/)
 
-- [跟我一起写Makefile](https://seisman.github.io/how-to-write-makefile/overview.html)
+- [make]-[跟我一起写Makefile](https://seisman.github.io/how-to-write-makefile/overview.html)
 
-- [命令行的艺术](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
+- [命令行]-[命令行的艺术](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
 
-- [PA0](https://ysyx.oscc.cc/docs/ics-pa/PA0.html)
+- [PA0]-[PA0](https://ysyx.oscc.cc/docs/ics-pa/PA0.html)
 
 > 关于Linux日常办公化，即抛弃Windows，主机直接采用Linux的方案，我提供一套 beta 版本的解决方案。
 >
