@@ -102,6 +102,8 @@
 
         - (MS已包含) [GNU Make](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/GNU_Make/) + [CMake](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/CMake/)
 
+		- tmux [简单使用教程](https://www.ruanyifeng.com/blog/2019/10/tmux.html)
+
 > 关于Linux日常办公化，即抛弃Windows，主机直接采用Linux的方案，我提供一套 beta 版本的解决方案。
 >
 > 但实际上你自己根据自己的需求搜搜其实也能解决……（就是很可能耗时，容易把热情消耗没）
