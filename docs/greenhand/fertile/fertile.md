@@ -116,14 +116,26 @@
 
 > 此处，如果你有更多想法，想去学习更多的知识，那么[CSDiy-CS自学指南——from北大信科](https://csdiy.wiki)将会是一个探索与学习知识的伊甸园。当然，里面的课99%都是全英文教学，所以这里你也能看得出，之前在英语方面下的功夫没有白费了。我相信，你达到熟练掌握英语阅读的时间越早，你快乐地学习（非常棒的）知识——进入伊甸园的时间越早。希望你能认真阅读这个网站。
 
+---
+
 ##### C语言深入学习
 
-推荐：关于C语言的学习，（有Linux命令行基础）[Learn C the hard way](https://www.cntofu.com/book/25/index.html) + (选修，进阶)*C Primer Plus* + *Poniters On C* + *Expert C Programming* + *C Triggers Pitfalls* 是更不错的选择。
+推荐：关于C语言的学习，（有Linux命令行基础）
 
-5. 互联网“管中窥豹”：[B/S体系入门](https://www.bilibili.com/video/BV1d7411p7RF)
+- [Learn C the hard way](https://www.cntofu.com/book/25/index.html) 
 
-6. C++开发方向：侯捷视频教程
+- C Primer Plus 
 
+- Poniters On C 
+
+- Expert C Programming 
+
+- C Triggers Pitfalls
+
+> 互联网“管中窥豹”：[B/S体系入门](https://www.bilibili.com/video/BV1d7411p7RF)
+>
+> C++开发方向：侯捷视频教程
+>
 > 关于文档版教程，我鼓励多给自己“找题做”，实际上看文档可能只占到学习时间的一小部分，更多的时间要用来思考、练习和探索更多可能性。当然，快速上手的教程仍然非常有意义，它可以帮助你打破对工具和新环境的陌生——但缺点就是使你放弃了思考、忽略了思考和自己动手去探索的时间比重与其不言而喻的重要性。
 >
 > 我们都需要深刻地意识到文档的递归嵌套性——即“并不是一套教程就能解决你的所有问题，有时候你需要查阅多方信息，通过大脑把它们综合起来并自己合成你想要的答案”。
@@ -136,7 +148,7 @@
 
 > 从下面开始，英语就变得异常重要了，毕竟当你有了一定英文水平之后，“睁眼看世界”，你会发现太多太多的精品课程等待你去学习和探索。所以我建议在这之前，把考研单词用墨墨至少全部过完一遍。
 
-7. (提供成熟的解决方案) [个人Blog搭建——以 GitHub Pages + Mkdocs 为例](https://www.bilibili.com/video/BV1hL4y1w72r)
+(提供成熟的解决方案) [个人Blog搭建——以 GitHub Pages + Mkdocs 为例](https://www.bilibili.com/video/BV1hL4y1w72r)
 
     - [Mkdocs-material Docs](https://squidfunk.github.io/mkdocs-material/)
 
@@ -144,13 +156,7 @@
 
 	- [Markdown的示例Doc](https://markdown-it.github.io/)
 
-    - (MS已包含) [Git 基础 by 杨希杰](https://www.bilibili.com/video/BV1eh411v7gt) 或 [Git by CSDiy](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Git/)
-
-    - (MS已包含) [GitHub](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/GitHub/)
-
     - (**探索版**) [日常学习工作流](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/workflow/)
-
-8. [虚拟机基础](https://www.bilibili.com/video/BV1t741167UB)
 
 ---
 
