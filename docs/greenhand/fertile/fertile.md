@@ -110,9 +110,9 @@
 >
 > 但实际上你自己根据自己的需求搜搜其实也能解决……（就是很可能耗时，容易把热情消耗没）
 
-2. 规范化：[变量名命名的艺术](https://www.bilibili.com/video/BV1X64y1o7EZ) 
+> 规范化：[变量名命名的艺术](https://www.bilibili.com/video/BV1X64y1o7EZ) 
 
-3. 推荐：Python语言学习：[Harvard CS50x](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/CS50/) 可能是不错的选择。学习Python有利于入门编程，以及编写自动化构建脚本。有进阶想法的可以学习 [Harvard CS50P](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/CS50P/)
+> 推荐：Python语言学习：[Harvard CS50x](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/CS50/) 可能是不错的选择。学习Python有利于入门编程，以及编写自动化构建脚本。有进阶想法的可以学习 [Harvard CS50P](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/CS50P/)
 
 > 此处，如果你有更多想法，想去学习更多的知识，那么[CSDiy-CS自学指南——from北大信科](https://csdiy.wiki)将会是一个探索与学习知识的伊甸园。当然，里面的课99%都是全英文教学，所以这里你也能看得出，之前在英语方面下的功夫没有白费了。我相信，你达到熟练掌握英语阅读的时间越早，你快乐地学习（非常棒的）知识——进入伊甸园的时间越早。希望你能认真阅读这个网站。
 
@@ -144,19 +144,21 @@
 >
 > 前期会每周考察执行力，以此作为根据，来决定是否需要来实验室攒够所需的学习时间。
 
+---
+
 ##### personnal blog
 
 > 从下面开始，英语就变得异常重要了，毕竟当你有了一定英文水平之后，“睁眼看世界”，你会发现太多太多的精品课程等待你去学习和探索。所以我建议在这之前，把考研单词用墨墨至少全部过完一遍。
 
-(提供成熟的解决方案) [个人Blog搭建——以 GitHub Pages + Mkdocs 为例](https://www.bilibili.com/video/BV1hL4y1w72r)
+- (提供成熟的解决方案) from: [个人Blog搭建——以 GitHub Pages + Mkdocs 为例](https://www.bilibili.com/video/BV1hL4y1w72r)
 
-    - [Mkdocs-material Docs](https://squidfunk.github.io/mkdocs-material/)
+- [Mkdocs-material Docs](https://squidfunk.github.io/mkdocs-material/)
 
-	- 这里有写博客的一些规范化的内容，以及写博客的方方面面，很有用！[如何坚持写技术博客？ - Raven的文章 - 知乎](https://zhuanlan.zhihu.com/p/497150220)
+- 这里有写博客的一些规范化的内容，以及写博客的方方面面，很有用！[如何坚持写技术博客？ - Raven的文章 - 知乎](https://zhuanlan.zhihu.com/p/497150220)
 
-	- [Markdown的示例Doc](https://markdown-it.github.io/)
+- [Markdown的示例Doc](https://markdown-it.github.io/)
 
-    - (**探索版**) [日常学习工作流](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/workflow/)
+- (**探索版**) [日常学习工作流](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/workflow/)
 
 ---
 
