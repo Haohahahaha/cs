@@ -78,31 +78,33 @@
 
 > 工欲善其事必先利其器——漫长又飞速、不可缺少且不可马虎
 
-1. 推荐：[Linux系统安装和基本使用 - ysyx](https://ysyx.oscc.cc/docs/2306/prestudy/0.2.html) 
+##### Linux
 
-    - (低坡度付费版，如果喜欢Frank风格，相信你还是可以支持一下的) [Linux操作基础 - Frank](https://www.bilibili.com/video/BV18U4y1W7av)
+> 根据[Linux系统安装和基本使用 - ysyx](https://ysyx.oscc.cc/docs/2306/prestudy/0.2.html) 进行拆解，并加入了一些（有一定重复的）内容。
 
-	- ysyx引用NJU-PA(NEMU)的几个附录需要先看一看，这样能解答你很多问题：
+  - (低坡度付费版，如果喜欢Frank风格，相信你还是可以支持一下的) [Linux操作基础 - Frank](https://www.bilibili.com/video/BV18U4y1W7av)
 
-	    - [为什么要学习计算机系统基础](https://ysyx.oscc.cc/docs/ics-pa/why.html)
-
-		- [Linux入门教程](https://ysyx.oscc.cc/docs/ics-pa/linux.html)
-
-		- [man快速入门](https://ysyx.oscc.cc/docs/ics-pa/man.html)
-
-		- [git快速入门](https://ysyx.oscc.cc/docs/ics-pa/git.html)
-
-    - ysyx `预学习-Linux系统安和基本使用` 已引用：[Missing Semester by MIT —— 必学工具打包课程](https://missing-semester-cn.github.io/) [这是CSDiy讨论区](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/MIT-Missing-Semester/)
+  - ysyx引用NJU-PA(NEMU)的几个附录需要先看一看，这样能解答你很多问题：
 	
-        - (MS已包含) 科学上网 (此内容出现在这里纯属二进制 bit 的随意组合，与本人毫无关系。)
+	- [为什么要学习计算机系统基础](https://ysyx.oscc.cc/docs/ics-pa/why.html)
 
-        - (MS已包含) [Vim](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Vim/) (`ysyx 预学习-Linux系统安装和基本使用` 已引用)
+	- [Linux入门教程](https://ysyx.oscc.cc/docs/ics-pa/linux.html)
 
-        - (MS已包含) g++基础使用 —— `man g++`
+	- [man快速入门](https://ysyx.oscc.cc/docs/ics-pa/man.html)
 
-        - (MS已包含) [GNU Make](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/GNU_Make/) + [CMake](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/CMake/)
+	- [git快速入门](https://ysyx.oscc.cc/docs/ics-pa/git.html)
+	
+- [Linux零基础用户入门: Linux 101](https://101.ustclug.org/)
 
-		- tmux [简单使用教程](https://www.ruanyifeng.com/blog/2019/10/tmux.html)
+- [tmux 使用教程](https://www.ruanyifeng.com/blog/2019/10/tmux.html)
+
+- [Missing Semester(计算机教育中缺失的一课) - MIT](https://missing-semester-cn.github.io/)
+
+- [跟我一起写Makefile](https://seisman.github.io/how-to-write-makefile/overview.html)
+
+- [命令行的艺术](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
+
+- [PA0](https://ysyx.oscc.cc/docs/ics-pa/PA0.html)
 
 > 关于Linux日常办公化，即抛弃Windows，主机直接采用Linux的方案，我提供一套 beta 版本的解决方案。
 >
@@ -114,7 +116,9 @@
 
 > 此处，如果你有更多想法，想去学习更多的知识，那么[CSDiy-CS自学指南——from北大信科](https://csdiy.wiki)将会是一个探索与学习知识的伊甸园。当然，里面的课99%都是全英文教学，所以这里你也能看得出，之前在英语方面下的功夫没有白费了。我相信，你达到熟练掌握英语阅读的时间越早，你快乐地学习（非常棒的）知识——进入伊甸园的时间越早。希望你能认真阅读这个网站。
 
-4. 推荐：关于C语言的学习，（有Linux命令行基础）[Learn C the hard way](https://www.cntofu.com/book/25/index.html) + (选修，进阶)*C Primer Plus* + *Poniters On C* + *Expert C Programming* + *C Triggers Pitfalls* 是更不错的选择。
+##### C语言深入学习
+
+推荐：关于C语言的学习，（有Linux命令行基础）[Learn C the hard way](https://www.cntofu.com/book/25/index.html) + (选修，进阶)*C Primer Plus* + *Poniters On C* + *Expert C Programming* + *C Triggers Pitfalls* 是更不错的选择。
 
 5. 互联网“管中窥豹”：[B/S体系入门](https://www.bilibili.com/video/BV1d7411p7RF)
 
@@ -128,7 +132,7 @@
 >
 > 前期会每周考察执行力，以此作为根据，来决定是否需要来实验室攒够所需的学习时间。
 
-
+##### personnal blog
 
 > 从下面开始，英语就变得异常重要了，毕竟当你有了一定英文水平之后，“睁眼看世界”，你会发现太多太多的精品课程等待你去学习和探索。所以我建议在这之前，把考研单词用墨墨至少全部过完一遍。
 
@@ -150,7 +154,7 @@
 
 ---
 
-#### 入门 IV：入门书籍
+##### 入门书籍
 
 - 编码——隐匿在计算机软硬件背后的语言（计组初探）
 
