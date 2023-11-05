@@ -5,14 +5,14 @@ theme:
     logo: material/library
   palette:
     - scheme: slate # 夜间模式
-      primary: light green
-      accent: lime 
+      primary: deep purple
+      accent: deep orange
       toggle:
         icon: material/weather-sunny
         name: 切换至日间模式
     - scheme: default # 日间模式
-      primary: light green # 上方的
-      accent: lime # 链接等可交互元件的高亮色
+      primary: deep purple # 上方的
+      accent: deep orange # 链接等可交互元件的高亮色
       toggle:
         icon: material/weather-night # 图标
         name: 切换至夜间模式 # 鼠标悬浮提示
