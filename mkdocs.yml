@@ -35,6 +35,12 @@ nav:
   - 英语笔记: http://eng.haohaha.cn
   - CS笔记: 
     - index.md
+    - GreenHand菜鸟:
+      - 操作系统和体系结构方向招生简介: greenhand/recruit/recruit.md
+      - 个人成长路线-beta: greenhand/fertile/fertile.md
+      - Ubuntu 22.04 虚拟机搭建全流程: greenhand/Ubuntu2204-greenhand/Ubuntu2204-greenhand.md
+      - Ubuntu 22.04 我的第一台实体机: greenhand/Ubuntu2204-myFirstPhysicalLinuxMachine/U2204-mFPLM.md
+      - 博客维护教程-文案工作部分: greenhand/Blog_Maintainance_CW/Blog_Maintenance-Content_Workers.md
     - 408:
       - arch:
         - 1.计算机系统概述:
@@ -184,12 +190,6 @@ nav:
         - 05.数据类型: frank/mysql/05.md
     - Git:
       - 多分支仓库的创建与上传: git/2023-05-12_git_branch.md
-    - GreenHand菜鸟:
-      - 操作系统和体系结构方向招生简介: greenhand/recruit/recruit.md
-      - 个人成长路线-beta: greenhand/fertile/fertile.md
-      - Ubuntu 22.04 虚拟机搭建全流程: greenhand/Ubuntu2204-greenhand/Ubuntu2204-greenhand.md
-      - Ubuntu 22.04 我的第一台实体机: greenhand/Ubuntu2204-myFirstPhysicalLinuxMachine/U2204-mFPLM.md
-      - 博客维护教程-文案工作部分: greenhand/Blog_Maintainance_CW/Blog_Maintenance-Content_Workers.md
     - 学术会议记录: 
       - 简介: conferenceNotes/index.md
       - 大力开展基于国产AI芯片的大模型系统的研究: conferenceNotes/大力开展基于国产AI芯片的大模型系统的研究.md
