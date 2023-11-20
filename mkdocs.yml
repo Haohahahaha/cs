@@ -3,8 +3,7 @@ theme:
   name: material
   icon:
     logo: material/library
-    admonition:
-      bug: fontawesome/solid/face-laugh-squint
+#     admonition:
   palette:
     - scheme: slate # 夜间模式
       primary: deep purple
@@ -205,6 +204,7 @@ nav:
 
 extra_css:
   - mkdocs/css/no-footer.css # 不使用底部的翻页
+  - mkdocs/extra_admonition.css # 自定义admonition
 
 markdown_extensions:
     - admonition
