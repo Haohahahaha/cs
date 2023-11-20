@@ -4,7 +4,7 @@ theme:
   icon:
     logo: material/library
     admonition:
-      lezi: fontawesome/solid/face-laugh-squint
+      bug: fontawesome/solid/face-laugh-squint
   palette:
     - scheme: slate # 夜间模式
       primary: deep purple
