@@ -3,6 +3,8 @@ theme:
   name: material
   icon:
     logo: material/library
+    admonition:
+      lezi: fontawesome/regular/face-laugh-squint
   palette:
     - scheme: slate # 夜间模式
       primary: deep purple
