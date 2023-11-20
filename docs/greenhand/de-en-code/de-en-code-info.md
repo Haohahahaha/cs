@@ -12,13 +12,13 @@
 
 > 不如我们用一个小故事开启这次的文章之旅吧: 我想和[赵总](https://xmbtx.github.io/xmbtx-blog)传递这样一个信息：
 >
-> ```text
->
-> 去Github新建一个仓库，并复制新建仓库的ssh格式地址。
->
-> 例如: git@github.com:Haohahahaha/cs.git
->
-> ```
+```
+
+去Github新建一个仓库，并复制新建仓库的ssh格式地址。
+
+例如: git@github.com:Haohahahaha/cs.git
+
+```
 >
 > 故事就从这里开始了。
 
