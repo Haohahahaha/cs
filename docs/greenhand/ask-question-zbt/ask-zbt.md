@@ -45,7 +45,8 @@
 
 ??? lezi "还是一个乐子，但有点气人"
     
-    ![blind](./pic/blind.png)
+    ![blind1](./pic/blind1.png)
 
+    ![blind2](./pic/blind2.png)
 
 
