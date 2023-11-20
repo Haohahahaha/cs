@@ -200,8 +200,15 @@ nav:
 #       - 第1章 TCP/IP协议族: hpsc/01/01.md 
   - 我爱OS: http://os.haohaha.cn 
   - 闲聊波尔卡: http://chat.haohaha.cn 
+
 extra_css:
   - mkdocs/css/no-footer.css # 不使用底部的翻页
+
+markdown_extensions:
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
+
 extra:
   homepage: http://haohaha.cn
   social: # icons
