@@ -59,7 +59,7 @@
 
      - 编辑了 `mkdocs.yml` 后上传到 Github， Github Action 报错，信息如下：
 
-	 - ![blind-fault](./pic/blind-fault.jpg)
+	 ![blind-fault](./pic/blind-fault.jpg)
 
 !!! question "请按照 提问的智慧 其中的规则进行尝试解决与提问。"
 
