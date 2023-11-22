@@ -53,6 +53,10 @@
 
 !!! info "遇到的问题"
 
+     - 编辑了 `mkdocs.yml` 后上传到 Github， Githuv Action 报错，信息如下：
+
+	 - ![blind-fault](./pic/blind-falut.jpg)
+
 !!! question "请按照 提问的智慧 其中的规则进行尝试解决与提问。"
 
 ??? success "参考的做法"
@@ -61,7 +65,7 @@
 
 ???+ lezi "屡试不爽的金句"
 
-    ![golden-sentence](reboot-can-solve-almost-everything.jpg)
+    ![golden-sentence](./pic/reboot-can-solve-almost-everything.jpg)
 
 	> 本图片来源：[Aiden Li 的 2022 年度报告](https://blog.aidenli.net/2022/12/24/annual-summary/2022-summary/)
 
