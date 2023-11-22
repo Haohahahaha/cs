@@ -1,5 +1,7 @@
-# 提问地二三事——赵总受难录
+# 提问の二三事
 
+> 副标题：——赵总受难录
+>
 > author: Haohahahaha (Haorui Zhang)
 >
 > email: 1259203802@qq.com
