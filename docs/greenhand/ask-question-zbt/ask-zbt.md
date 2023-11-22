@@ -61,7 +61,7 @@
 
     1. 仔细观察报错信息，发现报错信息主要集中在 `Error: `之后；
 
-	2. 提取关键信息，例如 `found character \'\\t\'` `in [FILE_NAME], line [LINE_NUM], column [COLUMN_NUM]`，如果看不懂英文，请打开 [Google Translate](http://translate.google.com)，它会帮助你；
+	2. 提取关键信息，例如 `found character '\t'` , `in [FILE_NAME], line [LINE_NUM], column [COLUMN_NUM]`，如果看不懂英文，请打开 [Google Translate](http://translate.google.com)，它会帮助你；
 
 	3. 如果还看不懂错误信息的意思，请搜索。
 
