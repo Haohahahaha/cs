@@ -1,7 +1,8 @@
 # La vaguelette 轻涟
 
-<iframe style="width: 700px;height: 400px;" src="https://www.bilibili.com/video/BV1Jg4y197YW" frameborder="no"    framespacing="0" scrolling="no" allow="autoplay; encrypted-media" allowfullscreen="true"></iframe>
-
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+    <iframe src="//player.bilibili.com/player.html?aid=833240056&bvid=BV1Jg4y197YW&cid=1325692190&page=1&danmaku=0&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe>
+</div>
 
 > author: Haohahahaha (Haorui Zhang)
 >
