@@ -10,9 +10,7 @@
 >
 > date: 2023年11月24日 07:43
 
-!!! info "（看完轻涟后）"
-
-!!! question ""
+!!! question "after watching the La vaguelette, My thoghts"
     
 	人的神格是什么？是照着人们想象的神一样做，是违背人性。
 	
