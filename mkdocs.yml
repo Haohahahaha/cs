@@ -31,9 +31,6 @@ edit_uri: edit/main/docs
 
 nav:
   - 主页: http://haohaha.cn
-  - 算法打卡: http://alg.haohaha.cn
-  - 数学笔记: http://math.haohaha.cn
-  - 英语笔记: http://eng.haohaha.cn
   - CS笔记: 
     - index.md
     - GreenHand菜鸟:
@@ -199,8 +196,11 @@ nav:
 #   - Linux高性能服务器编程: 
 #     - 第一篇 TCP/IP详解: 
 #       - 第1章 TCP/IP协议族: hpsc/01/01.md 
-  - 我爱OS: http://os.haohaha.cn 
   - 闲聊波尔卡: http://chat.haohaha.cn 
+  - OS学习: http://os.haohaha.cn 
+  - 算法打卡: http://alg.haohaha.cn
+  - 数学笔记: http://math.haohaha.cn
+  - 英语笔记: http://eng.haohaha.cn
 
 extra_css:
   - mkdocs/css/no-footer.css # 不使用底部的翻页
