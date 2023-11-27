@@ -226,5 +226,8 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/Haohahahaha
       name: GitHub | Haohahahaha
+    - icon: simple/githubactions
+      link: https://github.com/Haohahahaha/cs/actions
+      name: GitHub Actions
 ## [bottom-left corner]
 copyright: Copyright &copy; 2022-现在 浩哈哈哈哈_ # 左下角的版权声明
