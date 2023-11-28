@@ -41,6 +41,8 @@ nav:
       - 博客维护教程-文案工作部分: greenhand/Blog_Maintainance_CW/Blog_Maintenance-Content_Workers.md
       - 信息的编解码能力: greenhand/de-en-code/de-en-code-info.md
       - 提问の二三事: greenhand/ask-question-zbt/ask-zbt.md
+    - bLog:
+      - Admonitions: blog/admonitions/admonitions.md
     - 408:
       - arch:
         - 1.计算机系统概述:
