@@ -132,7 +132,7 @@
 
 - 首先下载系统镜像，复制下方链接到浏览器地址栏，回车访问，即可开始下载。
 
-> 镜像链接：https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/22.04/ubuntu-22.04.2-desktop-amd64.iso
+> 镜像链接：https://iso.mirrors.ustc.edu.cn/ubuntu-releases/jammy/ubuntu-22.04.3-desktop-amd64.iso
 
 ![](./安装系统/01.png)
 
