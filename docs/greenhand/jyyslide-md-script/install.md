@@ -133,3 +133,8 @@ git remote add $REMOTE_NAME $GITHUB_REMOTE # 输入你的远程仓库名和远�
 - 最后，执行一次 `bash auto-update-this-repo.sh` 后，在你的 Github 仓库设置中，打开 `Pages/Build and deployment/Branch`，选择 `master` 之后点击右侧 `Save` 保存，此时 Github 就开始构建你的PPT网页了。
 
 
+!!! info "结语"
+
+    其实我的设计目标是使其自动化，一条命令全程配置。
+
+	但是目前还在调试中，敬请期待哈。
