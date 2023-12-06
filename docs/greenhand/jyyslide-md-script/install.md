@@ -48,6 +48,7 @@ cp jyyslide-md-scripts/* [YOUR_PPT_Repo_folder]
 ### 配置环境
 
 ```bash
+# working Dirctory: [YOUR_PPT_Repo_folder]
 
 # install jyyslide-md
 sudo apt install python3
@@ -65,6 +66,10 @@ git clone https://github.com/zweix123/jyyslide-md.git
 # please copy the results to replace the variable '$FILEPATH' below
 pwd
 
+# 打开你的 shell 配置文件，我们这里默认 shell 为 zsh
+vim ~/.zshrc
+
+# 在配置文件内的最后添加以下内容
 # configure environment variables
 export JYYSLIDE_HOME=$FILEPATH/jyyslide-md
 export MYSLIDE_HOME=$FILEPATH
@@ -77,6 +82,9 @@ alias pptdel="$MYSLIDE_SCRIPT/delete.sh $1"
 alias pptopen="$MYSLIDE_SCRIPT/open.sh $1"
 alias pptshow="$MYSLIDE_SCRIPT/show.sh $1"
 alias pptupd="$MYSLIDE_SCRIPT/update.sh"
+
+# 最后执行命令使其生效
+source ~/.zshrc 
 ```
 
 ???+ info "这几个快捷指令的使用方式"
@@ -115,7 +123,7 @@ git config --global user.name "$USER_NAME" # 输入你的用户名
 git remote add $REMOTE_NAME $GITHUB_REMOTE # 输入你的远程仓库名和远程仓库的SSH地址
 
 ```
-> （关于什么是SSH地址，[请点击这里](http://cs.haohaha.cn/greenhand/de-en-code/de-en-code-info/#encode)）
+> （关于什么是SSH地址，[请点击这里](http://cs.haohaha.cn/greenhand/de-en-code/de-en-code-info/#SSH)）
 
 - 修改 `README.md`，将其内容全部删除，修改为你想要的样子。
 
