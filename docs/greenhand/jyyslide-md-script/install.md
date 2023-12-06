@@ -49,6 +49,7 @@ cp jyyslide-md-scripts/* [YOUR_PPT_Repo_folder]
 
 ```bash
 # working Dirctory: [YOUR_PPT_Repo_folder]
+cd [YOUR_PPT_Repo_folder]
 
 # install jyyslide-md
 sudo apt install python3
