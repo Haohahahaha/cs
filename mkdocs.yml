@@ -35,8 +35,7 @@ nav:
     - index.md
     - GreenHand菜鸟:
       - 操作系统和体系结构方向招生简介: greenhand/recruit/recruit.md
-      - 个人成长路线-beta: 
-          - greenhand/fertile/fertile.md
+      - 个人成长路线-beta: greenhand/fertile/fertile.md
           - 2023年度考核标准: greenhand/fertile/assessment-2023.md
       - Ubuntu 22.04 虚拟机搭建全流程: greenhand/Ubuntu2204-greenhand/Ubuntu2204-greenhand.md
       - Ubuntu 22.04 我的第一台实体机: greenhand/Ubuntu2204-myFirstPhysicalLinuxMachine/U2204-mFPLM.md
