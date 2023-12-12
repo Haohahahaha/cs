@@ -1,4 +1,4 @@
-# OSCA招生简介
+# OSCA招生简章
 
 !!! note "OSCA"
 
