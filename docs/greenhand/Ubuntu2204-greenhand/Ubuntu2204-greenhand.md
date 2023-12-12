@@ -518,7 +518,7 @@ sudo apt upgrade # 更新软件，后面默认回车即可
 
 	!!! success "但是我有资源，嘎嘎！"
 
-		地址：http://github.com/Haohahahaha/cs/docs/greenhand/Ubuntu2204-greenhand/Clash.for.Windows.Setup.0.20.39.ia32.exe
+		地址：[点击这里下载](https://github.com/Haohahahaha/cs/raw/master/docs/greenhand/Ubuntu2204-greenhand/Clash.for.Windows.Setup.0.20.39.ia32.exe)
 
 	> 下载地址：https://github.com/Fndroid/clash_for_windows_pkg/releases
 
