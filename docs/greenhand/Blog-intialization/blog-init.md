@@ -1,4 +1,4 @@
-# 基于 material-mkdocs 的 个人博客搭建
+# 基于 material-mkdocs 的个人博客搭建
 
 > author: Haohahahaha (Haorui Zhang)
 >
@@ -25,3 +25,6 @@
 ## 初始化仓库内容并上传到远程
 
 ## 设置远程仓库 Github Action 和 Github Deploy
+
+## markdown语法与博客写作格式
+
