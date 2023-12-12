@@ -298,7 +298,7 @@ sudo apt upgrade # 更新软件，后面默认回车即可
 
 ### 3. 安装 `VMware Tools`
 
-!!! note "此部分目前在 Ubuntu 22.04 不起作用"
+??? note "此部分目前在 Ubuntu 22.04 不起作用"
 
     `VMware Tools` 可以帮助我们随意调节虚拟机显示器大小，也可以帮助虚拟机与宿主机之间进行文件传递，很实用，必备！
     
@@ -344,151 +344,155 @@ sudo apt upgrade # 更新软件，后面默认回车即可
 
 ### 4. 安装&配置一些用来开发的软件
 
-#### 1. Vim
+??? note "此部分可看 Ubuntu 22.04 虚拟机自动化安装"
 
-终端里输入：
+    ### Vim
+    
+    终端里输入：
 
-```bash 
-sudo apt install vim -y
-```
+    ```bash 
+    sudo apt install vim -y
+    ```
 
-即可安装完成。（有可能需要输入用户密码，不一定）
+    即可安装完成。（有可能需要输入用户密码，不一定）
 
-#### 2. Terminator
+    ### Terminator
 
-终端里输入：
+    终端里输入：
 
-```bash 
-sudo apt install terminator -y
-```
+    ```bash 
+    sudo apt install terminator -y
+    ```
 
-即可安装完成。（有可能需要输入用户密码，不一定）
+    即可安装完成。（有可能需要输入用户密码，不一定）
 
-#### 3. Visual Studio Code (VSCode)
+	!!! Failure "不建议安装，已舍弃"
 
-##### VSCode安装
+        ### Visual Studio Code (VSCode)
 
-网址：https://code.visualstudio.com/
+        VSCode安装
 
-点击红色框，下载deb安装包
+		网址：https://code.visualstudio.com/
 
-![](./安装相关软件/14.png)
+		点击红色框，下载deb安装包
 
-打开下载文件夹，右键进入终端，输入后回车：
+		![](./安装相关软件/14.png)
 
-```bash
-sudo dpkg -i code_*.deb #(*为省略)
-```
+		打开下载文件夹，右键进入终端，输入后回车：
 
-![](./安装相关软件/15.png)
+		```bash
+		sudo dpkg -i code_*.deb #(*为省略)
+		```
 
-打开应用列表发现图标已经出现，安装完成。
+		![](./安装相关软件/15.png)
 
-![](./安装相关软件/16.png)
+		打开应用列表发现图标已经出现，安装完成。
 
-##### <a id="vsc-markdown">VSCode Markdown 插件安装</a>
+		![](./安装相关软件/16.png)
 
-> 已安装Typora的读者无需阅读此模块。
->
-> 可阅读链接：[搭建 Markdown 强大写作环境（VSCode） - 端水大法师的文章 - 知乎](https://zhuanlan.zhihu.com/p/139140492)
+		<a id="vsc-markdown">VSCode Markdown 插件安装</a>
 
-在VSCode里面安装两个插件，分别是：
+		> 已安装Typora的读者无需阅读此模块。
+		>
+		> 可阅读链接：[搭建 Markdown 强大写作环境（VSCode） - 端水大法师的文章 - 知乎](https://zhuanlan.zhihu.com/p/139140492)
 
-- Markdown Preview Enhanced
-- Markdown All in One
+		在VSCode里面安装两个插件，分别是：
 
-安装方法：
+		- Markdown Preview Enhanced
+		- Markdown All in One
 
-打开VSCode，点击左侧边栏的 `扩展` 按钮，输入 `markdown` 进行搜索，这两个插件经常会出现在搜索结果的上面，点击 `Install` 即安装完毕。之后创建新md文件即可运用。
+		安装方法：
 
-![](./安装相关软件/17.png)
+		打开VSCode，点击左侧边栏的 `扩展` 按钮，输入 `markdown` 进行搜索，这两个插件经常会出现在搜索结果的上面，点击 `Install` 即安装完毕。之后创建新md文件即可运用。
 
-#### 4. Typora
+		![](./安装相关软件/17.png)
 
-> &#x1F37A;**Typora是一款非常好的Markdown编辑器，其功能强大，界面简洁，便于编写文档、博客，其展示内容丰富，语法简单，结构清晰，是程序员必备写文档/博客良品！**&#x1F60B; 
+	### Typora
 
-> 关于Markdown语法，这里给出一个链接以供学习，读者也可自行搜索网络资源来学习。
->
-> https://markdown-it.github.io/（可能速度慢一点）
+	> &#x1F37A;**Typora是一款非常好的Markdown编辑器，其功能强大，界面简洁，便于编写文档、博客，其展示内容丰富，语法简单，结构清晰，是程序员必备写文档/博客良品！**&#x1F60B; 
 
-官网下载deb包，链接：https://typoraio.cn/#linux
+	> 关于Markdown语法，这里给出一个链接以供学习，读者也可自行搜索网络资源来学习。
+	>
+	> https://markdown-it.github.io/（可能速度慢一点）
 
-点击红框，下载文件
+	官网下载deb包，链接：https://typoraio.cn/#linux
 
-![](./安装相关软件/17.png)
+	点击红框，下载文件
 
-然后在下载文件夹，右键空白处，打开终端执行命令：
+	![](./安装相关软件/17.png)
 
-```bash
-sudo dpkg -i typora_*_*.deb # *为省略号
-```
+	然后在下载文件夹，右键空白处，打开终端执行命令：
 
-![](./安装相关软件/18.png)
+	```bash
+	sudo dpkg -i typora_*_*.deb # *为省略号
+	```
 
-打开应用列表发现图标已经出现，安装完成。
+	![](./安装相关软件/18.png)
 
-![](./安装相关软件/19.png)
+	打开应用列表发现图标已经出现，安装完成。
 
-#### 5. Firefox
+	![](./安装相关软件/19.png)
 
-系统自带，不需安装。
+	### Firefox
 
-#### 6. Sougou Input Method (搜狗输入法)
+	系统自带，不需安装。
 
-官网下载链接：https://shurufa.sogou.com/?r=mac&t=pinyin
+	### Sougou Input Method (搜狗输入法)
 
-浏览器打开链接后，选择 `Linux x86_64` 版本的 `deb` 安装包，下载。
+	官网下载链接：https://shurufa.sogou.com/?r=mac&t=pinyin
 
-![](./安装相关软件/20.png)
+	浏览器打开链接后，选择 `Linux x86_64` 版本的 `deb` 安装包，下载。
 
-然后从下载文件夹打开终端，输入以下命令：
+	![](./安装相关软件/20.png)
 
-```bash
-# 安装fcitx
-sudo apt install fcitx-bin
-sudo apt-get install fcitx-table 
+	然后从下载文件夹打开终端，输入以下命令：
 
-#安装依赖
-sudo apt install libqt5qml5 libqt5quick5 libqt5quickwidgets5 qml-module-qtquick2
-sudo apt install libgsettings-qt1
+	```bash
+	# 安装fcitx
+	sudo apt install fcitx-bin
+	sudo apt-get install fcitx-table 
 
-#安装软件
-sudo dpkg -i sougoupinyin_*.deb # *为省略
-```
+	#安装依赖
+	sudo apt install libqt5qml5 libqt5quick5 libqt5quickwidgets5 qml-module-qtquick2
+	sudo apt install libgsettings-qt1
 
-- 打开系统设置
+	#安装软件
+	sudo dpkg -i sougoupinyin_*.deb # *为省略
+	```
 
-![](./安装相关软件/21.png)
+	- 打开系统设置
 
-点击 `Region & Language (区域与语言)` ，然后点击 `Manage Installed Languages (管理已安装语言)`
+	![](./安装相关软件/21.png)
 
-![](./安装相关软件/22.png)
+	点击 `Region & Language (区域与语言)` ，然后点击 `Manage Installed Languages (管理已安装语言)`
 
-- 第一次点开的时候 系统会弹窗，点击 `Install` 稍微等待一下即可。
+	![](./安装相关软件/22.png)
 
-![](./安装相关软件/23.png)
+	- 第一次点开的时候 系统会弹窗，点击 `Install` 稍微等待一下即可。
 
-- 安装完成后，点击 `IBus` ，切换为 `Fcitx 4` ，然后点击 `Apply Sytem-Wide (应用到整个系统)`，操作完成后重启。
+	![](./安装相关软件/23.png)
 
-![](./安装相关软件/24.png)
+	- 安装完成后，点击 `IBus` ，切换为 `Fcitx 4` ，然后点击 `Apply Sytem-Wide (应用到整个系统)`，操作完成后重启。
 
-- 重启完成后，添加搜狗输入法
+	![](./安装相关软件/24.png)
 
-点击右上角的小键盘图标，选择“配置当前输入法”
+	- 重启完成后，添加搜狗输入法
 
-![](./安装相关软件/25.png)
+	点击右上角的小键盘图标，选择“配置当前输入法”
 
-- 取消勾选左侧框，拉到最下面，即看到 `sogoupinyin` ，选中，点击 `OK` 即可。
+	![](./安装相关软件/25.png)
 
-![](./安装相关软件/26.png)
+	- 取消勾选左侧框，拉到最下面，即看到 `sogoupinyin` ，选中，点击 `OK` 即可。
 
-- 将搜狗拼音置顶，点击下方 向上的箭头 即完成安装，关闭重启即可。
+	![](./安装相关软件/26.png)
 
-![](./安装相关软件/27.png)
+	- 将搜狗拼音置顶，点击下方 向上的箭头 即完成安装，关闭重启即可。
 
-- 安装完毕，效果如图
+	![](./安装相关软件/27.png)
 
-![](./安装相关软件/28.png)
+	- 安装完毕，效果如图
+
+	![](./安装相关软件/28.png)
 
 ### 4. 科学上网
 
