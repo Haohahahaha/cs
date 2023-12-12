@@ -346,7 +346,7 @@ sudo apt upgrade # 更新软件，后面默认回车即可
 
 ??? note "此部分可看 Ubuntu 22.04 虚拟机自动化安装"
 
-    ### Vim
+    #### Vim
     
     终端里输入：
 
@@ -356,7 +356,7 @@ sudo apt upgrade # 更新软件，后面默认回车即可
 
     即可安装完成。（有可能需要输入用户密码，不一定）
 
-    ### Terminator
+    #### Terminator
 
     终端里输入：
 
@@ -366,9 +366,9 @@ sudo apt upgrade # 更新软件，后面默认回车即可
 
     即可安装完成。（有可能需要输入用户密码，不一定）
 
-	!!! Failure "不建议安装，已舍弃"
+	??? Failure "不建议安装，已舍弃"
 
-        ### Visual Studio Code (VSCode)
+        #### Visual Studio Code (VSCode)
 
         VSCode安装
 
@@ -407,7 +407,7 @@ sudo apt upgrade # 更新软件，后面默认回车即可
 
 		![](./安装相关软件/17.png)
 
-	### Typora
+	#### Typora
 
 	> &#x1F37A;**Typora是一款非常好的Markdown编辑器，其功能强大，界面简洁，便于编写文档、博客，其展示内容丰富，语法简单，结构清晰，是程序员必备写文档/博客良品！**&#x1F60B; 
 
@@ -433,11 +433,11 @@ sudo apt upgrade # 更新软件，后面默认回车即可
 
 	![](./安装相关软件/19.png)
 
-	### Firefox
+	#### Firefox
 
 	系统自带，不需安装。
 
-	### Sougou Input Method (搜狗输入法)
+	#### Sougou Input Method (搜狗输入法)
 
 	官网下载链接：https://shurufa.sogou.com/?r=mac&t=pinyin
 
@@ -494,7 +494,7 @@ sudo apt upgrade # 更新软件，后面默认回车即可
 
 	![](./安装相关软件/28.png)
 
-### 4. 科学上网
+### 5. 科学上网
 
 > 安装Clash 以及 科学上网全流程（含Clash安装教程）
 
@@ -514,45 +514,49 @@ sudo apt upgrade # 更新软件，后面默认回车即可
 
 #### 2. 安装Clash
 
-> 下载地址：https://github.com/Fndroid/clash_for_windows_pkg/releases
+??? note "Clash for Windows 现已无法下载"
 
-x86处理器下载 `Clash.for.Windows-*-x64-linux.tar.gz`![](./安装相关软件/31.png)
+	!!! success "但是我有资源，嘎嘎！"
 
-打开下载文件夹，进入终端，执行命令：
+		地址：http://github.com/Haohahahaha/cs/docs/greenhand/Ubuntu2204-greenhand/Clash.for.Windows.Setup.0.20.39.ia32.exe
 
-```bash 
-sudo tar zxvf Clash.for.Windows-*-x64-linux.tar.gz	# *代表版本号，可能不同，版本均可
-cd Clash\ for\ Windows-*-x64-linux		# 进入解压好的文件夹
-./cfw	# 即可运行
-```
+	> 下载地址：https://github.com/Fndroid/clash_for_windows_pkg/releases
 
-打开后的界面如下：
+	x86处理器下载 `Clash.for.Windows-*-x64-linux.tar.gz`![](./安装相关软件/31.png)
 
-![](./安装相关软件/32.png)
+	打开下载文件夹，进入终端，执行命令：
 
-然后我们设置：
+	```bash 
+	sudo tar zxvf Clash.for.Windows-*-x64-linux.tar.gz	# *代表版本号，可能不同，版本均可
+	cd Clash\ for\ Windows-*-x64-linux		# 进入解压好的文件夹
+	./cfw	# 即可运行
+	```
 
-- `Start With Linux` ：开机自启动
-- `Allow LAN` ：允许局域网（本机）连接
-- 配置机场：这里选择订阅Url的形式（输入url,点击Download），直接配置文件也可以(Import)
+	打开后的界面如下：
 
-![](./安装相关软件/33.png)
+	![](./安装相关软件/32.png)
 
-打开 `Proxies` 一栏，点击 `节点选择` 即可选择连接哪个节点了。
+	然后我们设置：
 
-> `Check` 为检测网速，在直连情况下检测到各个节点的网速最准确。
+	- `Start With Linux` ：开机自启动
+	- `Allow LAN` ：允许局域网（本机）连接
+	- 配置机场：这里选择订阅Url的形式（输入url,点击Download），直接配置文件也可以(Import)
 
-![](./安装相关软件/34.png)
+	![](./安装相关软件/33.png)
 
-我们从 `General` 中得知端口号，进入系统设置-网络，配置代理。
+	打开 `Proxies` 一栏，点击 `节点选择` 即可选择连接哪个节点了。
 
-![](./安装相关软件/35.png)
+	> `Check` 为检测网速，在直连情况下检测到各个节点的网速最准确。
 
-重启一下，即可正常连接。
+	![](./安装相关软件/34.png)
 
-![](./安装相关软件/36.png)
+	我们从 `General` 中得知端口号，进入系统设置-网络，配置代理。
 
+	![](./安装相关软件/35.png)
 
+	重启一下，即可正常连接。
+
+	![](./安装相关软件/36.png)
 
 ## 4. 美化与配置
 
