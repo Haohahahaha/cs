@@ -89,4 +89,4 @@ Memory: 2368MiB / 31925MiB
 
 （搓搓手）嗯～这次配置得非常不错，所有 windows 平台上的功能均能在 Linux 上原生解决了。
 
-开心！:happy:-
+开心！:happy:
