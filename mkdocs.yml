@@ -41,7 +41,7 @@ nav:
       - 信息的编解码能力: greenhand/de-en-code/de-en-code-info.md
       - 提问の二三事: greenhand/ask-question-zbt/ask-zbt.md
       - Ubuntu 安装系列:
-        - Ubuntu 22.04 虚拟机自动化安装: greenhand/initializer-ubuntu2204/install.md
+        - Ubuntu 22.04 虚拟机自动化安装 (initializer-ubuntu2204使用教程): greenhand/initializer-ubuntu2204/install.md
         - Ubuntu 22.04 虚拟机搭建全流程: greenhand/Ubuntu2204-greenhand/Ubuntu2204-greenhand.md
         - Ubuntu 22.04 我的第一台实体机: greenhand/Ubuntu2204-myFirstPhysicalLinuxMachine/U2204-mFPLM.md
       - 基于 material-mkdocs 的个人博客搭建: greenhand/Blog-intialization/blog-init.md
