@@ -2,7 +2,7 @@ site_name: 浩哈哈哈哈
 theme: 
   name: material
   icon:
-    logo: material/library
+    logo: material/noodles
 #     admonition:
   palette:
     - scheme: slate # 夜间模式
@@ -188,21 +188,11 @@ nav:
 #         - 8.7_外部排序: 408/dsa/8-7.md
 #   - HJCPP: 
 #     - 01.OOP1: hjcpp/01.md
-    - MicroFrank:  
-      - MySQL:  
-        - 01.MySQL安装与初始化: frank/mysql/01.md 
-        - 02.数据库的基本操作: frank/mysql/02.md 
-        - 03.表的基本操作: frank/mysql/03.md
-        - 04.数据操作: frank/mysql/04.md
-        - 05.数据类型: frank/mysql/05.md
     - Git:
       - 多分支仓库的创建与上传: git/2023-05-12_git_branch.md
     - 学术会议记录: 
       - 简介: conferenceNotes/index.md
       - 大力开展基于国产AI芯片的大模型系统的研究: conferenceNotes/大力开展基于国产AI芯片的大模型系统的研究.md
-#   - Linux高性能服务器编程: 
-#     - 第一篇 TCP/IP详解: 
-#       - 第1章 TCP/IP协议族: hpsc/01/01.md 
   - 闲聊波尔卡: http://chat.haohaha.cn 
   - OS学习: http://os.haohaha.cn 
   - 算法打卡: http://alg.haohaha.cn
