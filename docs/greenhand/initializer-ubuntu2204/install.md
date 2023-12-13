@@ -97,7 +97,7 @@
 	sudo ./6-fonts.sh
 	```
 
-	### 初始化git，并获取 SSH-Key, 上传到 Github
+	### 初始化git，并获取 SSH key, 上传到 Github
 
 	```bash
 	./7-ssh-github.sh
