@@ -44,7 +44,7 @@ nav:
         - Ubuntu 22.04 虚拟机自动化安装 (initializer-ubuntu2204使用教程): greenhand/initializer-ubuntu2204/install.md
         - Ubuntu 22.04 虚拟机搭建全流程: greenhand/Ubuntu2204-greenhand/Ubuntu2204-greenhand.md
         - Ubuntu 22.04 我的第一台实体机: greenhand/Ubuntu2204-myFirstPhysicalLinuxMachine/U2204-mFPLM.md
-      - 基于 material-mkdocs 的个人博客搭建: greenhand/Blog-intialization/blog-init.md
+      - 基于 mkdocs-material 的个人博客搭建: greenhand/initializer-material-blog/blog-init.md
       - jyyslide-md-scripts 安装指南: greenhand/jyyslide-md-script/install.md
     - bLog:
       - Admonitions: blog/admonitions/admonitions.md
