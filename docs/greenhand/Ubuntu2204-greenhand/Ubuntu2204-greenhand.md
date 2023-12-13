@@ -344,7 +344,7 @@ sudo apt upgrade # 更新软件，后面默认回车即可
 
 ### 4. 安装&配置一些用来开发的软件
 
-??? note "此部分可看 Ubuntu 22.04 虚拟机自动化安装"
+??? note "此部分 [Ubuntu 22.04 虚拟机自动化安装 - 安装必要软件包与工具链](http://cs.haohaha.cn/greenhand/initializer-ubuntu2204/install/#ysyx) 已解决"
 
     #### Vim
     
