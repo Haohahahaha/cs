@@ -437,7 +437,7 @@ sudo apt upgrade # 更新软件，后面默认回车即可
 
 	系统自带，不需安装。
 
-	#### Sougou Input Method (搜狗输入法)
+	#### Sogou Input Method (搜狗输入法)
 
 	官网下载链接：https://shurufa.sogou.com/?r=mac&t=pinyin
 
@@ -460,6 +460,7 @@ sudo apt upgrade # 更新软件，后面默认回车即可
 	sudo dpkg -i sougoupinyin_*.deb # *为省略
 	```
 
+	<a id="open-fcitx"></a>
 	- 打开系统设置
 
 	![](./安装相关软件/21.png)
@@ -476,6 +477,7 @@ sudo apt upgrade # 更新软件，后面默认回车即可
 
 	![](./安装相关软件/24.png)
 
+	<a id="configure-sogou"></a>
 	- 重启完成后，添加搜狗输入法
 
 	点击右上角的小键盘图标，选择“配置当前输入法”
