@@ -21,10 +21,19 @@ theme:
     - navigation.tabs
     - navigation.top
     - navigation.indexes
-    - navigation.expand
+#   - navigation.expand
+    - navigation.path # Navigation Path
+    - navigation.prune
     - search.suggest
     - search.highlight
     - content.code.copy
+    # Instant Loading
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    # Anchor tracking
+    - navigation.tracking
+    
   language: zh
 
 edit_uri: edit/main/docs
