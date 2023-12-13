@@ -21,7 +21,7 @@ theme:
     - navigation.tabs
     - navigation.top
     - navigation.indexes
-#   - navigation.expand
+    - navigation.expand
 #   - navigation.sections # Maybe path need it.
 #   - navigation.path # Navigation Path
     - navigation.prune
