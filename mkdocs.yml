@@ -22,6 +22,7 @@ theme:
     - navigation.top
     - navigation.indexes
 #   - navigation.expand
+    - navigation.sections # Maybe path need it.
     - navigation.path # Navigation Path
     - navigation.prune
     - search.suggest
