@@ -28,7 +28,9 @@
 
 	??? warning "Linux平台失效，更改实现方法"
 
-		Clash for Windows 已停止维护，所以我已经将在线下载的地址改为我提供的 Windows 原版安装包（位于 cs/greenhand/Ubuntu2204-greenhand/ ）
+		Clash for Windows 已停止维护，所以我已经将在线下载的地址改为我提供的 Windows 原版安装包，[点击下载](https://github.com/Haohahahaha/cs/raw/master/docs/greenhand/Ubuntu2204-greenhand/Clash.for.Windows.Setup.0.20.39.ia32.exe)
+
+	关于如何设置服务，这里有[详细步骤](https://cs.haohaha.cn/greenhand/Ubuntu2204-greenhand/Ubuntu2204-greenhand/#1_2)
 
 	虚拟机内设置代理：
 
