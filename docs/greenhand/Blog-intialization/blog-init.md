@@ -24,6 +24,8 @@
 
 ## 初始化仓库内容并上传到远程
 
+- 克隆仓库 initializer-blog
+
 ## 设置远程仓库 Github Action 和 Github Deploy
 
 ## markdown语法与博客排版+选题+维护
