@@ -6,6 +6,10 @@
 >
 > date: 2023-12-13
 
+!!! info "本文章为仓库适配教程"
+
+	仓库地址：[initializer-ubuntu2204](https://github.com/Haohahahaha/initializer-ubuntu2204)
+
 !!! info "在线与本地化"
 
 	本脚本的部分命令可在有本地资源的时候省去下载在线资源的时间，实现本地化安装。
