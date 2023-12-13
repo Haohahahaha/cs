@@ -104,6 +104,10 @@
 
 ## 题外话: AI 时代与 ChatGPT
 
+!!! tip "Google 与 ChatGPT 注册使用教程"
+
+	[想哭的我注册了google和ChatGPT（想哭的我戴上了猫的面具） - 凶猫不太凶](https://xmbtx.github.io/xmbtx-blog/tools/google%20chatgpt/)
+
 实际上，这只是一个非常简单的示例。可在此示例中，提炼（编码）和分解（解码）的过程还是繁琐了些。
 
 “有没有什么更简单的办法？我懒，我真懒。”——赵总说
