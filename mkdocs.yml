@@ -3,6 +3,7 @@ theme:
   name: material
   icon:
     logo: material/noodles
+  favicon: https://cs.haohaha.cn/image/favicon.png
 #     admonition:
   palette:
     - scheme: slate # 夜间模式
