@@ -1,5 +1,7 @@
 # 个人成长路线-beta
 
+> 20231218更新：依据实践情况，增添工具类的内容，这有助于大幅提高效率。
+>
 > 20231103更新：入门III、IV阶段进行合并与重写。勾出重点便于使用。
 >
 > 20230831更新：替换付费课的必修属性，将其替换为开放的课程。
@@ -36,6 +38,8 @@
 
 - Better：精读文章(入门期间没精力也正常，但是后面有精力了就要做了)
 
+- Some Useful: 按照主题分类再背单词+读资料，这样可以把同主题的记在一起了。
+
 > P.S.：一键解决校内+四级+考研英语+外网资料阅读，一举多得。
 
 > 我鼓励你们自己去尝试和探索更适合你自己的学习英语的办法，但要承担浪费时间的必然代价；尽管投石问路——问一问学长学姐会有一定的参考价值，不过毕竟学习办法（有共性，但是）因人而异，不建议完全参考他们的方法。
@@ -62,6 +66,8 @@
 
 > 同样地，我们鼓励你去寻找学习方法。
 
+- 高效书写、管理数学笔记的系列文章：[Gilles Castel](https://castel.dev/)
+
 ---
 
 #### 入门 II：负基础——培育计算机人必备素养（考核阶段）
@@ -72,7 +78,11 @@
 
 2. for 负基础的同学：[Windows基础](https://www.bilibili.com/video/BV1vR4y1Q7iF) + [计算机硬件基础](https://www.bilibili.com/video/BV1TL4y1N7ZM)
 
-3. still for 负基础 && 为我院C++课做个衔接适配：[VS2022](https://www.bilibili.com/video/BV1Xt411g7jT) + [C语言](https://www.bilibili.com/video/BV1qE411d7Zx)
+3. still for 负基础 && 没必要，确实没必要<del>为我院C++课做个衔接适配</del>：
+
+    1. 可以学但没必要，你即将转入Vim的世界。<del>[VS2022](https://www.bilibili.com/video/BV1Xt411g7jT)</del> 
+
+	2. 仅仅用来理解编程语言的入门教程：[C语言 - Frank](https://www.bilibili.com/video/BV1qE411d7Zx)
 
 ---
 
@@ -90,7 +100,7 @@
 
 - [Frank Linux]-[Linux操作基础 - Frank](https://www.bilibili.com/video/BV18U4y1W7av)(低坡度付费版，如果喜欢Frank风格，相信你还是可以支持一下的)
 
-- [附录]-ysyx引用NJU-PA(NEMU)的几个附录需要先看一看，这样能解答你很多问题：
+- [附录]-ysyx引用NJU-PA(NEMU)的几个附录需要先看一看，这样能解答你很多问题
 	
 	- [为什么要学习计算机系统基础](https://ysyx.oscc.cc/docs/ics-pa/why.html)
 
@@ -116,11 +126,22 @@
 >
 > 但实际上你自己根据自己的需求搜搜其实也能解决……（就是很可能耗时，容易把热情消耗没）
 
-> 规范化：[变量名命名的艺术](https://www.bilibili.com/video/BV1X64y1o7EZ) 
+规范化：
 
-> 推荐：Python语言学习：[Harvard CS50x](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/CS50/) 可能是不错的选择。学习Python有利于入门编程，以及编写自动化构建脚本。有进阶想法的可以学习 [Harvard CS50P](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/CS50P/)
+    - [变量名命名的艺术](https://www.bilibili.com/video/BV1X64y1o7EZ) 
+
+	- ysyx引用的内容更全面，更好：
+
+	    - [C Coding Standard](https://users.ece.cmu.edu/~eno/coding/CCodingStandard.html)
+		- [SEI CERT C Coding Standard](https://wiki.sei.cmu.edu/confluence/display/c/SEI+CERT+C+Coding+Standard)
+
+Python：[Harvard CS50x](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/CS50/) 可能是不错的选择。**学习Python有利于入门编程，以及编写自动化构建脚本。有进阶想法的可以学习** [Harvard CS50P](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/CS50P/)
 
 > 此处，如果你有更多想法，想去学习更多的知识，那么[CSDiy-CS自学指南——from北大信科](https://csdiy.wiki)将会是一个探索与学习知识的伊甸园。当然，里面的课99%都是全英文教学，所以这里你也能看得出，之前在英语方面下的功夫没有白费了。我相信，你达到熟练掌握英语阅读的时间越早，你快乐地学习（非常棒的）知识——进入伊甸园的时间越早。希望你能认真阅读这个网站。
+
+提升中文输入速度：五笔输入法
+
+> 本人正在学习，没有找到合适教程，但正在用金山打字通ing。也许b站最高播放量适合一点。
 
 ---
 
@@ -163,6 +184,10 @@
 - 这里有写博客的一些规范化的内容，以及写博客的方方面面，很有用！[如何坚持写技术博客？ - Raven的文章 - 知乎](https://zhuanlan.zhihu.com/p/497150220)
 
 - [Markdown的示例Doc](https://markdown-it.github.io/)
+
+实际上，要玩转Material，看文档并尝试实现功能，是个耗精力的事情。
+
+这里看起来字很少而已。
 
 - (**探索版**) [日常学习工作流](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/workflow/)
 
