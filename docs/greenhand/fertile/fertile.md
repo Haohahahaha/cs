@@ -82,7 +82,7 @@
 
 ---
 
-#### 入门 II：负基础——培育计算机人必备素养（考核阶段）
+#### 入门 II：负基础——培育计算机人必备素养
 
 !!! info "负基础是什么呢？我认为，比如，上大学是你第一次有机会认真使用电脑。"
 
@@ -306,23 +306,23 @@ Python：[Harvard CS50x](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8
 
 	??? info "操作系统方向"
 
-    		- [xv6 —— 6.S081 by MIT](https://pdos.csail.mit.edu/6.828/2021/schedule.html)
+    	- [xv6 —— 6.S081 by MIT](https://pdos.csail.mit.edu/6.828/2021/schedule.html)
 
-    		- [Pintos —— CS162 by UC Berkeley](https://cs162.org/)
+    	- [Pintos —— CS162 by UC Berkeley](https://cs162.org/)
 
-    		- [NJU OS —— by jyy（蒋岩岩）of NJU](http://jyywiki.cn/OS/2023/)
+    	- [NJU OS —— by jyy（蒋岩岩）of NJU](http://jyywiki.cn/OS/2023/)
 
-    		- [Linux 0.11 —— by 李治军 of HIT](https://www.bilibili.com/video/BV19r4y1b7Aw)
+    	- [Linux 0.11 —— by 李治军 of HIT](https://www.bilibili.com/video/BV19r4y1b7Aw)
 
 	??? info "体系结构方向"
 
-    		- [Coursera: Nand2Teris](https://csdiy.wiki/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/N2T/)
+    	- [Coursera: Nand2Teris](https://csdiy.wiki/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/N2T/)
 	
-    		- [Digital Design and Computer Architecture —— by ETH Zurich](https://csdiy.wiki/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/DDCA/)
+    	- [Digital Design and Computer Architecture —— by ETH Zurich](https://csdiy.wiki/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/DDCA/)
 	
-    		- [CS61C: Great Ideas in Computer Architecture —— by UC Berkeley](https://csdiy.wiki/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/CS61C/)
+    	- [CS61C: Great Ideas in Computer Architecture —— by UC Berkeley](https://csdiy.wiki/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/CS61C/)
 
-    		- [CS15-213 CSAPP —— by CMU](https://csdiy.wiki/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/CSAPP/)
+    	- [CS15-213 CSAPP —— by CMU](https://csdiy.wiki/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/CSAPP/)
 
 ??? info "专业"
 
@@ -344,7 +344,7 @@ Python：[Harvard CS50x](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8
 
 		- CPU自制入门
 
-	??? note "操作系统"
+	??? info "操作系统"
 
 		- 操作系统：精髓与设计原理 （William Stallings著 陈向群 陈渝译）
 
@@ -376,29 +376,29 @@ Python：[Harvard CS50x](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8
 
 	- 开源活动
 
-    		- [中科院开源之夏](https://summer-ospp.ac.cn/)
+    	- [中科院开源之夏](https://summer-ospp.ac.cn/)
 
-    		- [Google Summer of Code](https://summerofcode.withgoogle.com/)
+    	- [Google Summer of Code](https://summerofcode.withgoogle.com/)
 
 	- 开源芯片研究院实习/工作
 
-!!! success "培养目标"
+!!! note "培养目标"
 
-!!! info "入门阶段，重点掌握"
+	!!! info "入门阶段"
 
-	!!! danger "考核标准"
+		!!! danger "考核标准"
 
-		[考核标准在此](http://cs.haohaha.cn/greenhand/fertile/assessment-2023/)，转正考核期为每学年上学期（适用人群：大一新生）。
+			[考核标准在此](http://cs.haohaha.cn/greenhand/fertile/assessment-2023/)，转正考核期为每学年上学期（适用人群：大一新生）。
 
-		如果通过，则继续学习；若不通过，可根据学生意愿选择是否完成入门学习。
+			如果通过，则继续学习；若不通过，可根据学生意愿选择是否完成入门学习。
 
-	!!! info "寒暑假其实还是要用来学习的"
+		!!! info "寒暑假其实还是要用来学习的"
 
-		过了入门阶段之后，个人可根据自身情况和意愿，选择是否利用寒暑假来进行学习。
+			过了入门阶段之后，个人可根据自身情况和意愿，选择是否利用寒暑假来进行学习。
 
-		其实学上头了，不用说也就学下去了；不过我也蛮同意“假期就是要休息”这样的观点的(因为我也懒，我也想休息，哈哈)。
+			其实学上头了，不用说也就学下去了；不过我也蛮同意“假期就是要休息”这样的观点的(因为我也懒，我也想休息，哈哈)。
 
-	!!! info "基础阶段为期3 + `12~18` 个月，重点掌握"
+	!!! info "基础阶段，为期3 + `12~18` 个月"
 
 		1. 计算机基础理论知识；
 
