@@ -145,7 +145,9 @@ gantt
     B段: 15w
     A段: 18w
     龙芯杯-CPU设计赛: 2025-03-31, 22w
+```
 </p></details>
+
 ## 培养方案
 
 !!! question "What I can help"
