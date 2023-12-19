@@ -1,5 +1,7 @@
 # 个人成长路线-beta
 
+> 20231219更新：新增清华大学2023秋冬季开源操作系统训练营相关信息，将基础部分改为平行双分支: `OS` 和 `CA`
+>
 > 20231218更新：依据实践情况，增添工具类的内容，这有助于大幅提高效率。
 >
 > 20231103更新：入门III、IV阶段进行合并与重写。勾出重点便于使用。
@@ -227,7 +229,19 @@ Python：[Harvard CS50x](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8
 
 ---
 
-#### 基础 II：一生一芯
+#### 基础 II-1：`OS` rCore
+
+- OS课程学习路线:[OS Tutorial Summer of Code 2020：Rust系统编程入门指导](https://github.com/rcore-os/rCore/wiki/os-tutorial-summer-of-code-2020#step-0-%E8%87%AA%E5%AD%A6rust%E7%BC%96%E7%A8%8B%E5%A4%A7%E7%BA%A67%E5%A4%A9)
+
+- [开源操作系统训练营的课程资料和最新通知](https://github.com/LearningOS)
+
+> 陈渝老师还指出，未来AI领域和底层系统软件都拥有巨大的发展潜力。无论是在企业还是国家层面，例如智能网联车和工业机器人等领域，都在大力推动其发展。同时，陈渝老师还推荐在校生参与开源本科毕设、研究生学习、社交活动以及自我挑战的重要性，认为这些环节不仅可以帮助同学们更好地完成学业，提升个人能力，拓展人际关系，还有助于实现自我价值。他鼓励每位学员在训练营项目中找寻兴趣和发展方向，结识志同道合的伙伴，并与导师深入交流。最后，陈渝老师表示，明年春夏季的训练营将进行升级改进，期待更多的学员加入，共同推进开源操作系统的发展。
+> 
+> ——《[清华大学2023秋冬季开源操作系统训练营圆满结营](https://mp.weixin.qq.com/s/iZntdEnJKzr8vxPvTAl-uw)》
+
+---
+
+#### 基础 II-2：`CA` 一生一芯
 
 - 中科院计算所-“一生一芯” [概述](https://ysyx.oscc.cc/docs/about/intro/overview.html) 和 [官网](https://ysyx.oscc.cc/) ，其包含以下内容：
 
@@ -238,12 +252,6 @@ Python：[Harvard CS50x](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8
     - [xv6 —— 6.S081 by MIT](https://pdos.csail.mit.edu/6.828/2021/schedule.html)
 
     > "一生一芯"能够完成"自制CPU"与"自制OS"的培养训练，以及很多的技能（EE&&CS全栈人才培养）。所以后续阶段可以自行定制和选择学习了。
-
----
-
-#### 基础 III：实践需求
-
-- 建议完成 [rCore-Tutorial-v3](http://rcore-os.cn/rCore-Tutorial-Book-v3/)
 
 ---
 
