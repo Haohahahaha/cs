@@ -12,7 +12,9 @@
 
 	20230701更新：将数学和英语糅进总体的学习规划中，并加入“一生一芯”计划的学习（同时整合原有计划内路线）。
 
-!!! danger "下面三个时间线是实时的。在白天模式下显示更清楚，但依旧会很小，此处提供<a href="https://github.com/Haohahahaha/cs/raw/master/docs/greenhand/fertile/route-time.md" download="true">下载文件</a>，下载到本地用typora查看更清晰。"
+!!! danger "下面三个时间线是实时的。在白天模式下显示更清楚，但依旧会很小，此处提供<a href="https://tinyurl.com/yrankx5c" download="true">下载文件</a>，下载到本地用typora查看更清晰。"
+
+<a href="https://github.com/Xmbtx/xmbtx-blog/raw/master/docs/tools/%E4%BC%9A%E8%AE%AE%E9%85%8D%E7%BD%AE.zip" download="true">下载链接</a>
 
 <details><summary>时间线-fast-OSCA</summary><p>
 
@@ -20,7 +22,9 @@
 gantt
     title 时间线-fast-OSCA
     section 入门 I.a 英语
-    单词3500     :2023-09-25, 16w
+    单词3500  : 2023-09-25, 16w
+    单词5800  : 25w
+    阅读		: 27w
     section 入门 I.b 数学
     高数-I	: 2023-09-25, 16w
     线代 		: 2023-09-25, 16w
@@ -65,7 +69,9 @@ gantt
 gantt
     title 时间线-normal-OS
     section 入门 I.a 英语
-    单词3500     :2023-09-25, 16w
+    单词3500  : 2023-09-25, 16w
+    单词5800  : 25w
+    阅读		: 27w
     section 入门 I.b 数学
     高数-I	: 2023-09-25, 16w
     线代 		: 2023-09-25, 16w
@@ -86,15 +92,15 @@ gantt
     Win+硬件: 2023-09-25, 4w
     Frank-C	: 2023-09-25, 4w
     section 入门 III 工具
-    Linux: 2023-10-23, 10w
-    C深入: 2023-10-23, 10w
+    Linux: 2023-10-23, 17w
+    C深入: 2023-10-23, 17w
     Blog: 2023-10-23, 10w
     入门书籍: 2023-10-23, 10w
     section normal 基础 I
-   	计算机组成原理: 2024-01-22, 21w
-   	操作系统: 2024-01-22, 21w
-   	数据结构: 2024-01-22, 21w
-    计算机网络: 2024-01-22, 21w
+   	计算机组成原理: 2024-02-19, 17w
+   	操作系统: 2024-02-19, 17w
+   	数据结构: 2024-02-19, 17w
+    计算机网络: 2024-02-19, 17w
     section normal OS
     Rust学习: 2024-07-15, 2w
     自学RISC-V系统结构: 2w
@@ -110,7 +116,9 @@ gantt
 gantt
     title 时间线-normal-CA
     section 入门 I.a 英语
-    单词3500     :2023-09-25, 16w
+    单词3500  : 2023-09-25, 16w
+    单词5800  : 25w
+    阅读		: 27w
     section 入门 I.b 数学
     高数-I	: 2023-09-25, 16w
     线代 		: 2023-09-25, 16w
@@ -131,20 +139,21 @@ gantt
     Win+硬件: 2023-09-25, 4w
     Frank-C	: 2023-09-25, 4w
     section 入门 III 工具
-    Linux: 2023-10-23, 10w
-    C深入: 2023-10-23, 10w
+    Linux: 2023-10-23, 17w
+    C深入: 2023-10-23, 17w
     Blog: 2023-10-23, 10w
     入门书籍: 2023-10-23, 10w
     section normal 基础 I
-   	计算机组成原理: 2024-01-22, 21w
-   	操作系统: 2024-01-22, 21w
-   	数据结构: 2024-01-22, 21w
-    计算机网络: 2024-01-22, 21w
+   	计算机组成原理: 2024-02-19, 17w
+   	操作系统: 2024-02-19, 17w
+   	数据结构: 2024-02-19, 17w
+    计算机网络: 2024-02-19, 17w
     section normal CA
     一生一芯预学习: 2024-07-15, 4w
     B段: 15w
     A段: 18w
     龙芯杯-CPU设计赛: 2025-03-31, 22w
+    
 ```
 </p></details>
 
