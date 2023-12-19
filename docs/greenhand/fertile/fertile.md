@@ -12,7 +12,7 @@
 
 	20230701更新：将数学和英语糅进总体的学习规划中，并加入“一生一芯”计划的学习（同时整合原有计划内路线）。
 
-!!! danger "下面三个时间线是实时的。在白天模式下显示更清楚，但依旧会很小，此处提供<a href="https://github.com/Haohahahaha/cs/raw/master/docs/greenhand/fertile/route-time.md" download=true>下载文件</a>，下载到本地用typora查看更清晰。"
+!!! danger "下面三个时间线是实时的。在白天模式下显示更清楚，但依旧会很小，此处提供<a href="https://github.com/Haohahahaha/cs/raw/master/docs/greenhand/fertile/route-time.md" download="true">下载文件</a>，下载到本地用typora查看更清晰。"
 
 <details><summary>时间线-fast-OSCA</summary><p>
 
