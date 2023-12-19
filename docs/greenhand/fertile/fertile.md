@@ -146,15 +146,6 @@
 
 	但实际上你自己根据自己的需求搜搜其实也能解决……（就是很可能耗时，容易把热情消耗没）
 
-规范化：
-
-    - [变量名命名的艺术](https://www.bilibili.com/video/BV1X64y1o7EZ) 
-
-	- ysyx引用的内容更全面，更好：
-
-	    - [C Coding Standard](https://users.ece.cmu.edu/~eno/coding/CCodingStandard.html)
-		- [SEI CERT C Coding Standard](https://wiki.sei.cmu.edu/confluence/display/c/SEI+CERT+C+Coding+Standard)
-
 Python：[Harvard CS50x](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/CS50/) 可能是不错的选择。**学习Python有利于入门编程，以及编写自动化构建脚本。有进阶想法的可以学习** [Harvard CS50P](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/CS50P/)
 
 !!! info ""
@@ -181,9 +172,21 @@ Python：[Harvard CS50x](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8
 
 - C Triggers Pitfalls
 
-> 互联网“管中窥豹”：[B/S体系入门](https://www.bilibili.com/video/BV1d7411p7RF)
->
-> C++开发方向：侯捷视频教程
+规范化：
+
+- [变量名命名的艺术](https://www.bilibili.com/video/BV1X64y1o7EZ) 
+
+- ysyx引用的内容更全面，更好：
+
+	- [C Coding Standard](https://users.ece.cmu.edu/~eno/coding/CCodingStandard.html)
+
+	- [SEI CERT C Coding Standard](https://wiki.sei.cmu.edu/confluence/display/c/SEI+CERT+C+Coding+Standard)
+
+!!! info "更多信息"
+
+	互联网“管中窥豹”：[B/S体系入门](https://www.bilibili.com/video/BV1d7411p7RF)
+
+	C++开发方向：侯捷视频教程
 
 !!! info "" 
 
