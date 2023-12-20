@@ -315,6 +315,14 @@ Python：[Harvard CS50x](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8
 
 > 本人正在学习，没有找到合适教程，但正在用金山打字通ing。也许b站最高播放量适合一点。
 
+- [LaTeX —— 论文必备](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/LaTeX/)
+
+!!! info "用 Vim 快速写 LaTeX 来记数学笔记"
+
+    - 高效书写、管理数学笔记的系列文章：[Gilles Castel](https://castel.dev/)
+
+- [Docker —— 配环境利器](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Docker/)
+
 ---
 
 ##### C语言深入学习
@@ -448,11 +456,9 @@ Python：[Harvard CS50x](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8
 	"一生一芯"能够完成"自制CPU"与"自制OS"的培养训练，以及很多的技能（EE&&CS全栈人才培养）。
 ---
 
-#### 基础 III：必备工具类学习
+#### 基础 III： 毕业设计
 
-- [LaTeX —— 论文必备](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/LaTeX/)
-
-- （可忽略，前面在学习Linux系统的时候已经接触过了）[Docker —— 配环境利器](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Docker/)
+!!! info "OS和ysyx都有相关支持学生毕业设计的项目，可自行查阅"
 
 - [人生大事 —— 毕业论文写作](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/thesis/)
 
