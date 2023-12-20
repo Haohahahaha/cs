@@ -27,7 +27,7 @@ gantt
     section 入门 III 工具
     Linux: 2023-10-23, 10w
     C深入: 2023-10-23, 10w
-    Blog: 2023-10-23, 10w
+    Blog+PPT+OBS+Google+GPT: 2023-10-23, 10w
     入门书籍: 2023-10-23, 10w
     section 基础 I 
    	计算机组成原理: 2024-01-22, 5w
@@ -79,7 +79,7 @@ gantt
     section 入门 III 工具
     Linux: 2023-10-23, 17w
     C深入: 2023-10-23, 17w
-    Blog: 2023-10-23, 10w
+    Blog+PPT+OBS+Google+GPT: 2023-10-23, 10w
     入门书籍: 2023-10-23, 10w
     section 基础 I
    	计算机组成原理: 2024-02-19, 17w
@@ -131,7 +131,7 @@ gantt
     section 入门 III 工具
     Linux: 2023-10-23, 17w
     C深入: 2023-10-23, 17w
-    Blog: 2023-10-23, 10w
+    Blog+PPT+OBS+Google+GPT: 2023-10-23, 10w
     入门书籍: 2023-10-23, 10w
     section 基础 I
    	计算机组成原理: 2024-02-19, 17w
