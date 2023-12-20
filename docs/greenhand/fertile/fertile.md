@@ -66,8 +66,8 @@ gantt
     英语复习: 2025-09-01, 16M
     408: 2026-02-01, 11M
     政治: 2026-02-01, 11M
-    section 基础 III 毕业论文
-    毕业论文: 2027-01-01,6M
+    section 基础 III 毕业设计
+    毕业设计: 2027-01-01,6M
 ```
 </p></details>
 
@@ -120,8 +120,8 @@ gantt
     英语复习: 2025-09-01, 16M
     408: 2026-02-01, 11M
     政治: 2026-02-01, 11M
-    section 基础 III 毕业论文
-    毕业论文: 2027-01-01,6M
+    section 基础 III 毕业设计
+    毕业设计: 2027-01-01,6M
 ```
 </p></details>
 
@@ -172,8 +172,8 @@ gantt
     英语复习: 2025-09-01, 16M
     408: 2026-02-01, 11M
     政治: 2026-02-01, 11M
-    section 基础 III 毕业论文
-    毕业论文: 2027-01-01,6M
+    section 基础 III 毕业设计
+    毕业设计: 2027-01-01,6M
 ```
 </p></details>
 
@@ -315,7 +315,7 @@ Python：[Harvard CS50x](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8
 
 > 本人正在学习，没有找到合适教程，但正在用金山打字通ing。也许b站最高播放量适合一点。
 
-- [LaTeX —— 论文必备](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/LaTeX/)
+- [LaTeX —— 设计必备](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/LaTeX/)
 
 !!! info "用 Vim 快速写 LaTeX 来记数学笔记"
 
@@ -460,7 +460,7 @@ Python：[Harvard CS50x](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8
 
 !!! info "OS和ysyx都有相关支持学生毕业设计的项目，可自行查阅"
 
-- [人生大事 —— 毕业论文写作](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/thesis/)
+- [人生大事 —— 毕业设计写作](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/thesis/)
 
 
 ??? info "进阶"
@@ -543,7 +543,7 @@ Python：[Harvard CS50x](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8
 
 ??? info "研究/工作"
 
-	- 论文复现
+	- 设计复现
 
 	- 开源活动
 
