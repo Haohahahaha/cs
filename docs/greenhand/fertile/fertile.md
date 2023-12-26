@@ -427,7 +427,24 @@ Python：[Harvard CS50x](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8
 
 ---
 
-#### 基础 II-1：`OS` rCore
+#### 基础 II-1：`OS` uCore & rCore
+
+???+ tip "用C语言开发的操作系统--uCore"
+
+	> 虽然这已经不太符合时代潮流了，但基于我们已会的C语言，用uCore上手显然是一个正确的选择！
+
+	[uCore OS (on RISC-V64) 实验指导书](https://nankai.gitbook.io/ucore-os-on-risc-v64/)
+
+	[uCore step by step](https://1790865014.gitbook.io/ucore-step-by-step/)
+
+	[ucoreonrv - Github](https://github.com/nkgongxl/ucoreonrv/tree/code_practice) uCore实验源码
+
+	给uCore指导书补链接：
+
+	- [终于有人把RISC-V讲明白了-电子发烧友网](https://www.elecfans.com/d/653167.html)
+
+	- [RISC-V-Reader-Chinese-v2p1.pdf](https://crva.ict.ac.cn/wjxz/202202/P020220217666841292320.pdf)
+
 
 - OS课程学习路线:[OS Tutorial Summer of Code 2020：Rust系统编程入门指导](https://github.com/rcore-os/rCore/wiki/os-tutorial-summer-of-code-2020#step-0-%E8%87%AA%E5%AD%A6rust%E7%BC%96%E7%A8%8B%E5%A4%A7%E7%BA%A67%E5%A4%A9)
 
