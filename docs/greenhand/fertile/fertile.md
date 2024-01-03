@@ -419,9 +419,16 @@ Python：[Harvard CS50x](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8
 
 - 操作系统-王道 + 绪论
 
+!!! tip "寒假加一本读物"
+
+    - [RISC-V 开放架构设计之道](http://riscvbook.com/chinese/RISC-V-Reader-Chinese-v1.pdf)，已有印刷版[在京东出售](https://item.jd.com/14304044.html)。
+
+
 - 计算机网络-王道 + 零壹绪论
 
-- 更推荐的数据结构课程：[MIT 6.006](https://csdiy.wiki/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/6.006/)
+!!! note "更推荐的数据结构课程"
+
+    - [MIT 6.006](https://csdiy.wiki/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/6.006/)
 
 	- 数据结构进阶 [MIT 6.046](https://csdiy.wiki/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/6.046/)
 
@@ -444,8 +451,6 @@ Python：[Harvard CS50x](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8
 	- [终于有人把RISC-V讲明白了-电子发烧友网](https://www.elecfans.com/d/653167.html)
 
 	- [RISC-V-Reader-Chinese-v2p1.pdf](https://crva.ict.ac.cn/wjxz/202202/P020220217666841292320.pdf)
-
-	- 上一行PDF的最新版本：[RISC-V 开放架构设计之道](http://riscvbook.com/chinese/RISC-V-Reader-Chinese-v1.pdf)，已有印刷版[在京东出售](https://item.jd.com/14304044.html)。
 
 - OS课程学习路线:[OS Tutorial Summer of Code 2020：Rust系统编程入门指导](https://github.com/rcore-os/rCore/wiki/os-tutorial-summer-of-code-2020#step-0-%E8%87%AA%E5%AD%A6rust%E7%BC%96%E7%A8%8B%E5%A4%A7%E7%BA%A67%E5%A4%A9)
 
