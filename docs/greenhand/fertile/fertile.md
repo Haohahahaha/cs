@@ -413,7 +413,7 @@ Python：[Harvard CS50x](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8
 
 #### 基础 I：基础理论知识框架（考研复用）
 
-**(寒假1-4周)**
+==(寒假1-4周)==
 
 - 数据结构
 
@@ -423,7 +423,7 @@ Python：[Harvard CS50x](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8
 
 !!! tip "寒假加一本读物"
 
-    - **(寒假第5周)**[RISC-V 开放架构设计之道](http://riscvbook.com/chinese/RISC-V-Reader-Chinese-v1.pdf)，已有印刷版[在京东出售](https://item.jd.com/14304044.html)。
+    - <red>(寒假第5周)</red>[RISC-V 开放架构设计之道](http://riscvbook.com/chinese/RISC-V-Reader-Chinese-v1.pdf)，已有印刷版[在京东出售](https://item.jd.com/14304044.html)。
 
 
 - 计算机网络
@@ -438,7 +438,7 @@ Python：[Harvard CS50x](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8
 
 #### 基础 II-1：`OS` uCore & rCore
 
-**(第2学期第2-3周)**
+==(第2学期第2-3周)==
 
 ???+ tip "用C语言开发的操作系统--uCore"
 
