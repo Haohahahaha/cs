@@ -413,18 +413,20 @@ Python：[Harvard CS50x](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8
 
 #### 基础 I：基础理论知识框架（考研复用）
 
-- 数据结构-王道 + 零壹课程
+**(寒假1-4周)**
 
-- 计算机组成原理-王道 + 绪论
+- 数据结构
 
-- 操作系统-王道 + 绪论
+- 计算机组成原理
+
+- 操作系统
 
 !!! tip "寒假加一本读物"
 
-    - [RISC-V 开放架构设计之道](http://riscvbook.com/chinese/RISC-V-Reader-Chinese-v1.pdf)，已有印刷版[在京东出售](https://item.jd.com/14304044.html)。
+    - **(寒假第5周)**[RISC-V 开放架构设计之道](http://riscvbook.com/chinese/RISC-V-Reader-Chinese-v1.pdf)，已有印刷版[在京东出售](https://item.jd.com/14304044.html)。
 
 
-- 计算机网络-王道 + 零壹绪论
+- 计算机网络
 
 !!! note "更推荐的数据结构课程"
 
@@ -435,6 +437,8 @@ Python：[Harvard CS50x](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8
 ---
 
 #### 基础 II-1：`OS` uCore & rCore
+
+**(第2学期第2-3周)**
 
 ???+ tip "用C语言开发的操作系统--uCore"
 
@@ -448,11 +452,25 @@ Python：[Harvard CS50x](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8
 
 	给uCore指导书补链接：
 
+	- **(开学第1周)**[Link Script](https://home.cs.colorado.edu/~main/cs1300/doc/gnu/ld_3.html)
+
 	- [终于有人把RISC-V讲明白了-电子发烧友网](https://www.elecfans.com/d/653167.html)
 
-	- [RISC-V-Reader-Chinese-v2p1.pdf](https://crva.ict.ac.cn/wjxz/202202/P020220217666841292320.pdf)
+	- [RISC-V-Reader-Chinese-v2p1.pdf](https://crva.ict.ac.cn/wjxz/202202/P020220217666841292320.pdf)(这本书就是上文的《RISC-V 开放架构设计之道》，但 uCore 里面引用的内容是此处的电子版本。)
 
-- OS课程学习路线:[OS Tutorial Summer of Code 2020：Rust系统编程入门指导](https://github.com/rcore-os/rCore/wiki/os-tutorial-summer-of-code-2020#step-0-%E8%87%AA%E5%AD%A6rust%E7%BC%96%E7%A8%8B%E5%A4%A7%E7%BA%A67%E5%A4%A9)
+???+ note "[OS Tutorial Summer of Code 2020：Rust系统编程入门指导](https://github.com/rcore-os/rCore/wiki/os-tutorial-summer-of-code-2020#step-0-%E8%87%AA%E5%AD%A6rust%E7%BC%96%E7%A8%8B%E5%A4%A7%E7%BA%A67%E5%A4%A9)"
+
+    - **(第2学期第4周)** 完成 `Step 0` 部分
+
+	- 好吧应该给时间也完成一下 `Step 1` 部分，不过我相信寒假打好了计算机组成原理的基础之后，完成这部分的任务并达到要求应该花不了太多时间啦。
+
+	> 毕竟里面只是写了：
+	>
+	> "1.阅读《计算机组成与设计（RISC-V版）》第一、二章，可以在整体结构上对 RISC-V 体系建立基本认知。 再进行后面的学习比较有效果。（半天）"
+	>
+	> 嘿嘿嘿（zhr狡黠地笑）~
+
+    - **(第2学期第5-6周)** 继续完成上面链接的 `Step 2` 部分。
 
 - [开源操作系统训练营的课程资料和最新通知](https://github.com/LearningOS)
 
