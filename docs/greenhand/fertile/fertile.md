@@ -423,7 +423,7 @@ Python：[Harvard CS50x](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8
 
 !!! tip "寒假加一本读物"
 
-    - <red>(寒假第5周)</red>[RISC-V 开放架构设计之道](http://riscvbook.com/chinese/RISC-V-Reader-Chinese-v1.pdf)，已有印刷版[在京东出售](https://item.jd.com/14304044.html)。
+    - ==(寒假第5周)==[RISC-V 开放架构设计之道](http://riscvbook.com/chinese/RISC-V-Reader-Chinese-v1.pdf)，已有印刷版[在京东出售](https://item.jd.com/14304044.html)。
 
 
 - 计算机网络
@@ -452,7 +452,7 @@ Python：[Harvard CS50x](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8
 
 	给uCore指导书补链接：
 
-	- **(开学第1周)**[Link Script](https://home.cs.colorado.edu/~main/cs1300/doc/gnu/ld_3.html)
+	- ==(开学第1周)==[Link Script](https://home.cs.colorado.edu/~main/cs1300/doc/gnu/ld_3.html)
 
 	- [终于有人把RISC-V讲明白了-电子发烧友网](https://www.elecfans.com/d/653167.html)
 
@@ -460,7 +460,7 @@ Python：[Harvard CS50x](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8
 
 ???+ note "[OS Tutorial Summer of Code 2020：Rust系统编程入门指导](https://github.com/rcore-os/rCore/wiki/os-tutorial-summer-of-code-2020#step-0-%E8%87%AA%E5%AD%A6rust%E7%BC%96%E7%A8%8B%E5%A4%A7%E7%BA%A67%E5%A4%A9)"
 
-    - **(第2学期第4周)** 完成 `Step 0` 部分
+    - ==(第2学期第4周)== 完成 `Step 0` 部分
 
 	- 好吧应该给时间也完成一下 `Step 1` 部分，不过我相信寒假打好了计算机组成原理的基础之后，完成这部分的任务并达到要求应该花不了太多时间啦。
 
@@ -470,7 +470,7 @@ Python：[Harvard CS50x](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8
 	>
 	> 嘿嘿嘿（zhr狡黠地笑）~
 
-    - **(第2学期第5-6周)** 继续完成上面链接的 `Step 2` 部分。
+    - ==(第2学期第5-6周)== 继续完成上面链接的 `Step 2` 部分。
 
 - [开源操作系统训练营的课程资料和最新通知](https://github.com/LearningOS)
 
