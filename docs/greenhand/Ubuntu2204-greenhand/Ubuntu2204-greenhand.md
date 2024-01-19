@@ -457,7 +457,7 @@ sudo apt upgrade # 更新软件，后面默认回车即可
 	sudo apt install libgsettings-qt1
 
 	#安装软件
-	sudo dpkg -i sougoupinyin_*.deb # *为省略
+	sudo dpkg -i sogoupinyin_*.deb # *为省略
 	```
 
 	<a id="open-fcitx"></a>
