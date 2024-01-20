@@ -444,11 +444,19 @@ Python：[Harvard CS50x](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8
 
 	> 虽然这已经不太符合时代潮流了，但基于我们已会的C语言，用uCore上手显然是一个正确的选择！
 
-	[uCore OS (on RISC-V64) 实验指导书](https://nankai.gitbook.io/ucore-os-on-risc-v64/)
+	[uCore 2023 指导书](https://www.mobisys.cc/oslab/lab2023/_book/index.html)
 
-	[uCore step by step](https://1790865014.gitbook.io/ucore-step-by-step/)
+	[Mobisys 组](https://www.mobisys.cc/index.html)的 [OSLab 资源在此](https://www.mobisys.cc/oslab/index.html) 。
 
-	[ucoreonrv - Github](https://github.com/nkgongxl/ucoreonrv/tree/code_practice) uCore实验源码
+	!!! note "又发现一个宝藏网站捏，555，目前没精力进行DFSTAT"
+
+	> 20240120更新：好好好，发现南开的 Mobisys 组就是在维护这个网站，而且有2023版 uCore 了。以下资源仅供参考，不用了不用了TAT（浩睿留下了痛苦的泪水）
+
+	> - [uCore OS (on RISC-V64) 实验指导书](https://nankai.gitbook.io/ucore-os-on-risc-v64/)
+
+	> - [uCore step by step](https://1790865014.gitbook.io/ucore-step-by-step/)
+
+	> - [ucoreonrv - Github](https://github.com/nkgongxl/ucoreonrv/tree/code_practice) uCore实验源码
 
 	给uCore指导书补链接：
 
