@@ -448,7 +448,7 @@ Python：[Harvard CS50x](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8
 
 	[Mobisys 组](https://www.mobisys.cc/index.html)的 [OSLab 资源在此](https://www.mobisys.cc/oslab/index.html) 。
 
-	!!! note "又发现一个宝藏网站捏，555，目前没精力进行DFSTAT"
+	!!! note "又发现一个宝藏网站捏，555，目前没精力进行 DFS，TAT"
 
 	> 20240120更新：好好好，发现南开的 Mobisys 组就是在维护这个网站，而且有2023版 uCore 了。以下资源仅供参考，不用了不用了TAT（浩睿留下了痛苦的泪水）
 
@@ -458,13 +458,13 @@ Python：[Harvard CS50x](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8
 
 	> - [ucoreonrv - Github](https://github.com/nkgongxl/ucoreonrv/tree/code_practice) uCore实验源码
 
-	给uCore指导书补链接：
+	> 给uCore指导书补链接：
 
-	- ==(开学第1周)==[Link Script](https://home.cs.colorado.edu/~main/cs1300/doc/gnu/ld_3.html)
+	> - ==(开学第1周)==[Link Script](https://home.cs.colorado.edu/~main/cs1300/doc/gnu/ld_3.html)
 
-	- [终于有人把RISC-V讲明白了-电子发烧友网](https://www.elecfans.com/d/653167.html)
+	>  [终于有人把RISC-V讲明白了-电子发烧友网](https://www.elecfans.com/d/653167.html)
 
-	- [RISC-V-Reader-Chinese-v2p1.pdf](https://crva.ict.ac.cn/wjxz/202202/P020220217666841292320.pdf)(这本书就是上文的《RISC-V 开放架构设计之道》，但 uCore 里面引用的内容是此处的电子版本。)
+	> [RISC-V-Reader-Chinese-v2p1.pdf](https://crva.ict.ac.cn/wjxz/202202/P020220217666841292320.pdf)(这本书就是上文的《RISC-V 开放架构设计之道》，但 uCore 里面引用的内容是此处的电子版本。)
 
 ???+ note "[OS Tutorial Summer of Code 2020：Rust系统编程入门指导](https://github.com/rcore-os/rCore/wiki/os-tutorial-summer-of-code-2020#step-0-%E8%87%AA%E5%AD%A6rust%E7%BC%96%E7%A8%8B%E5%A4%A7%E7%BA%A67%E5%A4%A9)"
 
