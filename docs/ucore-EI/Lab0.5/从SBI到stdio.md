@@ -4,11 +4,9 @@ OpenSBI作为运行在M态的软件（或者说固件）, 提供了一些接口�
 
 我们可以通过`ecall`指令(environment call)调用OpenSBI。通过寄存器传递给OpenSBI一个”调用编号“，如果编号在 `0-8` 之间，则由OpenSBI进行处理，否则交由我们自己的中断处理程序处理（暂未实现）。有时OpenSBI调用需要像函数调用一样传递参数，这里传递参数的方式也和函数调用一样，按照riscv的函数调用约定(calling convention)把参数放到寄存器里。可以阅读[SBI的详细文档](https://github.com/riscv/riscv-sbi-doc/blob/master/riscv-sbi.adoc)。
 
-> [!TIP|style:flat|label:知识点]
->
-> **ecall**(environment call)，当我们在 S 态执行这条指令时，会触发一个 ecall-from-s-mode-exception，从而进入 M 模式中的中断处理流程（如设置定时器等）；当我们在 U 态执行这条指令时，会触发一个 ecall-from-u-mode-exception，从而进入 S 模式中的中断处理流程（常用来进行系统调用）。
->
-> 关于这个，大三的时候会被好好折磨的噢【坏笑】。
+!!! tip "Tip"
+    **ecall**(environment call)，当我们在 S 态执行这条指令时，会触发一个 ecall-from-s-mode-exception，从而进入 M 模式中的中断处理流程（如设置定时器等）；当我们在 U 态执行这条指令时，会触发一个 ecall-from-u-mode-exception，从而进入 S 模式中的中断处理流程（常用来进行系统调用）。
+     关于这个，大三的时候会被好好折磨的噢【坏笑】。
 
 C语言并不能直接调用`ecall`, 需要通过内联汇编来实现。
 
@@ -55,23 +53,23 @@ void sbi_set_timer(unsigned long long stime_value) {
 }
 ```
 
-> [!TIP|style:flat|label:知识点]
+!!! tip "知识点"
 >
-> 函数调用与calling convention
+    函数调用与calling convention
 >
-> 我们知道，编译器将高级语言源代码翻译成汇编代码。对于汇编语言而言，在最简单的编程模型中，所能够利用的只有指令集中提供的指令、各通用寄存器、 CPU 的状态、内存资源。那么，在高级语言中，我们进行一次函数调用，编译器要做哪些工作利用汇编语言来实现这一功能呢？
+    我们知道，编译器将高级语言源代码翻译成汇编代码。对于汇编语言而言，在最简单的编程模型中，所能够利用的只有指令集中提供的指令、各通用寄存器、 CPU 的状态、内存资源。那么，在高级语言中，我们进行一次函数调用，编译器要做哪些工作利用汇编语言来实现这一功能呢？
 >
-> 显然并不是仅用一条指令跳转到被调用函数开头地址就行了。我们还需要考虑：
+    显然并不是仅用一条指令跳转到被调用函数开头地址就行了。我们还需要考虑：
 >
-> - 如何传递参数？
-> - 如何传递返回值？
-> - 如何保证函数返回后能从我们期望的位置继续执行？
+    - 如何传递参数？
+    - 如何传递返回值？
+    - 如何保证函数返回后能从我们期望的位置继续执行？
 >
-> 等更多事项。通常编译器按照某种规范去翻译所有的函数调用，这种规范被称为 [calling convention](https://en.wikipedia.org/wiki/Calling_convention) 。值得一提的是，为了实现函数调用，我们需要预先分配一块内存作为 **调用栈** ，后面会看到调用栈在函数调用过程中极其重要。你也可以理解为什么第一章刚开始我们就要分配栈了。
+    等更多事项。通常编译器按照某种规范去翻译所有的函数调用，这种规范被称为 [calling convention](https://en.wikipedia.org/wiki/Calling_convention) 。值得一提的是，为了实现函数调用，我们需要预先分配一块内存作为 **调用栈** ，后面会看到调用栈在函数调用过程中极其重要。你也可以理解为什么第一章刚开始我们就要分配栈了。
 >
-> 可以参考[riscv calling convention](https://riscv.org/wp-content/uploads/2015/01/riscv-calling.pdf)
+    可以参考[riscv calling convention](https://riscv.org/wp-content/uploads/2015/01/riscv-calling.pdf)
 >
-> 
+    
 
 现在可以输出一个字符了，有了第一个，就会有第二个第三个……第无数个。
 

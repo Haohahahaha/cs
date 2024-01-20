@@ -17,7 +17,7 @@
 
 其中每个开发步骤都是建立在上一个步骤之上的，就像搭积木，从一个一个小木块，最终搭出来一个小房子。在搭房子的过程中，完成从理解操作系统原理到实践操作系统设计与实现的探索过程。这个房子最终的建筑架构和建设进度如下图所示：
 
-![ucore系统结构图](https://chyyuu.gitbooks.io/ucore_os_docs/content/lab0_figs/image001.png)
+![ucore系统结构图](./pic/image001.png)
 
 ## 开发OS实验的步骤
 
@@ -35,7 +35,6 @@
 10. 如果实现基本正确（即看到6的输出都是OK）则`push`到自己github仓库
 11. 编写实验报告，发送到助教邮箱，并`push`到github仓库
 
-> [!NOTE|style:flat]
->
-> 可以通过`make qemu`让OS实验工程在qemu上运行；可以通过`make debug`或`make debug-nox `命令实现通过gdb远程调试 OS实验工程。
+!!! note "Note"
+    可以通过`make qemu`让OS实验工程在qemu上运行；可以通过`make debug`或`make debug-nox `命令实现通过gdb远程调试 OS实验工程。
 
