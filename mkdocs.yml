@@ -57,6 +57,9 @@ nav:
       - jyyslide-md-scripts 安装指南: greenhand/jyyslide-md-script/install.md
     - 408-notes:
       - dsa: 408-notes/dsa.md
+      - arch: 408-notes/arch.md
+      - os: 408-notes/os.md
+      - nwk: 408-notes/nwk.md
     - bLog:
       - Admonitions: blog/admonitions/admonitions.md
     - 408:
