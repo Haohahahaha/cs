@@ -6,6 +6,10 @@
 
 !!! partypopper "2024，新年快乐！"
 
+!!! success "月总结"
+
+    - [1月](https://chat.haohaha.cn/thought/2024_monthly_summary/01/)
+
 !!! note "公告"
 
 	2022-2023年的记录[在此](https://chat.haohaha.cn/thought/learn-record/2022-2023/)。
