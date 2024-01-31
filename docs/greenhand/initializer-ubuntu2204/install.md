@@ -22,6 +22,20 @@
 
 	### 安装必要软件包与工具链（含ysyx）
 
+	!!! tip "2024-01-31 补丁"
+
+		为了在 VSCode 上使用起来更加舒适，可在 Windows 上使用。
+
+		同时 Ubuntu 上面的使用也应补全舒适度。
+
+		故需要安装以下组件：
+
+		- For Windows: 
+			- `SSH`：开启SSH服务
+			- `net-tools`：查询ipv4地址
+		- For Ubuntu：
+		    - `imwheel`：解决鼠标滚轮慢的问题
+
 	```bash 
 	sudo ./1-workflow.sh
 	```
