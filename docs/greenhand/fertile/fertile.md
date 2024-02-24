@@ -594,6 +594,10 @@ Python：[Harvard CS50x](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8
 
 ??? info "研究/工作"
 
+	!!! note "推荐于静老师的系列科研课程~"
+	
+		[科研与英文学术论文写作](https://space.bilibili.com/301285406/channel/collectiondetail?sid=535567&ctype=0)
+
 	- 设计复现
 
 	- 开源活动
