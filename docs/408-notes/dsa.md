@@ -2,7 +2,7 @@
 
 ## 1. 绪论与线性表
 
-??? note "笔记"
+??? note "2022-03-02 绪论与线性表"
 
     ![1-1](./pic/dsa/notes/1-1.jpg)
     ![1-2](./pic/dsa/notes/1-2.jpg)
@@ -10,6 +10,15 @@
     ![2-2](./pic/dsa/notes/2-2.jpg)
     ![2-3](./pic/dsa/notes/2-3.jpg)
     ![2-4](./pic/dsa/notes/2-4.jpg)
+    
+??? note "2022-03-03 栈&队列&矩阵&串"
+
+    ![3-1](./pic/dsa/notes/3-1.jpg)
+    ![3-2](./pic/dsa/notes/3-2.jpg)
+    ![3-3](./pic/dsa/notes/3-3.jpg)
+    ![3-4](./pic/dsa/notes/3-4.jpg)
+    ![4-1](./pic/dsa/notes/4-1.jpg)
+    ![4-2](./pic/dsa/notes/4-2.jpg)
 
 <!---
 
