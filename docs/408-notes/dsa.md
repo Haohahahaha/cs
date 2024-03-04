@@ -10,7 +10,11 @@
     ![2-2](./pic/dsa/notes/2-2.jpg)
     ![2-3](./pic/dsa/notes/2-3.jpg)
     ![2-4](./pic/dsa/notes/2-4.jpg)
-    
+
+??? tip "错题整理"
+
+## 2. 栈、队列与矩阵
+
 ??? note "2022-03-03 栈&队列&矩阵&串"
 
     ![3-1](./pic/dsa/notes/3-1.jpg)
@@ -20,26 +24,20 @@
     ![4-1](./pic/dsa/notes/4-1.jpg)
     ![4-2](./pic/dsa/notes/4-2.jpg)
     
-??? note "2022-03-04 树&二叉树"
-
-    ![5-1](./pic/dsa/notes/5-1.jpg)
-    ![5-2](./pic/dsa/notes/5-2.jpg)
-
-<!---
-
-??? tip "错题整理"
-
-## 2. 栈、队列与矩阵
-
-??? note "笔记"
 
 ??? tip "错题整理"
 
 ## 3. 树与二叉树
 
-??? note "笔记"
+??? note "2022-03-04 树&二叉树"
+
+    ![5-1](./pic/dsa/notes/5-1.jpg)
+    ![5-2](./pic/dsa/notes/5-2.jpg)
+
 
 ??? tip "错题整理"
+
+<!---
 
 ## 4. 树的应用与图的基础
 
