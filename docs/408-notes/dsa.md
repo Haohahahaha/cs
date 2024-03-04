@@ -19,6 +19,11 @@
     ![3-4](./pic/dsa/notes/3-4.jpg)
     ![4-1](./pic/dsa/notes/4-1.jpg)
     ![4-2](./pic/dsa/notes/4-2.jpg)
+    
+??? note "2022-03-04 树&二叉树"
+
+    ![5-1](./pic/dsa/notes/5-1.jpg)
+    ![5-2](./pic/dsa/notes/5-2.jpg)
 
 <!---
 
