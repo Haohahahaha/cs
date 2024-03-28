@@ -55,6 +55,8 @@ nav:
         - Ubuntu 22.04 我的第一台实体机: greenhand/Ubuntu2204-myFirstPhysicalLinuxMachine/U2204-mFPLM.md
       - 基于 mkdocs-material 的个人博客搭建: greenhand/initializer-material-blog/blog-init.md
       - jyyslide-md-scripts 安装指南: greenhand/jyyslide-md-script/install.md
+      - 服务器系列:
+        - 本地服务器远程连接: greenhand/Server/Remote-SSH-to-LocalMachine.md
     - 408-notes:
       - dsa: 408-notes/dsa.md
       - arch: 408-notes/arch.md
