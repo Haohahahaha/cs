@@ -446,7 +446,7 @@ Python：[Harvard CS50x](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8
 
 ==(第2学期第2-3周)==
 
-???+ tip "用C语言开发的操作系统--uCore"
+??? tip "用C语言开发的操作系统--uCore"
 
 	> 虽然这已经不太符合时代潮流了，但基于我们已会的C语言，用uCore上手显然是一个正确的选择！
 
@@ -471,6 +471,8 @@ Python：[Harvard CS50x](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8
 	>  [终于有人把RISC-V讲明白了-电子发烧友网](https://www.elecfans.com/d/653167.html)
 
 	> [RISC-V-Reader-Chinese-v2p1.pdf](https://crva.ict.ac.cn/wjxz/202202/P020220217666841292320.pdf)(这本书就是上文的《RISC-V 开放架构设计之道》，但 uCore 里面引用的内容是此处的电子版本。)
+
+???+ note "[rCore-Tutorial-v3](https://rcore-os.cn/rCore-Tutorial-Book-v3/)"
 
 ???+ note "[OS Tutorial Summer of Code 2020：Rust系统编程入门指导](https://github.com/rcore-os/rCore/wiki/os-tutorial-summer-of-code-2020#step-0-%E8%87%AA%E5%AD%A6rust%E7%BC%96%E7%A8%8B%E5%A4%A7%E7%BA%A67%E5%A4%A9)"
 
