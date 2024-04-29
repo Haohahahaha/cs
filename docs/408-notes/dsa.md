@@ -23,6 +23,11 @@
     ![3-4](./pic/dsa/notes/3-4.jpg)
     ![4-1](./pic/dsa/notes/4-1.jpg)
     ![4-2](./pic/dsa/notes/4-2.jpg)
+
+??? note "2022-04-06 KMP"
+
+    ![4-3](./pic/dsa/notes/4-3.jpg)
+    ![4-4](./pic/dsa/notes/4-4.jpg)
     
 
 ??? tip "错题整理"
@@ -47,42 +52,52 @@
 
 ??? tip "错题整理"
 
-<!---
 
-## 5. 图的基础 && 图的遍历和应用
+## 5. 图的基础 && 遍历
 
-??? note "笔记"
+??? note "2022-03-08 图的基础 && 遍历"
+
+    ![6-1](./pic/dsa/notes/6-1.jpg)
+    ![6-2](./pic/dsa/notes/6-2.jpg)
 
 ??? tip "错题整理"
 
-## 6. 图
+## 6. 图的应用
 
-??? note "笔记"
+??? note "2022-04-05 图的应用"
+
+    ![6-3](./pic/dsa/notes/6-3.jpg)
+    ![6-4](./pic/dsa/notes/6-4.jpg)
+    ![6-5](./pic/dsa/notes/6-5.jpg)
 
 ??? tip "错题整理"
 
 ## 7. 查找
 
-??? note "笔记"
+??? note "2022-03-23 查找"
+
+    ![7-1](./pic/dsa/notes/7-1.jpg)
+    ![7-2](./pic/dsa/notes/7-2.jpg)
+    ![7-3](./pic/dsa/notes/7-3.jpg)
 
 ??? tip "错题整理"
 
 ## 8. 排序
 
-??? note "笔记"
+??? note "2022-04-28~29 排序"
+
+    ![8-1](./pic/dsa/notes/8-1.jpg)
+    ![8-2](./pic/dsa/notes/8-2.jpg)
+    ![8-3](./pic/dsa/notes/8-3.jpg)
+    ![8-4](./pic/dsa/notes/8-4.jpg)
 
 ??? tip "错题整理"
 
 ## 9. 红黑树
 
-??? note "笔记"
+    ![9-1](./pic/dsa/notes/9-1.jpg)
+    ![9-2](./pic/dsa/notes/9-2.jpg)
+
+??? note "2022-04-29 红黑树"
 
 ??? tip "错题整理"
-
-## 10. KMP算法
-
-??? note "笔记"
-
-??? tip "错题整理"
-
---->
