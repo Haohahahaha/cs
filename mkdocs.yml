@@ -43,10 +43,6 @@ nav:
   - CS笔记: 
     - index.md
     - GreenHand菜鸟:
-      - OSCA招生简章: greenhand/recruit/recruit.md
-      - 2023-培养方案:
-        - 个人成长路线-beta: greenhand/fertile/fertile.md
-        - 2023年度考核标准: greenhand/fertile/assessment-2023.md
       - 信息的编解码能力: greenhand/de-en-code/de-en-code-info.md
       - 提问の二三事: greenhand/ask-question-zbt/ask-zbt.md
       - Ubuntu 安装系列:
@@ -57,6 +53,7 @@ nav:
       - jyyslide-md-scripts 安装指南: greenhand/jyyslide-md-script/install.md
       - 服务器系列:
         - 本地服务器远程连接: greenhand/Server/Remote-SSH-to-LocalMachine.md
+      - 效率提升指南: greenhand/efficient/efficient.md
     - 408-notes:
       - dsa: 408-notes/dsa.md
       - arch: 408-notes/arch.md
