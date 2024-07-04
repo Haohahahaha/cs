@@ -6,7 +6,7 @@
 
 ??? note "笔记"
 
-    ![1-1](./pic/nwk/notes/1-1.jpg)
+    ![1-1](./pic/nwk/notes/1-1.JPG)
 
 ??? tip "错题整理"
 
@@ -16,9 +16,9 @@
 
 ??? note "笔记"
 
-    ![2-1](./pic/nwk/notes/2-1.jpg)
-    ![2-2](./pic/nwk/notes/2-2.jpg)
-    ![2-2](./pic/nwk/notes/2-3.jpg)
+    ![2-1](./pic/nwk/notes/2-1.JPG)
+    ![2-2](./pic/nwk/notes/2-2.JPG)
+    ![2-2](./pic/nwk/notes/2-3.JPG)
 
 ??? tip "错题整理"
 
@@ -26,10 +26,10 @@
 
 ??? note "笔记"
 
-    ![3-1](./pic/nwk/notes/3-1.jpg)
-    ![3-2](./pic/nwk/notes/3-2.jpg)
-    ![3-3](./pic/nwk/notes/3-3.jpg)
-    ![3-4](./pic/nwk/notes/3-4.jpg)
+    ![3-1](./pic/nwk/notes/3-1.JPG)
+    ![3-2](./pic/nwk/notes/3-2.JPG)
+    ![3-3](./pic/nwk/notes/3-3.JPG)
+    ![3-4](./pic/nwk/notes/3-4.JPG)
 
 ??? tip "错题整理"
 
@@ -37,10 +37,10 @@
 
 ??? note "笔记"
 
-    ![4-1](./pic/nwk/notes/4-1.jpg)
-    ![4-2](./pic/nwk/notes/4-2.jpg)
-    ![4-3](./pic/nwk/notes/4-3.jpg)
-    ![4-4](./pic/nwk/notes/4-4.jpg)
+    ![4-1](./pic/nwk/notes/4-1.JPG)
+    ![4-2](./pic/nwk/notes/4-2.JPG)
+    ![4-3](./pic/nwk/notes/4-3.JPG)
+    ![4-4](./pic/nwk/notes/4-4.JPG)
 
 ??? tip "错题整理"
 
@@ -48,14 +48,14 @@
 
 ??? note "笔记"
 
-    ![5-1](./pic/nwk/notes/5-1.jpg)
-    ![5-2](./pic/nwk/notes/5-2.jpg)
-    ![5-3](./pic/nwk/notes/5-3.jpg)
-    ![5-4](./pic/nwk/notes/5-4.jpg)
-    ![6-2](./pic/nwk/notes/6-2.jpg)
-    ![6-3](./pic/nwk/notes/6-3.jpg)
-    ![6-4](./pic/nwk/notes/6-4.jpg)
-    ![6-5](./pic/nwk/notes/6-5.jpg)
+    ![5-1](./pic/nwk/notes/5-1.JPG)
+    ![5-2](./pic/nwk/notes/5-2.JPG)
+    ![5-3](./pic/nwk/notes/5-3.JPG)
+    ![5-4](./pic/nwk/notes/5-4.JPG)
+    ![6-2](./pic/nwk/notes/6-2.JPG)
+    ![6-3](./pic/nwk/notes/6-3.JPG)
+    ![6-4](./pic/nwk/notes/6-4.JPG)
+    ![6-5](./pic/nwk/notes/6-5.JPG)
 
 ??? tip "错题整理"
 
@@ -63,11 +63,11 @@
 
 ??? note "笔记"
 
-    ![7-1](./pic/nwk/notes/7-1.jpg)
-    ![7-2](./pic/nwk/notes/7-2.jpg)
-    ![7-3](./pic/nwk/notes/7-3.jpg)
-    ![7-4](./pic/nwk/notes/7-4.jpg)
-    ![7-5](./pic/nwk/notes/7-5.jpg)
+    ![7-1](./pic/nwk/notes/7-1.JPG)
+    ![7-2](./pic/nwk/notes/7-2.JPG)
+    ![7-3](./pic/nwk/notes/7-3.JPG)
+    ![7-4](./pic/nwk/notes/7-4.JPG)
+    ![7-5](./pic/nwk/notes/7-5.JPG)
 
 ??? tip "错题整理"
 
