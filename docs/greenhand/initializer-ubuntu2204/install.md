@@ -83,7 +83,7 @@
 	sudo ./4-SogouInputMethod-1.sh
 	```
 
-	根据脚本最后一行的提示，设置系统的语言设置，[启用Fcitx 4](http://cs.haohaha.cn/greenhand/Ubuntu2204-greenhad/Ubuntu2204-greenhand/#open-fcitx)
+	根据脚本最后一行的提示，设置系统的语言设置，[启用Fcitx 4](http://cs.haohaha.cn/greenhand/Ubuntu2204-greenhand/Ubuntu2204-greenhand/#open-fcitx)
 	
 	执行第二条脚本
 
@@ -118,6 +118,34 @@
 	```
 
 	之后请按[此步骤](https://cs.haohaha.cn/greenhand/Blog-intialization/blog-init/#ssh-key-github)进行Github的配置。
+
+!!! note "一些补丁"
+
+	- 2024-07-11 出现了网络情况：`ustc` 和 `tuna` 都不太好用了，反倒是 `aliyun` 稳定得很。
+
+	- 2024-07-11 虚拟机连接主机的 `Clash For Windows` 代理反倒不好用了，这时候在虚拟机里挂一个 `cfw` 就好啦。
+
+		另，`cfw` 下载地址已找到，是全部版本的：[点击链接](https://archive.org/download/clash_for_windows_pkg)
+
+		并且[搭建全流程](../Ubuntu2204-greenhand/Ubuntu2204-greenhand.md)里也恢复了之前隐藏的模块。
+
+	- 2024-07-11 `git` 无法使用时，可设置 `git` 的代理：
+
+		``` bash
+		git config --global http.proxy 127.0.0.1:7890
+		git config --global https.proxy 127.0.0.1:7890
+		```
+
+		即可联网。
+
+	- 2024-07-11 解压的文件夹名如何恢复到与正常文件夹权限相同（最起码看起来不是绿底蓝字）？
+
+		``` bash
+		chmod -R 775 [Folder]
+		chown -R [owner] [Folder]
+		```
+
+	
 
 ???+ warning "尚未完善的功能"
 

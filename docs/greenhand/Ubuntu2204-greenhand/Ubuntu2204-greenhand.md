@@ -516,11 +516,11 @@ sudo apt upgrade # 更新软件，后面默认回车即可
 
 #### 2. 安装Clash
 
-??? note "Clash for Windows 现已无法下载"
+???+ note "Clash for Windows"
 
 	!!! success "但是我有资源，嘎嘎！"
 
-		地址：[点击这里下载](https://github.com/Haohahahaha/cs/raw/master/docs/greenhand/Ubuntu2204-greenhand/Clash.for.Windows.Setup.0.20.39.ia32.exe)
+		地址：全版本下载地址：[点击链接](https://archive.org/download/clash_for_windows_pkg)
 
 	> 下载地址：https://github.com/Fndroid/clash_for_windows_pkg/releases
 
