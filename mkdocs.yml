@@ -53,6 +53,7 @@ nav:
       - 基于 mkdocs-material 的个人博客搭建: greenhand/initializer-material-blog/blog-init.md
       - jyyslide-md-scripts 安装指南: greenhand/jyyslide-md-script/install.md
       - 服务器系列:
+        - PVE-服务器部署: Server/AIO/PVE-Server-install.md
         - All in One 服务器配置流程: Server/AIO/All-in-One-Server.md
         - 本地服务器远程连接: Server/Remote-SSH-to-LocalMachine.md
         - 在服务器内使用 Docker 建立 Nextcloud 私有云: Server/nextcloud-docker.md
