@@ -267,7 +267,7 @@ sudo mount -t davfs http://192.168.9.3:6293/osca/ ~/osca
 2. 挂载点权限是否改变
 3. TrueNAS 的 `/mnt/oscaPool` 所有者是否为 osca，即 TrueNAS 的配置用户这一步是否做好！
 
-### Nextcloud 部署 OnlyOfficce
+### Nextcloud 部署 OnlyOffice
 
 > 主要思路： [使用docker进行nextcloud+onlyoffice环境搭建 - CSDN](https://blog.csdn.net/houjiezhuang/article/details/134122734)
 >
