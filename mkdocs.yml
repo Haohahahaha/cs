@@ -42,30 +42,33 @@ nav:
   - 主页: http://haohaha.cn
   - CS笔记: 
     - index.md
-    - GreenHand菜鸟:
+    - 信息沟通: 
       - 信息的编解码能力: greenhand/de-en-code/de-en-code-info.md
       - 提问の二三事: greenhand/ask-question-zbt/ask-zbt.md
-      - Ubuntu 系列:
-        - Ubuntu 22.04 虚拟机自动化安装 (initializer-ubuntu2204使用教程): greenhand/initializer-ubuntu2204/install.md
-        - Ubuntu 22.04 虚拟机搭建全流程: greenhand/Ubuntu2204-greenhand/Ubuntu2204-greenhand.md
-        - Ubuntu 22.04 我的第一台实体机: greenhand/Ubuntu2204-myFirstPhysicalLinuxMachine/U2204-mFPLM.md
-        - Ubuntu 22.04 远程桌面: greenhand/Ubuntu-Remote-Desktop/URD.md
+    - Ubuntu 系列:
+      - Ubuntu 22.04 虚拟机自动化安装 (initializer-ubuntu2204使用教程): greenhand/initializer-ubuntu2204/install.md
+      - Ubuntu 22.04 虚拟机搭建全流程: greenhand/Ubuntu2204-greenhand/Ubuntu2204-greenhand.md
+      - Ubuntu 22.04 我的第一台实体机: greenhand/Ubuntu2204-myFirstPhysicalLinuxMachine/U2204-mFPLM.md
+      - Ubuntu 22.04 远程桌面: greenhand/Ubuntu-Remote-Desktop/URD.md
+    - 博客 系列: 
       - 基于 mkdocs-material 的个人博客搭建: greenhand/initializer-material-blog/blog-init.md
-      - jyyslide-md-scripts 安装指南: greenhand/jyyslide-md-script/install.md
-      - 服务器系列:
-        - PVE-服务器部署: Server/AIO/PVE-Server-install.md
-        - All in One 服务器配置流程: Server/AIO/All-in-One-Server.md
-        - 本地服务器远程连接: Server/Remote-SSH-to-LocalMachine.md
-        - 在服务器内使用 Docker 建立 Nextcloud 私有云: Server/nextcloud-docker.md
-      - 效率提升指南: greenhand/efficient/efficient.md
-    - 408-notes:
+      - \[PPT\]jyyslide-md-scripts 安装指南: greenhand/jyyslide-md-script/install.md
+    - 服务器虚拟化搭建 系列:
+      - PVE-服务器部署: Server/AIO/PVE-Server-install.md
+      - All in One 服务器配置流程: Server/AIO/All-in-One-Server.md
+      - 本地服务器远程连接: Server/Remote-SSH-to-LocalMachine.md
+      - 在服务器内使用 Docker 建立 Nextcloud 私有云: Server/nextcloud-docker.md
+    - bLog:
+      - 个人效率提升指南: greenhand/efficient/efficient.md
+      - Admonitions: blog/admonitions/admonitions.md
+      - Git:
+        - 多分支仓库的创建与上传: git/2023-05-12_git_branch.md
+    - 408-PaperNotes:
       - dsa: 408-notes/dsa.md
       - arch: 408-notes/arch.md
       - os: 408-notes/os.md
       - nwk: 408-notes/nwk.md
-    - bLog:
-      - Admonitions: blog/admonitions/admonitions.md
-    - 408:
+    - 408-MindMap:
       - arch:
         - 1.计算机系统概述:
           - 1.1_计算机发展历程: 408/arch/1-1.md
@@ -203,13 +206,6 @@ nav:
 #         - 8.5_归并排序和基数排序: 408/dsa/8-5.md
 #         - 8.6_各种内部排序算法的比较及应用: 408/dsa/8-6.md
 #         - 8.7_外部排序: 408/dsa/8-7.md
-#   - HJCPP: 
-#     - 01.OOP1: hjcpp/01.md
-    - Git:
-      - 多分支仓库的创建与上传: git/2023-05-12_git_branch.md
-    - 学术会议记录: 
-      - 简介: conferenceNotes/index.md
-      - 大力开展基于国产AI芯片的大模型系统的研究: conferenceNotes/大力开展基于国产AI芯片的大模型系统的研究.md
   - 闲聊波尔卡: http://chat.haohaha.cn 
   - OS学习: http://os.haohaha.cn 
   - 算法打卡: http://alg.haohaha.cn
