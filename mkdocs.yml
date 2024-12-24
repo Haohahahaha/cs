@@ -58,6 +58,7 @@ nav:
       - All in One 服务器配置流程: Server/AIO/All-in-One-Server.md
       - 本地服务器远程连接: Server/Remote-SSH-to-LocalMachine.md
       - 在服务器内使用 Docker 建立 Nextcloud 私有云: Server/nextcloud-docker.md
+      - SSL证书部署or更新流程: Server/ssl-update.md
     - bLog:
       - 个人效率提升指南: greenhand/efficient/efficient.md
       - Admonitions: blog/admonitions/admonitions.md
