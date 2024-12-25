@@ -52,7 +52,7 @@ nav:
       - Ubuntu 22.04 远程桌面: greenhand/Ubuntu-Remote-Desktop/URD.md
     - 博客 系列: 
       - 基于 mkdocs-material 的个人博客搭建: greenhand/initializer-material-blog/blog-init.md
-      - \[PPT\]jyyslide-md-scripts 安装指南: greenhand/jyyslide-md-script/install.md
+      - PPT_jyyslide-md-scripts 安装指南: greenhand/jyyslide-md-script/install.md
     - 服务器虚拟化搭建 系列:
       - PVE-服务器部署: Server/AIO/PVE-Server-install.md
       - All in One 服务器配置流程: Server/AIO/All-in-One-Server.md
