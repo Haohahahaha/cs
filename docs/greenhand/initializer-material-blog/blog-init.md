@@ -53,7 +53,7 @@
 
 	- 克隆仓库 [initializer-material-blog](https://github.com/Haohahahaha/initializer-material-blog)
 
-!!! danger 编辑以下文件
+!!! danger "7. 编辑以下文件"
 
   	`auto-update-this-repo.sh`：
 
@@ -77,14 +77,14 @@
 	- 如未购买，记得要删除。
 
 	
-### 设置 Github Deploy 分支与自定义网址
+!!! note "8. 设置 Github Deploy 分支与自定义网址"
 
-- Settings-Pages 中 `Build and Deployment`-`Branch` 选择 `gh-pages`，点击 `Save` 保存
+	- Settings-Pages 中 `Build and Deployment`-`Branch` 选择 `gh-pages`，点击 `Save` 保存
 
-- `Custom domain` 下可设置自己的网址
+	- `Custom domain` 下可设置自己的网址
 
-### markdown语法与博客排版+选题+维护
+!!! note "9. markdown语法与博客排版+选题+维护"
 
-- [markdown-it demo](https://markdown-it.github.io/)
+	- [markdown-it demo](https://markdown-it.github.io/)
 
-- [如何看待程序员持续写技术博客 - Raven 的回答](https://www.zhihu.com/question/41802793/answer/2435610889)
+	- [如何看待程序员持续写技术博客 - Raven 的回答](https://www.zhihu.com/question/41802793/answer/2435610889)
