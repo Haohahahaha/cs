@@ -42,6 +42,8 @@ nav:
   - 主页: http://haohaha.cn
   - CS笔记: 
     - index.md
+    - YSYX:
+      - ysyx/index.md
     - 信息沟通: 
       - 信息的编解码能力: greenhand/de-en-code/de-en-code-info.md
       - 提问の二三事: greenhand/ask-question-zbt/ask-zbt.md
@@ -60,7 +62,7 @@ nav:
       - 在服务器内使用 Docker 建立 Nextcloud 私有云: Server/nextcloud-docker.md
       - SSL证书部署or更新流程: Server/ssl-update.md
     - bLog:
-      - 个人效率提升指南: greenhand/efficient/efficient.md
+#     - 个人效率提升指南: greenhand/efficient/efficient.md
       - Admonitions: blog/admonitions/admonitions.md
       - Git:
         - 多分支仓库的创建与上传: git/2023-05-12_git_branch.md
