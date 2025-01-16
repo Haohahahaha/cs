@@ -44,8 +44,8 @@ nav:
     - index.md
     - YSYX:
       - ysyx/index.md
-      - 0116-预学习-1: 0116/log.md
-#     - 0117-预学习-2: 0117/log.md
+      - 0116-预学习-1: ysyx/0116/log.md
+#     - 0117-预学习-2: ysyx/0117/log.md
     - 信息沟通: 
       - 信息的编解码能力: greenhand/de-en-code/de-en-code-info.md
       - 提问の二三事: greenhand/ask-question-zbt/ask-zbt.md
