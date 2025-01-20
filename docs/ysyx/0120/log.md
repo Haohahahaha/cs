@@ -11,5 +11,16 @@
     1. [Linux系统安装和基本使用](https://ysyx.oscc.cc/docs/2306/preliminary/0.2.html)
         1. [PA0](https://ysyx.oscc.cc/docs/ics-pa/0.1.html) 
             1. [Command line vs. GUI](https://www.computerhope.com/issues/ch000619.htm)
+            2. [GDB debugging tutorial for beginners](https://linuxconfig.org/gdb-debugging-tutorial-for-beginners)
+            3. [Linux C编程一站式学习](http://akaedu.github.io/book/)
 
-!!! note "提问的智慧-读后感"
+!!! note "学习记录 for 明日"
+
+    - [ ] 记得把 `Vimtutor` 看完。
+    - [ ] [`GDB` 入门教程](https://linuxconfig.org/gdb-debugging-tutorial-for-beginners)还没有看。
+    - [ ] `Git-merge` 的 manual 记得看
+    - [ ] [`Linux C编程一站式学习`](http://akaedu.github.io/book/) 也应该在 C 部分补齐
+        - [ ] 要核对 C 部分是否也包含此书。
+    - [ ] [`Linux 101`](https://101.ustclug.org/) 记得搞定
+    - [ ] [`命令行的艺术`](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md) 也要看……
+    - [ ] 看看培养方案里要求的内容吧？
