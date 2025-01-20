@@ -91,7 +91,7 @@
 	sudo ./4-SogouInputMethod-2.sh
 	```
 
-	重启后添加输入法，步骤[在此](http://cs.haohaha.cn/greenhand/Ubuntu2204-greenhad/Ubuntu2204-greenhand/#configure-sogou)
+	重启后添加输入法，步骤[在此](http://cs.haohaha.cn/greenhand/Ubuntu2204-greenhand/Ubuntu2204-greenhand/#configure-sogou)
 
 	### 安装办公软件，可选配
 
