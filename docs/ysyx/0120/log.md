@@ -16,8 +16,8 @@
 
 !!! note "学习记录 for 明日"
 
-    - [ ] 记得把 `Vimtutor` 看完。
-    - [ ] [`GDB` 入门教程](https://linuxconfig.org/gdb-debugging-tutorial-for-beginners)还没有看。
+    - [x] 记得把 `Vimtutor` 看完。(0121 done)
+    - [x] [`GDB` 入门教程](https://linuxconfig.org/gdb-debugging-tutorial-for-beginners)还没有看。(0121 done)
     - [ ] `Git-merge` 的 manual 记得看
     - [ ] [`Linux C编程一站式学习`](http://akaedu.github.io/book/) 也应该在 C 部分补齐
         - [ ] 要核对 C 部分是否也包含此书。

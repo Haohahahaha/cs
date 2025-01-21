@@ -7,5 +7,6 @@
 
 !!! info "更新记录"
 
+    - [01月21日：预学习 - 2. Linux系统安装和基本使用 (2)](https://cs.haohaha.cn/ysyx/0121/log/)
     - [01月20日：预学习 - 2. Linux系统安装和基本使用 (1)](https://cs.haohaha.cn/ysyx/0120/log/)
     - [01月16日：预学习 - 1. 如何科学地提问](https://cs.haohaha.cn/ysyx/0116/log/)
