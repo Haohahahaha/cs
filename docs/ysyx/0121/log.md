@@ -79,7 +79,7 @@
         - `%e`: Executable filename
         - `%t`: Time of the crash
     - About Signal Number: See `man 7 signal` - "Standard signals"
-    - GDB Usage
+    - ==GDB Usage==
         - `bt` - BackTrace: To gives us a trace of the current state (procedure after procedure called) of the program.
             - multiple threads feature: `thread apply all bt` to obtain a backtrace for all threads which were running as the program crashed.
         - `#n` - frame No.n, like a procedure in code for the time being.
