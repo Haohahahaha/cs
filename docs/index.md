@@ -18,3 +18,5 @@
 --->
 
 !!! note "欢迎！"
+
+!!! tip "Since [2022-07-03](https://github.com/Haohahahaha/cs/commit/194e34eaa3cc1d969bc31f069af82b5db4d59daf) 😉"
