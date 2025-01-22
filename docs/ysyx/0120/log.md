@@ -19,8 +19,6 @@
     - [x] 记得把 `Vimtutor` 看完。(0121 done)
     - [x] [`GDB` 入门教程](https://linuxconfig.org/gdb-debugging-tutorial-for-beginners)还没有看。(0121 done)
     - [ ] `Git-merge` 的 manual 记得看
-    - [ ] [`Linux C编程一站式学习`](http://akaedu.github.io/book/) 也应该在 C 部分补齐
-        - [ ] 要核对 C 部分是否也包含此书。
     - [ ] [`Linux 101`](https://101.ustclug.org/) 记得搞定
     - [ ] [`命令行的艺术`](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md) 也要看……
     - [ ] 看看培养方案里要求的内容吧？
