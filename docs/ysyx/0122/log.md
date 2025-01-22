@@ -12,6 +12,14 @@
     - [命令行的艺术](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
     - [Tmux 使用教程](https://www.ruanyifeng.com/blog/2019/10/tmux.html)
     - Git Merge Manual
+  
+!!! note "Linux 101"
+
+    > 因为基本都会，所以浏览一遍勾一下重点还不太会的。
+
+    3. 软件安装与文件操作
+        - [模式匹配](https://101.ustclug.org/Ch03/#pattern) - 匹配模式 glob 与 extglob
+        - [TAR](https://101.ustclug.org/Ch03/#tar) 的常用选项
 
 !!! note "Tmux 使用教程"
 
@@ -25,7 +33,7 @@
         - +`s`：列出所有会话。
         - +`$`：重命名当前会话。
     - **{++窗格快捷键(pane)++}
-        - +`%`：==划分左右==两个窗格。
+        - +`%`：{==划分左右==}两个窗格。
         - +`"`：==划分上下==两个窗格。
         - +`<arrow key>`：光标切换到其他窗格。`<arrow key>`是指向要切换到的窗格的方向键，比如切换到下方窗格，就按方向键↓。
         - +`;`：光标切换到上一个窗格。
