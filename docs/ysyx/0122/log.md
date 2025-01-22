@@ -15,13 +15,13 @@
 
     > 因为基本都会，所以浏览一遍勾一下重点还不太会的。
 
-    3. 软件安装与文件操作
+    - 3.软件安装与文件操作
         - [模式匹配](https://101.ustclug.org/Ch03/#pattern) - 匹配模式 glob 与 extglob
         - [TAR](https://101.ustclug.org/Ch03/#tar) 的常用选项
         - [tldr](https://101.ustclug.org/Ch03/#tldr) - 精简版 manual
         - [时间戳](https://101.ustclug.org/Ch03/supplement/#timestamp) 与 stat 查看工具
         - [压缩包多格式相关](https://101.ustclug.org/Ch03/supplement/#tar-alternative)
-    4. 进程、前后台……
+    - 4.进程、前后台……
         - [htop](https://101.ustclug.org/Ch04/#htop) - 新学到用法了嘿，好玩好玩。
         - [Kill 命令](https://101.ustclug.org/Ch04/#kill-command) - `kill -l` 可显示所有信号名称 
         - {==[定制Tmux](https://101.ustclug.org/Ch04/#customizing-tmux)==} - 自制快捷键嘞~~
@@ -29,7 +29,7 @@
         - [CronTab!!!](https://101.ustclug.org/Ch04/#crontab) - 经典的周期性任务
         - 小插曲：`Ctrl-Alt-Fx`(x=1,2,...) 直接给我跳到纯命令行了，Ubuntu 跳回图形界面的快捷键是 `Ctrl-Alt-F7` 哈。
         - [Strace](https://101.ustclug.org/Ch04/supplement/#proc) 来啦 - 追踪程序使用的系统调用
-    5. 用户与用户组……
+    - 5.用户与用户组……
         - [sudo](https://101.ustclug.org/Ch05/#sudo)：无密码执行sudo的小技巧，很有用。 
 
 !!! note "Tmux 使用教程"
