@@ -8,12 +8,10 @@
 
 !!! tip "阅读树"
 
-    - [Linux 101](https://101.ustclug.org/)
-    - [命令行的艺术](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
+    - [Linux 101](https://101.ustclug.org/)(1-5)
     - [Tmux 使用教程](https://www.ruanyifeng.com/blog/2019/10/tmux.html)
-    - Git Merge Manual
   
-!!! note "Linux 101"
+!!! note "Linux 101(1-5)"
 
     > 因为基本都会，所以浏览一遍勾一下重点还不太会的。
 
@@ -23,6 +21,16 @@
         - [tldr](https://101.ustclug.org/Ch03/#tldr) - 精简版 manual
         - [时间戳](https://101.ustclug.org/Ch03/supplement/#timestamp) 与 stat 查看工具
         - [压缩包多格式相关](https://101.ustclug.org/Ch03/supplement/#tar-alternative)
+    4. 进程、前后台……
+        - [htop](https://101.ustclug.org/Ch04/#htop) - 新学到用法了嘿，好玩好玩。
+        - [Kill 命令](https://101.ustclug.org/Ch04/#kill-command) - `kill -l` 可显示所有信号名称 
+        - {==[定制Tmux](https://101.ustclug.org/Ch04/#customizing-tmux)==} - 自制快捷键嘞~~
+        - [at 命令](https://101.ustclug.org/Ch04/#at) - 单次计划任务
+        - [CronTab!!!](https://101.ustclug.org/Ch04/#crontab) - 经典的周期性任务
+        - 小插曲：`Ctrl-Alt-Fx`(x=1,2,...) 直接给我跳到纯命令行了，Ubuntu 跳回图形界面的快捷键是 `Ctrl-Alt-F7` 哈。
+        - [Strace](https://101.ustclug.org/Ch04/supplement/#proc) 来啦 - 追踪程序使用的系统调用
+    5. 用户与用户组……
+        - [sudo](https://101.ustclug.org/Ch05/#sudo)：无密码执行sudo的小技巧，很有用。 
 
 !!! note "Tmux 使用教程"
 
@@ -32,15 +40,16 @@
     - +`?` - 帮助信息
         - `ESC`/`q` - 退出  
     - 会话快捷键(个人不常用)
-        - +`d`：分离当前会话。
-        - +`s`：列出所有会话。
-        - +`$`：重命名当前会话。
+        - +`d`：{==分离当前会话==}
+            - {==恢复会话命令==}：`tmux attach -t [Session_Name]`
+        - +`s`：列出所有会话
+        - +`$`：重命名当前会话
     - **{++窗格快捷键(pane)++}
         - +`%`：{==划分左右==}两个窗格。
         - +`"`：{==划分上下==}两个窗格。
         - +`<arrow key>`：光标切换到其他窗格。`<arrow key>`是指向要切换到的窗格的方向键，比如切换到下方窗格，就按方向键↓。
         - +`;`：光标切换到上一个窗格。
-        - +`o`：光标==切换到下一个窗格==。
+        - +`o`：光标{==切换到下一个窗格==}。
         - +`{`：当前窗格与上一个窗格交换位置。
         - +`}`：当前窗格与下一个窗格交换位置。
         - +`Ctrl-O`：所有窗格向前移动一个位置，第一个窗格变成最后一个窗格。
