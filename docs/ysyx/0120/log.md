@@ -19,6 +19,6 @@
     - [x] 记得把 `Vimtutor` 看完。(0121 done)
     - [x] [`GDB` 入门教程](https://linuxconfig.org/gdb-debugging-tutorial-for-beginners)还没有看。(0121 done)
     - [ ] `Git-merge` 的 manual 记得看
-    - [x] [`Linux 101`](https://101.ustclug.org/) 记得搞定
+    - [x] [`Linux 101`](https://101.ustclug.org/) 记得搞定 (0122-0123 done)
     - [ ] [`命令行的艺术`](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md) 也要看……
-    - [x] ~~看看培养方案里要求的内容吧？~~ [Tmux 使用教程](https://www.ruanyifeng.com/blog/2019/10/tmux.html)
+    - [x] ~~看看培养方案里要求的内容吧？~~ [Tmux 使用教程](https://www.ruanyifeng.com/blog/2019/10/tmux.html)(0122 done)
