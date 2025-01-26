@@ -55,6 +55,8 @@
 
 !!! danger "7. 编辑以下文件"
 
+	`.git/`：记得删了= = 这个记录的是本仓库的……
+
   	`auto-update-this-repo.sh`：
 
 	- 将第四行 `init-material` 改为刚刚设置好的 远程仓库地址名 [REMOTE_NAME]
