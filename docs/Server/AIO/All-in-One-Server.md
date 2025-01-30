@@ -6,10 +6,6 @@
 >
 > date: 2024-08-05
 
-## 架构介绍
-
-![临时架构]()
-
 ## Windows Server 2022 安装
 
 1. 在安装时选择 Datacenter (Desktop Edition) 版本
