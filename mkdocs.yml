@@ -69,7 +69,7 @@ nav:
 #     - 个人效率提升指南: greenhand/efficient/efficient.md
       - Admonitions: blog/admonitions/admonitions.md
       - Git:
-        - 多分支仓库的创建与上传: git/2023-05-12_git_branch.md
+        - 多分支仓库的创建与上传: git/git_branch.md
     - 408-PaperNotes:
       - dsa: 408-notes/dsa.md
      #- arch: 408-notes/arch.md
