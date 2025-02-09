@@ -1,10 +1,11 @@
 # All in One 服务器配置流程
 
-> author: Haohahahaha (Haorui Zhang) feat.[JesseHT](JesseHT@outlook.com)
-> 
-> mail: 1259203802@qq.com
->
-> date: 2024-08-05
+!!! info ""
+    author: Haohahahaha (Haorui Zhang) feat.[JesseHT](JesseHT@outlook.com)
+    
+    mail: 1259203802@qq.com
+   
+    date: 2024-08-05
 
 ## Windows Server 2022 安装
 
@@ -16,8 +17,6 @@
 6. 安装必要软件，自行下载。
 
 ## PVE 安装
-
-> 
 
 1. 正常安装
 2. 注意硬盘选择
