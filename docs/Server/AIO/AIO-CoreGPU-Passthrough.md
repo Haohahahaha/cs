@@ -1,4 +1,4 @@
-## 核显直通笔记
+# 核显直通笔记
 
 !!! info ""
     author: Haohahahaha (Haorui Zhang)
