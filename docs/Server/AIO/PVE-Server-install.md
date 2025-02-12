@@ -137,6 +137,15 @@ root@haohaha:~# dmesg | grep -i iwl
 
 参考视频：[手把手教学！Openwrt IPV6 ddns解析，公网访问，远程开机，远程桌面 - Bilibili](https://www.bilibili.com/video/BV1NL411X7KA)
 
+!!! note "DDNS-GO"
+    
+    1. 注意，腾讯的密钥和 DnsPod 搀在一个页面了，默认打开的是腾讯的，千万注意。
+    2. DnsPod 那的白名单不用开，默认就是关着的，别开。开了反倒可能出现 DDNS-Go 的 “IP非法” 错误。
+
+!!! note "备案"
+
+    - 其实不用云服务器，只用域名的话，备案其实也不用备（毕竟备案需要有云资源）。
+
 ## PVE 配置
 
 ### 更新中科大源并更新软件
