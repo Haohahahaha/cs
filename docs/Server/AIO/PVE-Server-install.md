@@ -137,6 +137,8 @@ root@haohaha:~# dmesg | grep -i iwl
 
 参考视频：[手把手教学！Openwrt IPV6 ddns解析，公网访问，远程开机，远程桌面 - Bilibili](https://www.bilibili.com/video/BV1NL411X7KA)
 
+TODO：详细流程有待补充哈。
+
 !!! note "DDNS-GO"
     
     1. 注意，腾讯的密钥和 DnsPod 搀在一个页面了，默认打开的是腾讯的，千万注意。
