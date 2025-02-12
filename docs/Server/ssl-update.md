@@ -11,8 +11,12 @@
 ### NextCloud
 
 1. 进入 NextCloud 的 Docker 内，然后编辑 `/etc/apache2/cert/` 下的 `pem` 和 `key` 文件，将新的文件内容覆盖掉。
+    
+    !!! note "初始没有这个目录，新建就可以了。"
 
 2. 退出 Docker，然后执行命令 `sudo docker restart nextcloud`，即可访问。
+
+    !!! note "别忘了在端口映射那改成 https 的端口🤓"
 
 ### TrueNAS
 
