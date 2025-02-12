@@ -16,7 +16,7 @@
 
 2. 退出 Docker，然后执行命令 `sudo docker restart nextcloud`，即可访问。
 
-    !!! note "别忘了在端口映射那改成 https 的端口🤓"
+    !!! note "别忘了在 iStoreOS - Socat 端口映射那改成 https 的端口🤓"
 
 ### TrueNAS
 
