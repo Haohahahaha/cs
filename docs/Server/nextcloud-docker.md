@@ -243,3 +243,20 @@ networks:
   - 其实可以设置每天去扫描，不过我懒得弄了，贴个[链接](https://blog.csdn.net/u010457406/article/details/84335143)先。
 
   
+## Alist
+
+贴个 `docker-compose.yml` 以供参考
+
+```yaml
+version: "3"
+ 
+services:
+  app:
+    image: xhofe/alist:latest
+    container_name: alist
+    volumes:
+      - ./app:/opt/alist/data
+    ports:
+      - 5244:5244 # 按需修改
+    restart: unless-stopped
+```
