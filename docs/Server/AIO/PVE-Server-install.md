@@ -230,7 +230,11 @@ network:
 
 ### 更改启动界面
 
-lightdm
+```bash
+sudo apt install lightdm -y
+```
+
+安装时选择 `lightdm` 即可
 
 ### 安装 X11VNC-Server
 
@@ -250,7 +254,7 @@ emmm，看起来换官方源开代理更靠谱。
 
 #### Docker配置代理
 
-注意是 `172,.17.0.1:7890` ，因为 docker 用的是 docker 自己的网卡 `docker0` 。
+注意是 `172.17.0.1:7890` ，因为 docker 用的是 docker 自己的网卡 `docker0` 。
 
 ### Docker 内 Nextcloud 配置代理
 
