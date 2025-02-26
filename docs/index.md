@@ -1,4 +1,4 @@
-# 简介
+# Be_Rationial -- CS 笔记
 
 主站: [浩哈哈哈哈--网管儿，来碗泡面！](https://haohaha.cn)
 
