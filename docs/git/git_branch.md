@@ -35,7 +35,6 @@ git pull [MY_GIT_SSH_OR_HTTPS]  # 如初次使用，且为合作者，直接从�
 > 接下来来实现在本地新建一个`dev`分支,修改内容后提交合并到`master`，然后提交到远程仓库的`dev` 。
 
 ```bash
-git branch -b [BRANCH_NAME]	# 本地新建分支，并[切换]到新分支
 git branch [BRANCH_NAME]		# 本地新建分支，[不切换]到新分支
 
 git branch -l	# 列出分支
