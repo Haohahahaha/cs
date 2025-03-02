@@ -7,7 +7,7 @@
 
 !!! info "更新记录"
     
-    - [03月02日：预学习 - 2. Linux系统安装和基本使用 + 3. C语言](https://cs.haohaha.cn/ysyx/0302/log/)
+    - [03月02日：预学习 - 2. Linux系统安装和基本使用 + 3. Learn C](https://cs.haohaha.cn/ysyx/0302/log/)
     - [01月22日：预学习 - 2. Linux系统安装和基本使用 (3)](https://cs.haohaha.cn/ysyx/0122/log/)
     - [01月21日：预学习 - 2. Linux系统安装和基本使用 (2)](https://cs.haohaha.cn/ysyx/0121/log/)
     - [01月20日：预学习 - 2. Linux系统安装和基本使用 (1)](https://cs.haohaha.cn/ysyx/0120/log/)

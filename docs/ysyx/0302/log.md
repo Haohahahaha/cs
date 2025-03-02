@@ -94,3 +94,5 @@
         ``` 
 
 ???+ note "Learn C The Hard Way"
+
+    见[相关仓库](https://github.com/Haohahahaha/LearnC)
