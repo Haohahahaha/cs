@@ -7,6 +7,7 @@
     > 注：链接首选为讲义，其次为视频。
 
 !!! tip "阅读树“
+
     - [练习3：格式化输出](https://wizardforcel.gitbooks.io/lcthw/content/ex3.html)
         - ISO/IEC 9899:2024 (C33标准)
             - `P64` 6.4.4.5 - escape-sequence
