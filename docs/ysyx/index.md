@@ -7,9 +7,10 @@
 
 !!! info "更新记录"
     
-    - [03月03日：预学习 - 4. Learn C](https://cs.haohaha.cn/ysyx/0303/log/)
-    - [03月02日：预学习 - 2. Linux系统安装和基本使用 + 4. Learn C](https://cs.haohaha.cn/ysyx/0302/log/)
-    - [01月22日：预学习 - 2. Linux系统安装和基本使用 (3)](https://cs.haohaha.cn/ysyx/0122/log/)
-    - [01月21日：预学习 - 2. Linux系统安装和基本使用 (2)](https://cs.haohaha.cn/ysyx/0121/log/)
-    - [01月20日：预学习 - 2. Linux系统安装和基本使用 (1)](https://cs.haohaha.cn/ysyx/0120/log/)
+    - [03月04日：预学习 - 4. Learn C：4](https://cs.haohaha.cn/ysyx/0303/log/)  
+    - [03月03日：预学习 - 4. Learn C：3](https://cs.haohaha.cn/ysyx/0303/log/)
+    - [03月02日：预学习 - 2. Linux：Linux101 6 + 4. Learn C：1-2](https://cs.haohaha.cn/ysyx/0302/log/)
+    - [01月22日：预学习 - 2. Linux：Linux101 1-5](https://cs.haohaha.cn/ysyx/0122/log/)
+    - [01月21日：预学习 - 2. Linux：VimTutor + GDB Tutorial](https://cs.haohaha.cn/ysyx/0121/log/)
+    - [01月20日：预学习 - 2. Linux：PA0](https://cs.haohaha.cn/ysyx/0120/log/)
     - [01月16日：预学习 - 1. 如何科学地提问](https://cs.haohaha.cn/ysyx/0116/log/)
