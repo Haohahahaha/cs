@@ -69,6 +69,7 @@ nav:
       - 核显直通笔记: Server/AIO/AIO-CoreGPU-Passthrough.md
       - PVE-服务器部署: Server/AIO/PVE-Server-install.md
       - All in One 服务器配置流程: Server/AIO/All-in-One-Server.md
+      - PVE 中 local 盘空间不足的解决办法: Server/AIO/AIO-Disk.md
       - 本地服务器远程连接: Server/Remote-SSH-to-LocalMachine.md
       - 在服务器内使用 Docker 建立 Nextcloud 私有云: Server/nextcloud-docker.md
       - SSL证书部署or更新流程: Server/ssl-update.md
