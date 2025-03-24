@@ -7,6 +7,7 @@
 
 !!! info "更新记录"
     
+    - [03月24日：预学习 - 4. Learn C：5-13](https://cs.haohaha.cn/ysyx/0324/log/)
     - [03月04日：预学习 - 4. Learn C：4](https://cs.haohaha.cn/ysyx/0303/log/)  
     - [03月03日：预学习 - 4. Learn C：3](https://cs.haohaha.cn/ysyx/0303/log/)
     - [03月02日：预学习 - 2. Linux：Linux101 6 + 4. Learn C：1-2](https://cs.haohaha.cn/ysyx/0302/log/)

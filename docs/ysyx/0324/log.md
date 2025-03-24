@@ -1,4 +1,4 @@
-# 03月16日 - 预学习
+# 03月24日 - 预学习
 
 !!! success "今日学习"
 
@@ -8,6 +8,10 @@
 
 !!! tip "阅读树"
 
-    - 
+    - 练习6-练习13
 
-!!! note ""
+???+ note "Learn C The Hard Way"
+
+    都在代码里了。
+    
+    见[相关仓库](https://github.com/Haohahahaha/LearnC)
