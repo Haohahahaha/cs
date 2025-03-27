@@ -7,6 +7,8 @@
 
 !!! info "更新记录"
     
+    - [03月27日：预学习 - 5](https://cs.haohaha.cn/ysyx/0327/log/)
+    - 03 月 25-26 日：预学习 - 4. Learn C：14-17
     - [03月24日：预学习 - 4. Learn C：5-13](https://cs.haohaha.cn/ysyx/0324/log/)
     - [03月04日：预学习 - 4. Learn C：4](https://cs.haohaha.cn/ysyx/0303/log/)  
     - [03月03日：预学习 - 4. Learn C：3](https://cs.haohaha.cn/ysyx/0303/log/)
