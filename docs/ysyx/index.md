@@ -1,21 +1,21 @@
 # 一生一芯-学习记录
 
-!!! abstract "这里记录 2025 年初学习[“一生一芯”](https://ysyx.oscc.cc/)的过程。"
+!!! abstract "这里记录 2025 年初学习“一生一芯”(https://ysyx.oscc.cc/)的 ~~过程~~ 进度。"
 
     - 给后来者打个样儿
     - 希望不要像 24 年初一样"把自己进度拖爆"——注意执行力。
 
-!!! danger "😣看到了[为什么不能把代码/心得/攻略上传到公开的地方让大家学习 - 一生一芯](https://ysyx.oscc.cc/docs/ics-pa/FAQ.html#%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%8D%E8%83%BD%E6%8A%8A%E4%BB%A3%E7%A0%81-%E5%BF%83%E5%BE%97-%E6%94%BB%E7%95%A5%E4%B8%8A%E4%BC%A0%E5%88%B0%E5%85%AC%E5%BC%80%E7%9A%84%E5%9C%B0%E6%96%B9%E8%AE%A9%E5%A4%A7%E5%AE%B6%E5%AD%A6%E4%B9%A0)，发现自己上传到博客/公开仓库上就没有遵守学术诚信，那么我尽快把仓库的内容清理一下，转移到私有仓库吧，这样我的笔记就可以只在腾讯文档里贴链接了。"
+!!! danger "😣看到了为什么不能把代码/心得/攻略上传到公开的地方让大家学习 - 一生一芯(https://ysyx.oscc.cc/docs/ics-pa/FAQ.html#%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%8D%E8%83%BD%E6%8A%8A%E4%BB%A3%E7%A0%81-%E5%BF%83%E5%BE%97-%E6%94%BB%E7%95%A5%E4%B8%8A%E4%BC%A0%E5%88%B0%E5%85%AC%E5%BC%80%E7%9A%84%E5%9C%B0%E6%96%B9%E8%AE%A9%E5%A4%A7%E5%AE%B6%E5%AD%A6%E4%B9%A0)，发现自己上传到博客/公开仓库上就没有遵守学术诚信，那么我尽快把仓库的内容清理一下，转移到私有仓库吧，这样我的笔记就可以只在腾讯文档里贴链接了。"
 
-!!! info "更新记录"
+!!! info "进度"
     
-    - [03月27日：预学习 - 5](https://cs.haohaha.cn/ysyx/0327/log/)
+    - 03月27日：预学习 - 5
     - 03 月 25-26 日：预学习 - 4. Learn C：14-17
-    - [03月24日：预学习 - 4. Learn C：5-13](https://cs.haohaha.cn/ysyx/0324/log/)
-    - [03月04日：预学习 - 4. Learn C：4](https://cs.haohaha.cn/ysyx/0303/log/)  
-    - [03月03日：预学习 - 4. Learn C：3](https://cs.haohaha.cn/ysyx/0303/log/)
-    - [03月02日：预学习 - 2. Linux：Linux101 6 + 4. Learn C：1-2](https://cs.haohaha.cn/ysyx/0302/log/)
-    - [01月22日：预学习 - 2. Linux：Linux101 1-5](https://cs.haohaha.cn/ysyx/0122/log/)
-    - [01月21日：预学习 - 2. Linux：VimTutor + GDB Tutorial](https://cs.haohaha.cn/ysyx/0121/log/)
-    - [01月20日：预学习 - 2. Linux：PA0](https://cs.haohaha.cn/ysyx/0120/log/)
-    - [01月16日：预学习 - 1. 如何科学地提问](https://cs.haohaha.cn/ysyx/0116/log/)
+    - 03月24日：预学习 - 4. Learn C：5-13
+    - 03月04日：预学习 - 4. Learn C：4
+    - 03月03日：预学习 - 4. Learn C：3
+    - 03月02日：预学习 - 2. Linux：Linux101 6 + 4. Learn C：1-2
+    - 01月22日：预学习 - 2. Linux：Linux101 1-5
+    - 01月21日：预学习 - 2. Linux：VimTutor + GDB Tutorial
+    - 01月20日：预学习 - 2. Linux：PA0
+    - 01月16日：预学习 - 1. 如何科学地提问
