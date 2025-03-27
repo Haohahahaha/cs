@@ -41,7 +41,7 @@ edit_uri: edit/main/docs
 nav:
   - Home: http://haohaha.cn
   - Be_Rational: 
-    - index.md
+    - 01-index.md
     - YSYX:
       - ysyx/index.md
       - 0116-预学习-1: ysyx/0116/log.md
