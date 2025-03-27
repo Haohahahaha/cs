@@ -40,10 +40,10 @@ edit_uri: edit/main/docs
 
 nav:
   - Home: http://haohaha.cn
-  - YSYX:
-    - ysyx/index.md
   - Be_Rational: 
     - index.md
+    - YSYX:
+      - ysyx/index.md
     - 信息沟通: 
       - 信息的编解码能力: greenhand/de-en-code/de-en-code-info.md
       - 提问の二三事: greenhand/ask-question-zbt/ask-zbt.md
