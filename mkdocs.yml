@@ -42,31 +42,36 @@ nav:
   - Home: http://haohaha.cn
   - Be_Rational: 
     - index.md
-    - YSYX:
-      - ysyx/index.md
+    - 编程:
+      - YSYX: 00-code/01-ysyx/index.md
+      - Rust: 00-code/02-Rust/Rust_Learning.md
     - 信息沟通: 
-      - 信息的编解码能力: greenhand/de-en-code/de-en-code-info.md
-      - 提问の二三事: greenhand/ask-question-zbt/ask-zbt.md
+      - 信息的编解码能力: 01-info_communication/01-de_en_code/info.md
+      - 提问の二三事: 01-info_communication/02-ask_question/zbt.md
     - Ubuntu 系列:
-      - Ubuntu 22.04 虚拟机自动化安装 (initializer-ubuntu2204使用教程): greenhand/initializer-ubuntu2204/install.md
-      - Ubuntu 22.04 虚拟机搭建全流程: greenhand/Ubuntu2204-greenhand/Ubuntu2204-greenhand.md
-      - Ubuntu 22.04 我的第一台实体机: greenhand/Ubuntu2204-myFirstPhysicalLinuxMachine/U2204-mFPLM.md
-      - Ubuntu 22.04 远程桌面: greenhand/Ubuntu-Remote-Desktop/URD.md
+      - Ubuntu 22.04 虚拟机自动化安装 (initializer-ubuntu2204使用教程): 02-ubuntu/01-initializer/install.md
+      - Ubuntu 22.04 虚拟机搭建全流程: 02-ubuntu/02-nanny/tutorial.md
+      - Ubuntu 22.04 我的第一台实体机: 02-ubuntu/03-1stPhysical/Machine.md
+      - Ubuntu 22.04 远程桌面: 02-ubuntu/04-Remote/Desktop.md
     - 博客 系列: 
-      - 基于 mkdocs-material 的个人博客搭建: greenhand/initializer-material-blog/blog-init.md
-      - PPT_jyyslide-md-scripts 安装指南: greenhand/jyyslide-md-script/install.md
-      - VitePress 尝试の大失败: greenhand/VitePress-Failed/nonono.md
-      - Admonitions: blog/admonitions/admonitions.md
-#     - 个人效率提升指南: greenhand/efficient/efficient.md
+      - 基于 mkdocs-material 的个人博客搭建: 03-blog/01-init/tutorial.md
+      - PPT_jyyslide-md-scripts 安装指南: 03-blog/02-PPT_Plus/install.md
+      - VitePress 尝试の大失败: 03-blog/03-VitePress/nonono.md
+      - Admonitions: 03-blog/04-admonitions/config.md
+#     - 个人效率提升指南: 03-blog/efficient/efficient.md
     - 服务器虚拟化搭建 系列:
-      - 核显直通笔记: Server/AIO/AIO-CoreGPU-Passthrough.md
-      - PVE-服务器部署: Server/AIO/PVE-Server-install.md
-      - All in One 服务器配置流程: Server/AIO/All-in-One-Server.md
-      - PVE 中 local 盘空间不足的解决办法: Server/AIO/AIO-Disk.md
-      - 本地服务器远程连接: Server/Remote-SSH-to-LocalMachine.md
-      - 在服务器内使用 Docker 建立 Nextcloud 私有云: Server/nextcloud-docker.md
-      - SSL证书部署or更新流程: Server/ssl-update.md
-      - Git-多分支仓库的创建与上传: git/git_branch.md
+      - 04-Server/index.md
+      - All in One 服务器配置流程: 04-Server/01-AIO_Server.md
+      - PVE-服务器部署: 04-Server/02-PVE_deploy.md
+      - 核显直通笔记: 04-Server/03-CoreGPU_Passthrough.md
+      - PVE 中 local 盘空间不足的解决办法: 04-Server/04-PVE_Disk.md
+      - 本地服务器远程连接: 04-Server/05-SSH_Remote_Local.md
+      - 在服务器内使用 Docker 建立 Nextcloud 私有云: 04-Server/06-nextcloud_docker.md
+      - SSL证书部署or更新流程: 04-Server/07-ssl_update.md
+      - Git-多分支仓库的创建与上传: 04-Server/git/git_branch.md
+    - 移动设备:
+      - 05-mobile/index.md
+      - 基于 红米 5 Plus 的 刷机优化流程: 05-mobile/01-Redmi5P-PE11.md
   - Chat_Polka: http://chat.haohaha.cn 
   - Algorithm: http://alg.haohaha.cn
 
