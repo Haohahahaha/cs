@@ -2,9 +2,11 @@
 
 !!! info ""
 
-    Create Date: 2023-05-12 19:28
+    author: Haorui Zhang (Haohahahaha)
 
-    Author: 瀚哲
+    email: 1259203802@qq.com
+
+    date: 2023-05-12 19:28
 
 !!! info "更新日志"
 
