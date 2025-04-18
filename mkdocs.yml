@@ -68,10 +68,10 @@ nav:
       - 05-本地服务器远程连接: 04-Server/05-SSH_Remote_Local.md
       - 06-部署 NextCloud-Docker: 04-Server/06-nextcloud_docker.md
       - 07-SSL 证书部署与更新: 04-Server/07-ssl_update.md
-      - 08-Git 多分支仓库的创建与上传: 04-Server/git/git_branch.md
+      - 08-Git 多分支创建与上传: 04-Server/git/git_branch.md
     - 移动设备:
       - 05-mobile/index.md
-      - 基于 红米 5 Plus 的 刷机优化流程: 05-mobile/01-Redmi5P-PE11.md
+      - 01-红米5P_PE11: 05-mobile/01-Redmi5P-PE11.md
   - Chat_Polka: http://chat.haohaha.cn 
   - Algorithm: http://alg.haohaha.cn
 
