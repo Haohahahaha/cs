@@ -61,14 +61,14 @@ nav:
 #     - 个人效率提升指南: 03-blog/efficient/efficient.md
     - 服务器虚拟化搭建 系列:
       - 04-Server/index.md
-      - All in One 服务器配置流程: 04-Server/01-AIO_Server.md
-      - PVE-服务器部署: 04-Server/02-PVE_deploy.md
-      - 核显直通笔记: 04-Server/03-CoreGPU_Passthrough.md
-      - PVE 中 local 盘空间不足的解决办法: 04-Server/04-PVE_Disk.md
-      - 本地服务器远程连接: 04-Server/05-SSH_Remote_Local.md
-      - 在服务器内使用 Docker 建立 Nextcloud 私有云: 04-Server/06-nextcloud_docker.md
-      - SSL证书部署or更新流程: 04-Server/07-ssl_update.md
-      - Git-多分支仓库的创建与上传: 04-Server/git/git_branch.md
+      - 01-AIO 配置流程: 04-Server/01-AIO_Server.md
+      - 02-PVE 部署: 04-Server/02-PVE_deploy.md
+      - 03-PVE 核显直通: 04-Server/03-CoreGPU_Passthrough.md
+      - 04-PVE 解决空间自增长: 04-Server/04-PVE_Disk.md
+      - 05-本地服务器远程连接: 04-Server/05-SSH_Remote_Local.md
+      - 06-部署 NextCloud-Docker: 04-Server/06-nextcloud_docker.md
+      - 07-SSL 证书部署与更新: 04-Server/07-ssl_update.md
+      - 08-Git 多分支仓库的创建与上传: 04-Server/git/git_branch.md
     - 移动设备:
       - 05-mobile/index.md
       - 基于 红米 5 Plus 的 刷机优化流程: 05-mobile/01-Redmi5P-PE11.md
