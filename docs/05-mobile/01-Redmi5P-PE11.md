@@ -278,8 +278,12 @@
     2. [Release - Shizuku - GitHub](https://github.com/RikkaApps/Shizuku/releases)
     
     3. 屏易连：又称“安卓屏连”，加QQ群才能领取（不过倒是免费）。
+        1.[安卓屏连兼容性测试 - 腾讯文档](https://docs.qq.com/doc/DUUN2ZWZpQmhZUkhZ) 
    
     4. 微软桌面 / SmartDock：Play有，没有自己找吧，很简单。
+    5. [【教程】USB2.0有线投屏“多屏异显”，支持安卓和苹果！](https://www.bilibili.com/video/BV1FrX6YXE4N)
+    6. [【教程】安卓手机如何开启“PC模式”？](https://www.bilibili.com/video/BV1Hy421z7ZJ)
+   
    
     目前这部分硬件没到齐，所以还没有具体测试，后续补充。
 
