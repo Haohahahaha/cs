@@ -1,10 +1,12 @@
 # jyyslide-md-script 安装指南
 
-> author: Haohahahaha (Haorui Zhang)
-> 
-> mail: 1259203802@qq.com
->
-> date: 2023-12-07
+!!! info ""
+
+    author: Haohahahaha (Haorui Zhang)
+
+    mail: 1259203802@qq.com
+
+    date: 2023-12-07
 
 !!! info "引言"
 

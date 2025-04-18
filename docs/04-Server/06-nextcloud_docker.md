@@ -1,10 +1,12 @@
 # 在服务器内使用 Docker 建立 Nextcloud 私有云
 
-> author: Haohahahaha (Haorui Zhang)
->
-> mail: 1259203802@qq.com
->
-> date: 2024-07-12
+!!! info ""
+
+    author: Haohahahaha (Haorui Zhang)
+
+    mail: 1259203802@qq.com
+
+    date: 2024-07-12
 
 ## 下载
 ???+ note "Nextcloud 兼容全平台"

@@ -1,10 +1,12 @@
 # 信息的编解码能力
 
-> author: Haohahahaha (Haorui Zhang)
->
-> email: 1259203802@qq.com
->
-> date: 2023-11-20
+!!! info ""
+
+	author: Haohahahaha (Haorui Zhang)
+
+	email: 1259203802@qq.com
+
+	date: 2023-11-20
 
 ### 前言
 

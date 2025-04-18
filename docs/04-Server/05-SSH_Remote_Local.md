@@ -1,10 +1,12 @@
 # 本地服务器远程连接
 
-> author: Haorui Zhang (Haohahahaha)
->
-> date: 2024-03-28
-> 
-> email: 1259203802@qq.com
+!!! info ""
+
+    author: Haorui Zhang (Haohahahaha)
+
+    date: 2024-03-28
+
+    email: 1259203802@qq.com
 
 三台机器：
 

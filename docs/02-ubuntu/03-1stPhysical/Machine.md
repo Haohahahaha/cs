@@ -1,8 +1,12 @@
 # Ubuntu 22.04 我的第一台实体机
 
-> Author：张浩睿
->
-> Date：2023年8月21日07:46
+!!! info ""
+
+	author: Haohahahaha (Haorui Zhang)
+
+	mail: 1259203802@qq.com
+
+	date: 2023-08-21 07:46
 
 ## 前言
 

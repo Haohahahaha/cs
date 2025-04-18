@@ -1,10 +1,12 @@
 # Rust Learning
 
-> author: Haohahahaha (Haorui Zhang)
->
-> date: 2024-01-29~31
->
-> email: 1259203802@qq.com
+!!! info ""
+
+    author: Haohahahaha (Haorui Zhang)
+
+    date: 2024-01-29~31
+
+    email: 1259203802@qq.com
 
 !!! note "学习的书籍"
     [The Rust Programming Language](https://doc.rust-lang.org/book)

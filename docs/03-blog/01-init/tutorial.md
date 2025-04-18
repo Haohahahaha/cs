@@ -1,10 +1,12 @@
 # 基于 mkdocs-material 的个人博客搭建
 
-> author: Haohahahaha (Haorui Zhang)
->
-> mail: 1259203802@qq.com
->
-> date: 2023-12-12
+!!! info ""
+
+	author: Haohahahaha (Haorui Zhang)
+
+	mail: 1259203802@qq.com
+
+	date: 2023-12-12
 
 !!! info "本文章含仓库适配"
 

@@ -1,10 +1,12 @@
 # Ubuntu 22.04 远程桌面
 
-> author: Haohahahaha (Haorui Zhang)
->
-> mail: 1259203802@qq.com
->
-> date: 2024-07-12
+!!! info ""
+
+    author: Haohahahaha (Haorui Zhang)
+
+    mail: 1259203802@qq.com
+
+    date: 2024-07-12
 
 !!! note ""
     

@@ -1,6 +1,7 @@
 # All in One 服务器配置流程
 
 !!! info ""
+    
     author: Haohahahaha (Haorui Zhang) feat.[JesseHT](JesseHT@outlook.com)
     
     mail: 1259203802@qq.com
