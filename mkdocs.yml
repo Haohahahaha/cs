@@ -49,15 +49,15 @@ nav:
       - 信息的编解码能力: 01-info_communication/01-de_en_code/info.md
       - 提问の二三事: 01-info_communication/02-ask_question/zbt.md
     - Ubuntu 系列:
-      - Ubuntu 22.04 虚拟机自动化安装 (initializer-ubuntu2204使用教程): 02-ubuntu/01-initializer/install.md
-      - Ubuntu 22.04 虚拟机搭建全流程: 02-ubuntu/02-nanny/tutorial.md
-      - Ubuntu 22.04 我的第一台实体机: 02-ubuntu/03-1stPhysical/Machine.md
-      - Ubuntu 22.04 远程桌面: 02-ubuntu/04-Remote/Desktop.md
+      - 01-自动化安装: 02-ubuntu/01-initializer/install.md
+      - 02-保姆级全流程: 02-ubuntu/02-nanny/tutorial.md
+      - 03-实体机: 02-ubuntu/03-1stPhysical/Machine.md
+      - 04-向日葵: 02-ubuntu/04-Remote/Sunlogin.md
     - 博客 系列: 
-      - 基于 mkdocs-material 的个人博客搭建: 03-blog/01-init/tutorial.md
-      - PPT_jyyslide-md-scripts 安装指南: 03-blog/02-PPT_Plus/install.md
-      - VitePress 尝试の大失败: 03-blog/03-VitePress/nonono.md
-      - Admonitions: 03-blog/04-admonitions/config.md
+      - 01-mkdocs 搭建博客: 03-blog/01-init/tutorial.md
+      - 02-jyyslide 扩展包 安装指南: 03-blog/02-PPT_Plus/install.md
+      - 03-VitePress 尝试の大失败: 03-blog/03-VitePress/nonono.md
+      - 04-Admonitions 自定义: 03-blog/04-admonitions/config.md
 #     - 个人效率提升指南: 03-blog/efficient/efficient.md
     - 服务器虚拟化搭建 系列:
       - 04-Server/index.md
