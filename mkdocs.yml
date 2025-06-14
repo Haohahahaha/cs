@@ -43,7 +43,7 @@ nav:
   - Be_Rational: 
     - index.md
     - 编程:
-      - YSYX: 00-code/01-ysyx/ysyx.md
+      # - YSYX: 00-code/01-ysyx/ysyx.md
       - Rust: 00-code/02-Rust/Rust_Learning.md
     - 信息沟通: 
       - 信息的编解码能力: 01-info_communication/01-de_en_code/info.md
