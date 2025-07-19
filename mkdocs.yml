@@ -72,6 +72,8 @@ nav:
     - 移动设备:
       - 05-mobile/index.md
       - 01-红米5P_PE11: 05-mobile/01-Redmi5P-PE11.md
+    - 苹果设备:
+      - 01-X230 Big Sur 安装: 06-apple/X230-Big-Sur.md
   - Chat_Polka: http://chat.haohaha.cn 
   - Algorithm: http://alg.haohaha.cn
 
