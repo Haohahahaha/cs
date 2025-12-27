@@ -7,27 +7,27 @@ theme:
 #     admonition:
   palette:
     - scheme: slate # 夜间模式
-      primary: deep purple
-      accent: deep orange
+      primary: black # deep purple
+      accent: light green # deep orange
       toggle:
-        icon: material/weather-sunny
+        icon: material/brightness-4
         name: 切换至日间模式
     - scheme: default # 日间模式
-      primary: deep purple # 上方的
-      accent: deep orange # 链接等可交互元件的高亮色
+      primary: white # deep purple # 上方的
+      accent: teal # deep orange # 链接等可交互元件的高亮色
       toggle:
-        icon: material/weather-night # 图标
+        icon: material/brightness-7 # 图标
         name: 切换至夜间模式 # 鼠标悬浮提示
   features:
     - navigation.tabs
     - navigation.top
     - navigation.indexes
-    - navigation.expand
-    - navigation.prune # 折叠
+    - navigation.expand # 展开
+    # navigation.prune # 折叠
     - search.suggest
     - search.highlight
     - content.code.copy
-    # Instant Loading
+    - Instant Loading
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
