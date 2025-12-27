@@ -14,7 +14,7 @@ theme:
         name: 切换至日间模式
     - scheme: default # 日间模式
       primary: white # deep purple # 上方的
-      accent: teal # deep orange # 链接等可交互元件的高亮色
+      accent: deep orange # deep orange # 链接等可交互元件的高亮色
       toggle:
         icon: material/brightness-7 # 图标
         name: 切换至夜间模式 # 鼠标悬浮提示
