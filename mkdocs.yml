@@ -42,6 +42,9 @@ nav:
   - Home: http://haohaha.cn
   - Be_Rational: 
     - index.md
+    - Labs:
+      - 6.824:
+        - 07-labs/01-6.824/index.md
     - 编程:
       - 00-code/index.md
       # - YSYX: 00-code/01-ysyx/ysyx.md
