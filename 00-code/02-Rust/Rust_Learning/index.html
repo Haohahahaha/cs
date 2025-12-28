@@ -1,0 +1,2075 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../../">
+      
+      
+        <link rel="next" href="../../../01-info_communication/01-de_en_code/info/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="https://cs.haohaha.cn/image/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Rust - 浩哈哈哈哈</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../mkdocs/css/no-footer.css">
+    
+      <link rel="stylesheet" href="../../../mkdocs/extra_admonition.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="light-green">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#rust-learning" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="http://haohaha.cn" title="浩哈哈哈哈" class="md-header__button md-logo" aria-label="浩哈哈哈哈" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 3 10 4.41V6h12v1H10v5h12c0 1.81-.57 3.46-1.68 4.95s-2.55 2.58-4.32 3.3V22H8v-1.75c-1.76-.72-3.21-1.82-4.32-3.3S2 13.81 2 12h3V4l17-2zM6 4.88V6h1V4.78zM6 7v5h1V7zm3 5V7H8v5zm0-6V4.55l-1 .09V6z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            浩哈哈哈哈
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Rust
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="light-green"  aria-label="切换至日间模式"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="切换至日间模式" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="deep-orange"  aria-label="切换至夜间模式"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="切换至夜间模式" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="http://haohaha.cn" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../.." class="md-tabs__link">
+          
+  
+  
+    
+  
+  Be_Rational
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="http://chat.haohaha.cn" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Chat_Polka
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="http://alg.haohaha.cn" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Algorithm
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="http://haohaha.cn" title="浩哈哈哈哈" class="md-nav__button md-logo" aria-label="浩哈哈哈哈" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 3 10 4.41V6h12v1H10v5h12c0 1.81-.57 3.46-1.68 4.95s-2.55 2.58-4.32 3.3V22H8v-1.75c-1.76-.72-3.21-1.82-4.32-3.3S2 13.81 2 12h3V4l17-2zM6 4.88V6h1V4.78zM6 7v5h1V7zm3 5V7H8v5zm0-6V4.55l-1 .09V6z"/></svg>
+
+    </a>
+    浩哈哈哈哈
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://haohaha.cn" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../.." class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Be_Rational
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Be_Rational
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    
+  
+  
+  
+    <a href="../../../07-labs/01-6.824/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Labs
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    编程
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    编程
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rust
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rust
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-getting-started" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Getting Started
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Getting Started">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#13-hello-cargo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3 Hello, Cargo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-programming-a-guessing-game" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Programming a Guessing Game
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-common-programming-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Common Programming Concepts
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Common Programming Concepts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-variables-and-mutability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Variables and Mutability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-data-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Data Types
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3 Functions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35-control-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.5 Control Flow
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-understanding-ownership" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Understanding Ownership
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Understanding Ownership">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-what-is-ownership" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 What is Ownership?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-references-and-borrowing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 References and Borrowing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-the-slice-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3 The Slice Type
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-using-structs-to-structure-related-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Using Structs to Structure Related Data
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Using Structs to Structure Related Data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-defining-and-instantiating-structs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 Defining and Instantiating Structs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-an-example-program-using-structs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 An Example Program Using Structs
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../01-info_communication/01-de_en_code/info/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    信息沟通
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../02-ubuntu/01-initializer/install/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ubuntu 系列
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../03-blog/01-init/tutorial/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    博客 系列
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../04-Server/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    服务器虚拟化搭建 系列
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../05-mobile/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    移动设备
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../06-apple/X230-Big-Sur/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    苹果设备
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://chat.haohaha.cn" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chat_Polka
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="http://alg.haohaha.cn" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Algorithm
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-getting-started" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Getting Started
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Getting Started">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#13-hello-cargo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3 Hello, Cargo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-programming-a-guessing-game" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Programming a Guessing Game
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-common-programming-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Common Programming Concepts
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Common Programming Concepts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-variables-and-mutability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Variables and Mutability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-data-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Data Types
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3 Functions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35-control-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.5 Control Flow
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-understanding-ownership" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Understanding Ownership
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Understanding Ownership">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-what-is-ownership" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 What is Ownership?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-references-and-borrowing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 References and Borrowing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-the-slice-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3 The Slice Type
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-using-structs-to-structure-related-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Using Structs to Structure Related Data
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Using Structs to Structure Related Data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-defining-and-instantiating-structs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 Defining and Instantiating Structs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-an-example-program-using-structs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 An Example Program Using Structs
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="rust-learning">Rust Learning</h1>
+<div class="admonition info">
+<p>author: Haohahahaha (Haorui Zhang)</p>
+<p>date: 2024-01-29~31</p>
+<p>email: 1259203802@qq.com</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">学习的书籍</p>
+<p><a href="https://doc.rust-lang.org/book">The Rust Programming Language</a></p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">仅为个人笔记</p>
+<p><a href="https://github.com/LearningOS/rust-rustlings-Haohahahaha">个人学习仓库 - rust-rustlings-Haohahahaha</a></p>
+<p>本笔记包含 <code>rustlings</code> 练习。</p>
+</div>
+<h2 id="1-getting-started">1. Getting Started</h2>
+<h3 id="13-hello-cargo">1.3 Hello, Cargo</h3>
+<div class="admonition note">
+<p class="admonition-title">命令</p>
+<div class="highlight"><pre><span></span><code>cargo<span class="w"> </span>new<span class="w">   </span><span class="c1"># 新建项目</span>
+cargo<span class="w"> </span>build<span class="w"> </span><span class="c1"># 构建项目，生成的目标文件要去 target/build/ 查看</span>
+cargo<span class="w"> </span>run<span class="w">   </span><span class="c1"># 运行，直接看结果</span>
+cargo<span class="w"> </span>check<span class="w"> </span><span class="c1"># 检查编译错误</span>
+</code></pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">项目结构</p>
+<div class="highlight"><pre><span></span><code><span class="o">[</span><span class="m">4</span>.0K<span class="o">]</span><span class="w">  </span>.
+├──<span class="w"> </span><span class="o">[</span><span class="w"> </span><span class="m">155</span><span class="o">]</span><span class="w">  </span>Cargo.lock<span class="w">  </span><span class="c1"># 自动生成，掌握依赖库版本信息（Chap.2 提到）</span>
+├──<span class="w"> </span><span class="o">[</span><span class="w"> </span><span class="m">180</span><span class="o">]</span><span class="w">  </span>Cargo.toml<span class="w">  </span><span class="c1"># 列出项目信息、依赖等</span>
+├──<span class="w"> </span><span class="o">[</span><span class="m">4</span>.0K<span class="o">]</span><span class="w">  </span>.git
+├──<span class="w"> </span><span class="o">[</span><span class="w">   </span><span class="m">8</span><span class="o">]</span><span class="w">  </span>.gitignore
+├──<span class="w"> </span><span class="o">[</span><span class="m">4</span>.0K<span class="o">]</span><span class="w">  </span>src<span class="w"> </span><span class="c1"># 源代码</span>
+│<span class="w">   </span>└──<span class="w"> </span><span class="o">[</span><span class="w">  </span><span class="m">45</span><span class="o">]</span><span class="w">  </span>main.rs
+└──<span class="w"> </span><span class="o">[</span><span class="m">4</span>.0K<span class="o">]</span><span class="w">  </span>target<span class="w">  </span><span class="c1"># 生成的目标文件</span>
+<span class="w">    </span>├──<span class="w"> </span><span class="o">[</span><span class="w"> </span><span class="m">177</span><span class="o">]</span><span class="w">  </span>CACHEDIR.TAG
+<span class="w">    </span>├──<span class="w"> </span><span class="o">[</span><span class="m">4</span>.0K<span class="o">]</span><span class="w">  </span>debug<span class="w">   </span><span class="c1"># 调试生成的文件，生成快但运行慢</span>
+<span class="w">    </span>├──<span class="w"> </span><span class="o">[</span><span class="m">4</span>.0K<span class="o">]</span><span class="w">  </span>release<span class="w">   </span><span class="c1"># 发布的文件，生成慢（编译优化）但运行快</span>
+<span class="w">    </span>└──<span class="w"> </span><span class="o">[</span><span class="m">1</span>.5K<span class="o">]</span><span class="w">  </span>.rustc_info.json
+</code></pre></div>
+</div>
+<h2 id="2-programming-a-guessing-game">2. Programming a Guessing Game</h2>
+<div class="admonition warning">
+<p class="admonition-title">English Words</p>
+<div class="highlight"><pre><span></span><code>comes in handy  # 派上用场
+scope           # 作用域
+parentheses     # 圆括号
+immutable       # 不可变的，其中提取 mut 作为可变变量关键字 
+instance        # 实例（建立某种类型的实例）
+associated      # 关联（ ~ func，关联函数。可理解为成员函数？）
+append          # 附加
+hence           # 因此
+trivial         # 琐碎的，不重要的
+scenario        # 情景、场景   
+ultimately      # 最终
+insatiable      # 贪得无厌的
+</code></pre></div>
+</div>
+<p><strong>语法部分：</strong></p>
+<ul>
+<li>
+<p><code>fn</code>：声明函数体</p>
+</li>
+<li>
+<p><code>!</code>：宏</p>
+</li>
+<li>
+<p><code>let</code>：创建变量</p>
+</li>
+<li>
+<p><code>mut</code>：（变量的）可变属性</p>
+</li>
+<li>
+<p><code>//</code>：注释</p>
+</li>
+<li>
+<p><code>::</code>：关联函数/子函数/子类/父子关系……</p>
+</li>
+<li>
+<p><code>use [LIB]</code>：引用名为 <code>[LIB]</code> 的库函数/包</p>
+</li>
+<li>
+<p><code>io::stdin().readline()</code>：非覆写的输入函数</p>
+</li>
+<li>
+<p><code>&amp;</code>：引用（Reference），可大概理解为“指针”（而非在内存中复制多份）。</p>
+<p>默认不可变，可变写法：</p>
+<p><div class="highlight"><pre><span></span><code><span class="o">&amp;</span><span class="k">mut</span><span class="w"> </span><span class="n">guess</span>
+</code></pre></div>
+- 使用成员函数时，用新的一行或者一些空格会使语法结构清晰，可读性强。</p>
+<p>如：</p>
+<div class="highlight"><pre><span></span><code><span class="c1">// 错误示范</span>
+<span class="n">io</span><span class="p">::</span><span class="n">stdin</span><span class="p">().</span><span class="n">read_line</span><span class="p">(</span><span class="o">&amp;</span><span class="k">mut</span><span class="w"> </span><span class="n">guess</span><span class="p">).</span><span class="n">expect</span><span class="p">(</span><span class="s">&quot;Failed to read line&quot;</span><span class="p">);</span>
+
+<span class="c1">// 正确示范</span>
+<span class="n">io</span><span class="p">::</span><span class="n">stdin</span><span class="p">()</span>
+<span class="w">    </span><span class="p">.</span><span class="n">read_line</span><span class="p">(</span><span class="o">&amp;</span><span class="k">mut</span><span class="w"> </span><span class="n">guess</span><span class="p">)</span>
+<span class="w">    </span><span class="p">.</span><span class="n">expect</span><span class="p">(</span><span class="s">&quot;Failed to read line&quot;</span><span class="p">);</span>
+</code></pre></div>
+<p>结果有两种“变体”——<code>variant</code>，分别是 <code>Ok</code> 和 <code>Err</code>。</p>
+<p>对结果返回时，可用 <code>expect()</code> 函数来判断返回结果是否合法。如果不合法（<code>Err</code>），则输出错误信息（函数内的字符串）；如果合法（<code>Ok</code>），则返回值。</p>
+</li>
+<li>
+<p>打印变量值时，变量放在花括号 <code>{}</code> 内。</p>
+<p>如果打印的是表达式（的求值结果），则花括号空，然后（像C一样）在逗号后面按顺序写变量名。</p>
+</li>
+<li>
+<p><code>match</code>：根据不同结果确定接下来要做什么，可根据不同情况进行处理</p>
+<ul>
+<li><code>Err(_)</code>：表示匹配所有错误<blockquote>
+<p>The underscore, _, is a catchall value; in this example, we’re saying we want to match all Err values, no matter what information they have inside them. </p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>
+<p><code>shadow</code>特性：允许同名不同类型，后者覆盖前者</p>
+</li>
+<li>
+<p><code>:</code>：后面加强制转换的变量类型，转换用 <code>parse()</code> 子函数</p>
+</li>
+<li>
+<p>循环：</p>
+<div class="highlight"><pre><span></span><code><span class="k">loop</span><span class="p">{</span>
+<span class="w">    </span><span class="c1">// LOOP CODE</span>
+<span class="p">}</span>
+</code></pre></div>
+</li>
+</ul>
+<hr />
+<p><em>完成！</em></p>
+<p>输出如下：</p>
+<div class="highlight"><pre><span></span><code><span class="c1"># oslab @ oslab-virtual-machine in ~/Documents/Rust-Book-remaining/guessing_name on git:master x [21:56:44] </span>
+$<span class="w"> </span>cargo<span class="w"> </span>run
+<span class="w">   </span>Compiling<span class="w"> </span>guessing_name<span class="w"> </span>v0.1.0<span class="w"> </span><span class="o">(</span>/home/oslab/Documents/Rust-Book-remaining/guessing_name<span class="o">)</span>
+<span class="w">    </span>Finished<span class="w"> </span>dev<span class="w"> </span><span class="o">[</span>unoptimized<span class="w"> </span>+<span class="w"> </span>debuginfo<span class="o">]</span><span class="w"> </span>target<span class="o">(</span>s<span class="o">)</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="m">0</span>.17s
+<span class="w">     </span>Running<span class="w"> </span><span class="sb">`</span>target/debug/guessing_name<span class="sb">`</span>
+Guess<span class="w"> </span>the<span class="w"> </span>number!
+Please<span class="w"> </span>input<span class="w"> </span>your<span class="w"> </span>guess.
+<span class="m">89</span>
+You<span class="w"> </span>guessed:<span class="w"> </span><span class="m">89</span>
+Too<span class="w"> </span>big!
+Please<span class="w"> </span>input<span class="w"> </span>your<span class="w"> </span>guess.
+<span class="m">50</span>
+You<span class="w"> </span>guessed:<span class="w"> </span><span class="m">50</span>
+Too<span class="w"> </span>small!
+Please<span class="w"> </span>input<span class="w"> </span>your<span class="w"> </span>guess.
+<span class="m">66</span>
+You<span class="w"> </span>guessed:<span class="w"> </span><span class="m">66</span>
+Too<span class="w"> </span>big!
+Please<span class="w"> </span>input<span class="w"> </span>your<span class="w"> </span>guess.
+<span class="m">59</span>
+You<span class="w"> </span>guessed:<span class="w"> </span><span class="m">59</span>
+Too<span class="w"> </span>small!
+Please<span class="w"> </span>input<span class="w"> </span>your<span class="w"> </span>guess.
+<span class="m">63</span>
+You<span class="w"> </span>guessed:<span class="w"> </span><span class="m">63</span>
+You<span class="w"> </span>win!
+</code></pre></div>
+<h2 id="3-common-programming-concepts">3. Common Programming Concepts</h2>
+<h3 id="31-variables-and-mutability">3.1 Variables and Mutability</h3>
+<ul>
+<li>
+<p><code>let</code> 可“遮盖”类型，但 <code>mut</code> 只是改变值。</p>
+</li>
+<li>
+<p>常量 <code>constant</code> 必须声明类型</p>
+</li>
+</ul>
+<h3 id="32-data-types">3.2 Data Types</h3>
+<div class="admonition note">
+<p class="admonition-title">Integer Literals in Rust</p>
+<table>
+<thead>
+<tr>
+<th>Number literals</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Decimal</td>
+<td><code>98_222</code></td>
+</tr>
+<tr>
+<td>Hex</td>
+<td><code>0xff</code></td>
+</tr>
+<tr>
+<td>Octal</td>
+<td><code>0o77</code></td>
+</tr>
+<tr>
+<td>Binary</td>
+<td><code>0b1111_0000</code></td>
+</tr>
+<tr>
+<td>Byte (<code>u8</code> only)</td>
+<td><code>b'A'</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+<ul>
+<li>
+<p>Tuple</p>
+<ul>
+<li>
+<p>多种类型组合而成</p>
+</li>
+<li>
+<p>可以用 <code>.[INDEX]</code> 的形式来访问元组内某个序号 <code>[INDEX]</code> 的元素（以0开始）</p>
+</li>
+<li>
+<p>可以解构，分别赋值给各个新建变量</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Array</p>
+<ul>
+<li>
+<p>初始化值：<code>let a: [初始值; 元素个数];</code></p>
+</li>
+<li>
+<p>规定变量类型：<code>let a: [元素类型; 元素个数] = [1, 2, ...];</code></p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="33-functions">3.3 Functions</h3>
+<div class="admonition warning">
+<p class="admonition-title">English Words</p>
+<div class="highlight"><pre><span></span><code>prevalent  # 盛行、普遍的
+</code></pre></div>
+</div>
+<ul>
+<li>
+<p>函数命名规则：<code>snake case</code>——全小写，单词之间用下划线分割</p>
+</li>
+<li>
+<p>只要在调用者可见的作用域中定义函数即可，无先后顺序</p>
+</li>
+<li>
+<p>函数的参数必须标明变量类型，用 <code>,</code> 隔开</p>
+</li>
+<li>
+<p>声明（Statement）不能连续等号，因为声明不返回值。但可以声明变量后接大括号，里面接表达式（Expression），因为表达式返回值。</p>
+<ul>
+<li>单独的数字也是表达式</li>
+</ul>
+</li>
+<li>
+<p>函数可在函数名称后面接：<code>-&gt; [RETURN_VALUE_TYPE]</code>，这样可以规定返回值的类型。</p>
+</li>
+</ul>
+<h3 id="35-control-flow">3.5 Control Flow</h3>
+<ul>
+<li>
+<p>赋值给变量的表达式可以是一个代码块，但是代码块的返回值类型必须与变量类型相同。</p>
+</li>
+<li>
+<p><code>Loop</code></p>
+<ul>
+<li>
+<p><code>break</code> 后面可以接返回值;</p>
+</li>
+<li>
+<p>循环之前可以加标签，以便 <code>break</code> 识别；</p>
+</li>
+</ul>
+</li>
+<li>
+<p><code>while</code></p>
+<ul>
+<li>循环条件不用加括号（哦对 <code>if</code> 也是）</li>
+</ul>
+</li>
+<li>
+<p><code>for</code></p>
+<ul>
+<li>
+<p>遍历数组时不用写边界条件，只需要写 <code>for element in a</code> 即可。这是因为 <code>for</code> 使用了标准库提供的Range，它生成从一个数字开始到另一个数字之前的所有数字序列。</p>
+</li>
+<li>
+<p>还可以用 <code>.rev()</code> 和数字序列 <code>(x...n)</code> 实现倒计时：</p>
+</li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="k">for</span><span class="w"> </span><span class="n">number</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="p">(</span><span class="mi">1</span><span class="o">..</span><span class="p">.</span><span class="mi">4</span><span class="p">).</span><span class="n">rev</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="fm">println!</span><span class="p">(</span><span class="s">&quot;{number}!&quot;</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div>
+</li>
+</ul>
+<h2 id="4-understanding-ownership">4. Understanding Ownership</h2>
+<h3 id="41-what-is-ownership">4.1 What is Ownership?</h3>
+<ul>
+<li>
+<p>对于存储在堆上的变量</p>
+<ul>
+<li>
+<p>默认不可复制，只能移动。类似浅复制，只复制指针。</p>
+</li>
+<li>
+<p>需要“深复制”时，请使用 <code>clone()</code> 函数。</p>
+</li>
+</ul>
+</li>
+<li>
+<p>对于存储在栈上的变量</p>
+<ul>
+<li>直接复制</li>
+</ul>
+</li>
+<li>
+<p><code>Copy</code> 与 <code>Drop</code> 特性</p>
+<ul>
+<li>
+<p><code>Copy</code> 是针对栈上的变量的，简单的复制；</p>
+</li>
+<li>
+<p><code>Drop</code> 是针对堆上变量的，在作用域后回收变量。</p>
+</li>
+</ul>
+<div class="admonition quote">
+<p class="admonition-title">通常一组简单的标量值都可以实现 <code>Copy</code> ，但需要分配或是某种形式的资源的类型都不能实现 <code>Copy</code>。</p>
+<p>以下是一些实现 <code>Copy</code> 特性的类型：
+- 所有的整数类型，如 u32。
+- 布尔类型，bool，具有值 true 和 false。
+- 所有的浮点类型，如 f64。
+- 字符类型，char。
+- 元组，如果它们只包含也实现了 Copy 的类型。例如，(i32, i32) 实现了 Copy，但 (i32, String) 不会。</p>
+</div>
+</li>
+<li>
+<p>函数也是一个作用域，堆上分配的变量进入函数就会被移动，之后再退出就调用了 <code>Drop</code> ，失效了；</p>
+</li>
+<li>
+<p>但是栈上分配的变量是通过 <code>Copy</code> 进入函数，退出后可继续使用。</p>
+</li>
+<li>
+<p>函数返回值只需要输入值即可，无需分号。</p>
+</li>
+<li>
+<p>允许函数将参数传回去</p>
+</li>
+</ul>
+<h3 id="42-references-and-borrowing">4.2 References and Borrowing</h3>
+<ul>
+<li>
+<p>代替“返回给调用函数”的做法是：引用（Reference）。用符号 <code>&amp;</code> 表示（其地址）。</p>
+</li>
+<li>
+<p>解引用运算符是 <code>*</code> ，和 C 一样咯。</p>
+</li>
+<li>
+<p>借用：创建一个引用。不允许修改引用的内容。</p>
+</li>
+<li>
+<p>可变引用： <code>&amp;mut VAR</code>（同时变量也必须是 <code>mut</code> 的）</p>
+<ul>
+<li>
+<p>不能同时对某个变量进行多次可变借用。</p>
+</li>
+<li>
+<p>但可以使用花括号来创建新的作用于，允许多个可变引用，只是不能同时存在。</p>
+</li>
+<li>
+<p>对某一个变量来说，不可变引用后面不能再用可变引用，因为要保证不可变引用是 <code>不变的</code> 。</p>
+</li>
+</ul>
+</li>
+<li>
+<p>悬空指针</p>
+<ul>
+<li>在函数里创建的 <code>String</code> ，返回时不能返回引用，因为创建的变量被释放。这时直接返回 <code>String</code> 类型即可。</li>
+</ul>
+</li>
+</ul>
+<h3 id="43-the-slice-type">4.3 The Slice Type</h3>
+<ul>
+<li>
+<p>切片：存储对第一个元素的引用+一个长度</p>
+</li>
+<li>
+<p>在后面索引可以用这样的语法：<code>[x..n]</code>，如果 <code>x = 0</code> 或 <code>n = len</code> ，则可以省略。</p>
+</li>
+<li>
+<p>处理的只是UTF-8，多字节的字符不支持。</p>
+</li>
+<li>
+<p><code>&amp;String</code> 是字符串，<code>&amp;str</code> 是字符串切片。所以参数一般写 <code>&amp;str</code> 即可兼容字符串的传递（毕竟全部的切片也是切片，哈哈）</p>
+<div class="highlight"><pre><span></span><code><span class="kd">let</span><span class="w"> </span><span class="n">word_string</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">String</span><span class="p">::</span><span class="n">from</span><span class="p">(</span><span class="s">&quot;Hello, World&quot;</span><span class="p">);</span><span class="w"> </span><span class="c1">// 创建 String 类型变量的方法</span>
+<span class="kd">let</span><span class="w"> </span><span class="n">word</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;hello, world&quot;</span><span class="p">;</span><span class="w"> </span><span class="c1">// word 的类型是 &amp;str ，即切片</span>
+<span class="kd">let</span><span class="w"> </span><span class="n">fw</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">first_word</span><span class="p">(</span><span class="n">word</span><span class="p">);</span><span class="w"> </span><span class="c1">// 可以不用 &amp; 符号直接传入，也可以用；String 则必须要用。</span>
+</code></pre></div>
+</li>
+<li>
+<p>其他类型也可以用切片，工作方式与字符串切片相同，在向量里讨论。</p>
+</li>
+</ul>
+<h2 id="5-using-structs-to-structure-related-data">5. Using Structs to Structure Related Data</h2>
+<h3 id="51-defining-and-instantiating-structs">5.1 Defining and Instantiating Structs</h3>
+<ul>
+<li>
+<p>结构体与元组的不同：</p>
+<ol>
+<li>
+<p>元组类型必须相同，结构体内部可不同</p>
+</li>
+<li>
+<p>元组只能顺序指定和访问，结构体可以为每个数据片段命名，更加灵活；</p>
+</li>
+</ol>
+</li>
+<li>
+<p>初始化时无需严格按照顺序。语法结构：</p>
+<div class="highlight"><pre><span></span><code><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">user1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">User</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">active</span><span class="p">:</span><span class="w"> </span><span class="nc">true</span><span class="p">,</span><span class="w">   </span><span class="c1">// 用 : 来赋值</span>
+<span class="w">    </span><span class="n">username</span><span class="p">:</span><span class="w"> </span><span class="nb">String</span><span class="p">::</span><span class="n">from</span><span class="p">(</span><span class="s">&quot;someusername123&quot;</span><span class="p">),</span><span class="w">  </span><span class="c1">// 用 , 来结束一行</span>
+<span class="w">    </span><span class="n">email</span><span class="p">:</span><span class="w"> </span><span class="nb">String</span><span class="p">::</span><span class="n">from</span><span class="p">(</span><span class="s">&quot;someone@example.com&quot;</span><span class="p">),</span><span class="w"> </span><span class="c1">// 不用 &amp;str 是为了让每个实例都拥有其所有数据，且在整个结构体有效的时间内都有效</span>
+<span class="w">    </span><span class="n">sign_in_count</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="c1">// 最后一行别忘了</span>
+<span class="p">};</span>
+</code></pre></div>
+</li>
+<li>
+<p>获取结构体中的值，用 <code>.</code> 即可（和 C 一样）。若实例可变，可修改某个字段的值。但必须是整个实例可变，其中的某一个字段不能单独可变。</p>
+</li>
+<li>
+<p>构建结构体实例函数中，参数可与结构体字段名相同，这样方便省略赋值语句：</p>
+<div class="highlight"><pre><span></span><code><span class="k">fn</span><span class="w"> </span><span class="nf">build_user</span><span class="p">(</span><span class="n">email</span><span class="p">:</span><span class="w"> </span><span class="nb">String</span><span class="p">,</span><span class="w"> </span><span class="n">username</span><span class="p">:</span><span class="w"> </span><span class="nb">String</span><span class="p">)</span><span class="w"> </span><span class="p">-&gt;</span><span class="w"> </span><span class="nc">User</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">User</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">active</span><span class="p">:</span><span class="w"> </span><span class="nc">true</span><span class="p">,</span>
+<span class="w">        </span><span class="n">username</span><span class="p">,</span>
+<span class="w">        </span><span class="n">email</span><span class="p">,</span>
+<span class="w">        </span><span class="n">sign_in_count</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span><span class="w">   </span>
+</code></pre></div>
+</li>
+<li>
+<p>从已有的实例创建新实例时，只需对需要修改的字段进行修改，其余字段写<code>..user1</code>（例子） ，而且必须放在最后。</p>
+<ul>
+<li>不过被使用的实例里面的字段，被移动了，如果重新赋值就不会移动（<em>这里存疑</em>）</li>
+</ul>
+</li>
+<li>
+<p>Unit-Like Struct：</p>
+<ul>
+<li>可以起一个不含任何结构的结构体，然后创建实例。比如需要测试时，就可以设置实例为某种类型了。</li>
+</ul>
+</li>
+<li>
+<p>结构体可以存储引用，但需要使用生命周期（<em>LifeTimes</em>）</p>
+</li>
+</ul>
+<h3 id="52-an-example-program-using-structs">5.2 An Example Program Using Structs</h3>
+<ul>
+<li>
+<p><code>debug</code> 模式打印结构体:</p>
+<div class="highlight"><pre><span></span><code><span class="cp">#[derive(Debug)]</span><span class="w">    </span><span class="c1">// debug标签，放在程序最前面</span>
+<span class="kd">let</span><span class="w"> </span><span class="n">rect1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">..</span><span class="p">.</span><span class="w"> </span><span class="c1">// 省略</span>
+<span class="n">printfln</span><span class="o">!</span><span class="p">(</span><span class="s">&quot;{:?}&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">rect1</span><span class="p">);</span><span class="w">   </span><span class="c1">// 注意打印时的固定格式： {:?}</span>
+</code></pre></div>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      <a href="https://beian.miit.gov.cn/" target="_blank">冀ICP备2024078994号</a><br/> <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=13020302001386" target="_blank">冀公网安备13020302001386号</a><br/> Copyright &copy; 2022-现在 浩哈哈哈哈_
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://space.bilibili.com/1436476753" target="_blank" rel="noopener" title="Bilibili | 浩哈哈哈哈" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M488.6 104.1c16.7 18.1 24.4 39.7 23.3 65.7v202.4c-.4 26.4-9.2 48.1-26.5 65.1-17.2 17-39.1 25.9-65.5 26.7H92c-26.4-.8-48.2-9.8-65.3-27.2S.7 396.5 0 368.2V169.8c.8-26 9.7-47.6 26.7-65.7C43.8 87.8 65.5 78.8 92 78h29.4L96 52.2c-5.7-5.7-8.6-13-8.6-21.8S90.3 14.3 96 8.6 109 0 117.9 0s16.1 2.9 21.9 8.6L213.1 78h88l74.5-69.4C381.7 2.9 389.2 0 398 0s16.1 2.9 21.9 8.6c5.7 5.7 8.6 13 8.6 21.8s-2.9 16.1-8.6 21.8L394.6 78h29.3c26.4.8 48 9.8 64.7 26.1m-38.8 69.7c-.4-9.6-3.7-17.4-10.7-23.5-5.2-6.1-14-9.4-22.7-9.8H96c-9.6.4-17.4 3.7-23.6 9.8-6.1 6.1-9.4 13.9-9.8 23.5v194.4c0 9.2 3.3 17 9.8 23.5s14.4 9.8 23.6 9.8h320.4c9.2 0 17-3.3 23.3-9.8s9.7-14.3 10.1-23.5zm-264.3 42.7c6.3 6.3 9.7 14.1 10.1 23.2V273c-.4 9.2-3.7 16.9-9.8 23.2-6.2 6.3-14 9.5-23.6 9.5s-17.5-3.2-23.6-9.5-9.4-14-9.8-23.2v-33.3c.4-9.1 3.8-16.9 10.1-23.2s13.2-9.6 23.3-10c9.2.4 17 3.7 23.3 10m191.5 0c6.3 6.3 9.7 14.1 10.1 23.2V273c-.4 9.2-3.7 16.9-9.8 23.2s-14 9.5-23.6 9.5-17.4-3.2-23.6-9.5c-7-6.3-9.4-14-9.7-23.2v-33.3c.3-9.1 3.7-16.9 10-23.2s14.1-9.6 23.3-10c9.2.4 17 3.7 23.3 10"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://github.com/Haohahahaha" target="_blank" rel="noopener" title="GitHub | Haohahahaha" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://github.com/Haohahahaha/cs/actions" target="_blank" rel="noopener" title="GitHub Actions" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10.984 13.836a.5.5 0 0 1-.353-.146l-.745-.743a.5.5 0 1 1 .706-.708l.392.391 1.181-1.18a.5.5 0 0 1 .708.707l-1.535 1.533a.5.5 0 0 1-.354.146m9.353-.147 1.534-1.532a.5.5 0 0 0-.707-.707l-1.181 1.18-.392-.391a.5.5 0 1 0-.706.708l.746.743a.497.497 0 0 0 .706-.001M4.527 7.452l2.557-1.585A1 1 0 0 0 7.09 4.17L4.533 2.56A1 1 0 0 0 3 3.406v3.196a1.001 1.001 0 0 0 1.527.85m2.03-2.436L4 6.602V3.406zM24 12.5c0 1.93-1.57 3.5-3.5 3.5a3.5 3.5 0 0 1-3.46-3h-2.08a3.5 3.5 0 0 1-3.46 3 3.5 3.5 0 0 1-3.46-3h-.558c-.972 0-1.85-.399-2.482-1.042V17c0 1.654 1.346 3 3 3h.04c.244-1.693 1.7-3 3.46-3 1.93 0 3.5 1.57 3.5 3.5S13.43 24 11.5 24a3.5 3.5 0 0 1-3.46-3H8c-2.206 0-4-1.794-4-4V9.899A5.01 5.01 0 0 1 0 5c0-2.757 2.243-5 5-5s5 2.243 5 5a5.005 5.005 0 0 1-4.952 4.998A2.48 2.48 0 0 0 7.482 12h.558c.244-1.693 1.7-3 3.46-3a3.5 3.5 0 0 1 3.46 3h2.08a3.5 3.5 0 0 1 3.46-3c1.93 0 3.5 1.57 3.5 3.5m-15 8c0 1.378 1.122 2.5 2.5 2.5s2.5-1.122 2.5-2.5-1.122-2.5-2.5-2.5S9 19.122 9 20.5M5 9c2.206 0 4-1.794 4-4S7.206 1 5 1 1 2.794 1 5s1.794 4 4 4m9 3.5c0-1.378-1.122-2.5-2.5-2.5S9 11.122 9 12.5s1.122 2.5 2.5 2.5 2.5-1.122 2.5-2.5m9 0c0-1.378-1.122-2.5-2.5-2.5S18 11.122 18 12.5s1.122 2.5 2.5 2.5 2.5-1.122 2.5-2.5m-13 8a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0m2 0a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0m12 0c0 1.93-1.57 3.5-3.5 3.5a3.5 3.5 0 0 1-3.46-3.002q-.01.003-.021.005l-.506.017h-.017a.5.5 0 0 1-.016-.999l.506-.017c.018-.002.035.006.052.007A3.5 3.5 0 0 1 20.5 17c1.93 0 3.5 1.57 3.5 3.5m-1 0c0-1.378-1.122-2.5-2.5-2.5S18 19.122 18 20.5s1.122 2.5 2.5 2.5 2.5-1.122 2.5-2.5"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.tabs", "navigation.top", "navigation.indexes", "navigation.prune", "search.suggest", "search.highlight", "content.code.copy", "Instant Loading", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.tracking"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
