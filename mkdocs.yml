@@ -22,8 +22,8 @@ theme:
     - navigation.tabs
     - navigation.top
     - navigation.indexes
-    - navigation.expand # 展开
-    # navigation.prune # 折叠
+    # navigation.expand # 展开
+    - navigation.prune # 折叠
     - search.suggest
     - search.highlight
     - content.code.copy
