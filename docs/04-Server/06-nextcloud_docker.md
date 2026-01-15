@@ -196,8 +196,11 @@ networks:
 3. 在 `/var/www/html/config/config.php` 中设置生成缩略图的文件格式
 
 4. 生成命令参考：`su - www-data -c 'php /var/www/html/occ peview:generate-all --path="/your/directory/here"'`
+    
     其中这个目录是以 /var/www/html/data 为根目录来写的。
+    
     整体命令如下：
+    
     ```bash
     su - www-data -c 'php /var/www/html/occ config:app:set --value="256 1024" previewgenerator squareSizes'
     su - www-data -c 'php /var/www/html/occ config:app:set --value="256 1024" previewgenerator widthSizes'
@@ -220,12 +223,12 @@ networks:
 > 类似：
 > 
 > Fatal error: Allowed memory size of 2097152 bytes exhausted (tried to allocate 438272 bytes) in /var/www/html/3rdparty/composer/autoload_real.php on line 37
-   1. 使用 `php -i | grep memory_limit` 查看为正常 512M
-   2. 使用 `php --ini` 查到 `ini` 目录为 `/usr/local/etc/php`
-   3. 直接把 `/usr/local/etc/php/conf.d/nextcloud.ini` 内的 `memory_limit=${PHP_MEMORY_LIMIT}` 改成 `memory_limit=512M` （我给了24GB）
-   4. 解决。
+    1. 使用 `php -i | grep memory_limit` 查看为正常 512M
+    2. 使用 `php --ini` 查到 `ini` 目录为 `/usr/local/etc/php`
+    3. 直接把 `/usr/local/etc/php/conf.d/nextcloud.ini` 内的 `memory_limit=${PHP_MEMORY_LIMIT}` 改成 `memory_limit=512M` （我给了24GB）
+    4. 解决。
 
-1. 设置定时任务
+6. 设置定时任务
    
     - 在 docker 内部执行 
         
