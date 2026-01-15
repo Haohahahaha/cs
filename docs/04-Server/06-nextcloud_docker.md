@@ -2,6 +2,8 @@
 
 !!! info ""
 
+    20260115 更新：设置 preview-generator 的定时任务
+
     author: Haohahahaha (Haorui Zhang)
 
     mail: 1259203802@qq.com
@@ -194,25 +196,25 @@ networks:
 3. 在 `/var/www/html/config/config.php` 中设置生成缩略图的文件格式
 
 4. 生成命令参考：`su - www-data -c 'php /var/www/html/occ peview:generate-all --path="/your/directory/here"'`
-   其中这个目录是以 /var/www/html/data 为根目录来写的。
-   整体命令如下：
-   ```bash
-   su - www-data -c 'php /var/www/html/occ config:app:set --value="256 1024" previewgenerator squareSizes'
-   su - www-data -c 'php /var/www/html/occ config:app:set --value="256 1024" previewgenerator widthSizes'
-   su - www-data -c 'php /var/www/html/occ config:app:set --value="256 1024" previewgenerator heightSizes'
-   su - www-data -c 'php /var/www/html/occ config:app:set preview jpeg_quality --value="100"'
-   # config.php 中
-   'enable_previews' => true,
-   'enabledPreviewProviders' =>
-   array (
-   0 => 'OC\\Preview\\TXT',
-   1 => 'OC\\Preview\\MarkDown',
-   2 => 'OC\\Preview\\Image',
-   3 => 'OC\Preview\PNG',  // 比如，禁止png格式图片，请自行设置。
-   ),
-   # 结束
-   su - www-data -c 'php /var/www/html/occ peview:generate-all --path="/your/directory/here"'
-   ```
+    其中这个目录是以 /var/www/html/data 为根目录来写的。
+    整体命令如下：
+    ```bash
+    su - www-data -c 'php /var/www/html/occ config:app:set --value="256 1024" previewgenerator squareSizes'
+    su - www-data -c 'php /var/www/html/occ config:app:set --value="256 1024" previewgenerator widthSizes'
+    su - www-data -c 'php /var/www/html/occ config:app:set --value="256 1024" previewgenerator heightSizes'
+    su - www-data -c 'php /var/www/html/occ config:app:set preview jpeg_quality --value="100"'
+    # config.php 中
+    'enable_previews' => true,
+    'enabledPreviewProviders' =>
+    array (
+    0 => 'OC\\Preview\\TXT',
+    1 => 'OC\\Preview\\MarkDown',
+    2 => 'OC\\Preview\\Image',
+    3 => 'OC\Preview\PNG',  // 比如，禁止png格式图片，请自行设置。
+    ),
+    # 结束
+    su - www-data -c 'php /var/www/html/occ peview:generate-all --path="/your/directory/here"'
+    ```
    
 5. 执行命令时爆内存？
 > 类似：
@@ -222,6 +224,24 @@ networks:
    2. 使用 `php --ini` 查到 `ini` 目录为 `/usr/local/etc/php`
    3. 直接把 `/usr/local/etc/php/conf.d/nextcloud.ini` 内的 `memory_limit=${PHP_MEMORY_LIMIT}` 改成 `memory_limit=512M` （我给了24GB）
    4. 解决。
+
+1. 设置定时任务
+   
+    - 在 docker 内部执行 
+        
+      ```bash
+      apt-get update && apt-get install -y cron
+      service cron start
+      ```
+    
+    - 编辑定时任务
+      
+      ```bash 
+      crontab -e
+      # 在打开的 vim 中填写：
+      0 3 * * * su - www-data -c 'php /var/www/html/occ peview:generate-all --path="/your/directory/here"'
+      # 定时每天凌晨3点执行命令
+      ```
 
 ### 批量传入数据
 
