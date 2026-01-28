@@ -83,7 +83,7 @@
 	sudo ./4-SogouInputMethod-1.sh
 	```
 
-	根据脚本最后一行的提示，设置系统的语言设置，[启用Fcitx 4](http://cs.haohaha.cn/greenhand/Ubuntu2204-greenhand/Ubuntu2204-greenhand/#open-fcitx)
+	根据脚本最后一行的提示，设置系统的语言设置，[启用Fcitx 4](https://cs.haohaha.cn/02-ubuntu/02-nanny/tutorial/#open-fcitx)
 	
 	执行第二条脚本
 
