@@ -14,9 +14,9 @@
 
 !!! question "前置条件 (二选一)"
 
-	- [Ubuntu 22.04 工作台搭建全流程](http://cs.haohaha.cn/greenhand/Ubuntu2204-greenhand/Ubuntu2204-greenhand/)
+	- [Ubuntu 22.04 工作台搭建全流程](https://cs.haohaha.cn/02-ubuntu/02-nanny/tutorial/)
 
-	- [Ubuntu 22.04 虚拟机自动化安装](http://cs.haohaha.cn/greenhand/initializer-ubuntu2204/install/)
+	- [Ubuntu 22.04 虚拟机自动化安装](https://cs.haohaha.cn/02-ubuntu/01-initializer/install/)
 
 ## 安装流程
 
@@ -30,7 +30,7 @@
 
 !!! note "3. 获取 SSH key 并上传到 Github"
 
-	在 [Ubuntu 22.04 虚拟机自动化安装 - 获取 SSH key](http://cs.haohaha.cn/greenhand/initializer-ubuntu2204/install/#git-ssh-key-github) 中已获取到 `SSH Key`
+	在 [Ubuntu 22.04 虚拟机自动化安装 - 获取 SSH key](https://cs.haohaha.cn/02-ubuntu/01-initializer/install/#git-ssh-key-github) 中已获取到 `SSH Key`
 
 	复制 `~/.ssh/id_rsa.pub` 内所有内容
 

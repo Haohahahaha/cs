@@ -91,7 +91,7 @@
 	sudo ./4-SogouInputMethod-2.sh
 	```
 
-	重启后添加输入法，步骤[在此](http://cs.haohaha.cn/greenhand/Ubuntu2204-greenhand/Ubuntu2204-greenhand/#configure-sogou)
+	重启后添加输入法，步骤[在此](https://cs.haohaha.cn/02-ubuntu/02-nanny/tutorial/#configure-sogou)
 
 	### 安装办公软件，可选配
 
@@ -117,7 +117,7 @@
 	./7-ssh-github.sh
 	```
 
-	之后请按[此步骤](https://cs.haohaha.cn/greenhand/Blog-intialization/blog-init/#ssh-key-github)进行Github的配置。
+	之后请按[此步骤](https://cs.haohaha.cn/03-blog/01-init/tutorial)进行Github的配置。
 
 !!! note "一些补丁"
 
@@ -127,7 +127,7 @@
 
 		另，`cfw` 下载地址已找到，是全部版本的：[点击链接](https://archive.org/download/clash_for_windows_pkg)
 
-		并且[搭建全流程](../Ubuntu2204-greenhand/Ubuntu2204-greenhand.md)里也恢复了之前隐藏的模块。
+		并且[搭建全流程](https://cs.haohaha.cn/02-ubuntu/02-nanny/tutorial/)里也恢复了之前隐藏的模块。
 
 	- 2024-07-11 `git` 无法使用时，可设置 `git` 的代理：
 
