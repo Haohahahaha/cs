@@ -46,9 +46,7 @@
 
 	下载 Windows 平台的 CfW 并安装：
 
-	??? warning "Linux平台失效，更改实现方法"
-
-		Clash for Windows 已停止维护，所以我已经将在线下载的地址改为我提供的 Windows 原版安装包，[点击下载](https://github.com/Haohahahaha/cs/raw/master/docs/greenhand/Ubuntu2204-greenhand/Clash.for.Windows.Setup.0.20.39.ia32.exe)
+	??? warning "请跳转[02-保姆级流程 3.5.2 安装Clash](https://cs.haohaha.cn/02-ubuntu/02-nanny/tutorial/#2-clash)"
 
 	关于如何设置服务，这里有[详细步骤](https://cs.haohaha.cn/greenhand/Ubuntu2204-greenhand/Ubuntu2204-greenhand/#1_2)
 
@@ -76,7 +74,7 @@
 	跳转到 zsh 后
 	
 	```zsh
-	source ~/3-ohmyzsh-2.sh
+	source ./3-ohmyzsh-2.sh
 	```
 
 	### 安装中文输入法（搜狗）
