@@ -74,6 +74,8 @@ sudo apt remove nodejs npm -y
 curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
 # 3. 安装 Node（包含 npm）
 sudo apt install nodejs -y
+# 顺便安装监听文件的工具
+sudo apt install inotify-tools -y
 # 4. 验证是否成功（如果出现版本号即成功）
 node -v
 npm -v
@@ -84,6 +86,7 @@ live-server
 # 会看到类似：
 # Serving ".../folder" at http://127.0.0.1:8080
 # 即成功。
+
 ```
 
 ### 配置环境变量
@@ -124,7 +127,9 @@ source ~/.zshrc
 
     - `pptopen [DOC_NAME]` 打开已建立过 名为 `DOC_NAME` 的文档，进行编辑内容
 
-    - `pptshow [DOC_NAME]` firefox打开生成的本地ppt页面
+    - `pptshow [DOC_NAME]` VSCode 中，会显示“在编辑器中预览”，点击，然后将预览标签页拖动，与代码标签页分屏显示。
+        
+        - 每次 `Ctrl + S` 保存正在编辑的文档，浏览器的页面都会**实时编译显示**。
 
     - `pptupd` 上传更新的内容
 
