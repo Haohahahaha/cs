@@ -6,7 +6,10 @@
 
     mail: 1259203802@qq.com
 
-    update: 2026-03-09, 更新了 `pptshow` 功能，改为 VSCode 远程可打开的服务器方式。
+!!! info "更新日志"
+
+    update: 2026-03-09, 更新了 [`pptshow`](https://cs.haohaha.cn/03-blog/02-PPT_Plus/install/#npx) 功能，改为 VSCode 远程可打开的服务器方式。
+
     date: 2023-12-07
 
 !!! info "引言"
@@ -60,8 +63,11 @@ sudo apt install python3-pip
 python3 -m pip install poetry
 git clone https://github.com/zweix123/jyyslide-md.git
 (cd jyyslide-md && python3 -m poetry install)
+```
+<a id="npx"></a>
+260309新增：安装 npx 与 live-server
 
-# 260309新增：安装 npx 与 live-server
+```bash
 # 1. 删除可能残留的包
 sudo apt remove nodejs npm -y
 # 2. 添加 NodeSource 仓库（此处应该需要科学上网）
@@ -78,7 +84,6 @@ live-server
 # 会看到类似：
 # Serving ".../folder" at http://127.0.0.1:8080
 # 即成功。
-
 ```
 
 ### 配置环境变量
