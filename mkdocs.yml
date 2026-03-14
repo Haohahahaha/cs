@@ -71,7 +71,7 @@ nav:
       - 01-X230 Big Sur 安装: 06-apple/X230-Big-Sur.md
   - Chat_Polka: http://chat.haohaha.cn 
   - Algorithm: http://alg.haohaha.cn
-
+  - Peach_Lake: https://peachlake.haohaha.cn/
 extra_css:
   - mkdocs/css/no-footer.css # 不使用底部的翻页
   - mkdocs/extra_admonition.css # 自定义admonition
