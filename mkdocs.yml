@@ -57,22 +57,13 @@ nav:
       - 02-保姆级全流程: 02-ubuntu/02-nanny/tutorial.md
       - 03-实体机: 02-ubuntu/03-1stPhysical/Machine.md
       - 04-向日葵: 02-ubuntu/04-Remote/Sunlogin.md
+      - 05-Git 多分支创建与上传: 02-ubuntu/05-git/git_branch.md
     - 博客 系列: 
       - 01-mkdocs 搭建博客: 03-blog/01-init/tutorial.md
       - 02-jyyslide 扩展包 安装指南: 03-blog/02-PPT_Plus/install.md
       - 03-VitePress 尝试の大失败: 03-blog/03-VitePress/nonono.md
       - 04-Admonitions 自定义: 03-blog/04-admonitions/config.md
-#     - 个人效率提升指南: 03-blog/efficient/efficient.md
-    - 服务器虚拟化搭建 系列:
-      - 04-Server/index.md
-      - 01-AIO 配置流程: 04-Server/01-AIO_Server.md
-      - 02-PVE 部署: 04-Server/02-PVE_deploy.md
-      - 03-PVE 核显直通: 04-Server/03-CoreGPU_Passthrough.md
-      - 04-PVE 解决空间自增长: 04-Server/04-PVE_Disk.md
-      - 05-本地服务器远程连接: 04-Server/05-SSH_Remote_Local.md
-      - 06-部署 NextCloud-Docker: 04-Server/06-nextcloud_docker.md
-      - 07-SSL 证书部署与更新: 04-Server/07-ssl_update.md
-      - 08-Git 多分支创建与上传: 04-Server/git/git_branch.md
+#     - 个人效率提升指南: 03-blog/efficient/efficient.md    
     - 移动设备:
       - 05-mobile/index.md
       - 01-红米5P_PE11: 05-mobile/01-Redmi5P-PE11.md
