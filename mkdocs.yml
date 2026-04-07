@@ -42,13 +42,13 @@ nav:
   - Home: http://haohaha.cn
   - Be_Rational: 
     - index.md
-    - Labs:
-      - 6.5840(6.824):
-        - 07-labs/01-6.824/index.md
-    - 编程:
-      - 00-code/index.md
+#   - Labs:
+#     - 6.5840(6.824):
+#       - 07-labs/01-6.824/index.md
+#   - 编程:
+#     - 00-code/index.md
       # - YSYX: 00-code/01-ysyx/ysyx.md
-      - Rust: 00-code/02-Rust/Rust_Learning.md
+#     - Rust: 00-code/02-Rust/Rust_Learning.md
     - 信息沟通: 
       - 信息的编解码能力: 01-info_communication/01-de_en_code/info.md
       - 提问の二三事: 01-info_communication/02-ask_question/zbt.md
